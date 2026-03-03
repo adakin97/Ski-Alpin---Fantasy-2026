@@ -560,6 +560,26 @@ h6{
   box-shadow: none;
 }
 
+/* Skier card highlight when a slot is active */
+.slot-selecting .skier-card {
+  border-top-color: #c62828;
+  box-shadow: 0 0 0 2px rgba(198, 40, 40, 0.15);
+}
+.slot-selecting .skier-card:hover {
+  box-shadow: 0 0 0 3px rgba(198, 40, 40, 0.4);
+}
+
+/* Active slot box */
+.box.active-slot {
+  border: 2px solid #c62828;
+  background: #fff5f5;
+  animation: pulse-slot 1s ease-in-out infinite;
+}
+@keyframes pulse-slot {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(198, 40, 40, 0.3); }
+  50%       { box-shadow: 0 0 0 6px rgba(198, 40, 40, 0); }
+}
+
 /* 2. Contenu flex horizontal sur desktop, vertical sur mobile */
 .skier-card-content {
   display: flex;
@@ -889,14 +909,14 @@ button.remove-button:hover {
                     <!-- Boxes pour les skieurs sélectionnés -->
                     <div id="boxes-container">
                         <!-- Cases dynamiques générées via JS -->
-                        <div class="box" onclick="openSkierList(this)"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
-                        <div class="box" onclick="openSkierList(this)"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
-                        <div class="box" onclick="openSkierList(this)"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
-                        <div class="box" onclick="openSkierList(this)"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
-                        <div class="box" onclick="openSkierList(this)"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
-                        <div class="box" onclick="openSkierList(this)"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
-                        <div class="box" onclick="openSkierList(this)"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
-                        <div class="box" onclick="openSkierList(this)"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
+                        <div class="box"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
+                        <div class="box"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
+                        <div class="box"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
+                        <div class="box"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
+                        <div class="box"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
+                        <div class="box"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
+                        <div class="box"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
+                        <div class="box"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
                     </div>
                 </div>
             
@@ -1001,6 +1021,32 @@ button.remove-button:hover {
 
 
 
+  <!-- MODALE SÉLECTION SKIEUR -->
+  <div id="skierModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:500; overflow-y:auto; padding:20px;">
+    <div style="background:#fff; max-width:860px; margin:60px auto; border-radius:4px; overflow:hidden;">
+      <div style="background:#1a1a1a; padding:16px 20px; display:flex; justify-content:space-between; align-items:center;">
+        <span style="color:#fff; font-weight:700; font-size:1.1rem;">Choisissez un skieur</span>
+        <button id="closeSkierModal" style="background:none; border:none; color:#fff; font-size:1.4rem; cursor:pointer; line-height:1;">&times;</button>
+      </div>
+      <div style="padding:16px; border-bottom:1px solid #eee; display:flex; gap:10px; flex-wrap:wrap;">
+        <input id="modal-search" type="text" placeholder="Rechercher un skieur..." style="padding:8px 12px; border:1px solid #ccc; flex:1; min-width:160px; font-family:inherit;">
+        <select id="modal-discipline" style="padding:8px 12px; border:1px solid #ccc; font-family:inherit;">
+          <option value="">Toutes disciplines</option>
+          <option value="SL">SL</option>
+          <option value="GS">GS</option>
+          <option value="DH">DH</option>
+          <option value="SG">SG</option>
+        </select>
+        <select id="modal-sort" style="padding:8px 12px; border:1px solid #ccc; font-family:inherit;">
+          <option value="">Trier par prix</option>
+          <option value="asc">Prix croissant</option>
+          <option value="desc">Prix décroissant</option>
+        </select>
+      </div>
+      <div id="modal-skier-grid" style="display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:12px; padding:16px; max-height:60vh; overflow-y:auto;"></div>
+    </div>
+  </div>
+
   <script type="module">
 // Firebase Auth + Firestore
 import { auth, db } from "./firebase.js";
@@ -1022,6 +1068,7 @@ let totalBudget = 120;
 let remainingBudget = totalBudget;
 let budgetElement = null;
 let totalBudgetElement = null;
+let activeSlotBox = null;
 let racePointsData = []; // tableau d'objets { Nom, Pays, points, ... } après fusion
 let selectedSkiers = [];
 let teamCaptain = null;
@@ -1330,6 +1377,20 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   document.getElementById("save-button")?.addEventListener("click", saveTeam);
 
+  // Wire slot boxes directly (no window dependency)
+  document.querySelectorAll("#boxes-container .box").forEach(box => {
+    box.addEventListener("click", () => openSkierList(box));
+  });
+
+  // Skier selection modal controls
+  document.getElementById("closeSkierModal").addEventListener("click", closeSkierModal);
+  document.getElementById("skierModal").addEventListener("click", (e) => {
+    if (e.target === document.getElementById("skierModal")) closeSkierModal();
+  });
+  document.getElementById("modal-search").addEventListener("input", filterModalGrid);
+  document.getElementById("modal-discipline").addEventListener("change", filterModalGrid);
+  document.getElementById("modal-sort").addEventListener("change", filterModalGrid);
+
   window.addEventListener("click", (e) => {
     if (e.target.classList.contains("modal")) {
       closeModal(e.target.id);
@@ -1498,7 +1559,7 @@ function selectSkier(skier) {
     updateSelectedBoxes();
     updateRemainingBudget();
     persistTeam();
-      loadLastRacePoints();
+    loadLastRacePoints();
 }
 
 // Nouvelle fonction pour obtenir les points d'un skieur à la dernière course
@@ -1554,7 +1615,7 @@ function updateSelectedBoxes() {
       box.onclick = () => deselectSkier(index);
     } else {
       box.classList.remove("selected");
-      box.innerHTML = `<img src="icons/person.png" alt="person icon"><p>Sélectionner un skieur</p>`;
+      box.innerHTML = `<img src="person.png" alt="person icon"><p>Sélectionner un skieur</p>`;
       box.onclick = () => openSkierList(box);
     }
   });
@@ -1603,9 +1664,79 @@ function deselectSkier(skierIndex) {
 }
 
 function openSkierList(box) {
-    if (!box.classList.contains("selected")) {
-        document.getElementById("skier-list").scrollIntoView({ behavior: "smooth", block: "start" });
+    if (box.classList.contains("selected")) return;
+    activeSlotBox = box;
+    renderModalGrid(skiersData);
+    document.getElementById("modal-search").value = "";
+    document.getElementById("modal-discipline").value = "";
+    document.getElementById("modal-sort").value = "";
+    document.getElementById("skierModal").style.display = "block";
+    document.body.style.overflow = "hidden";
+}
+
+function renderModalGrid(data) {
+    const grid = document.getElementById("modal-skier-grid");
+    grid.innerHTML = "";
+    if (!data || data.length === 0) {
+        grid.innerHTML = '<p style="padding:20px;color:#888;">Aucun skieur trouvé.</p>';
+        return;
     }
+    data.forEach(skier => {
+        const alreadySelected = selectedSkiers.some(
+            s => s.firstName === skier.firstName && s.lastName === skier.lastName
+        );
+        const card = document.createElement("div");
+        card.style.cssText = `
+            background:#fff; border:1px solid #e0e0e0; padding:12px; cursor:${alreadySelected ? "default" : "pointer"};
+            display:flex; align-items:center; gap:10px; opacity:${alreadySelected ? "0.45" : "1"};
+            transition:border-color 0.15s, box-shadow 0.15s;
+        `;
+        const flagPath = `flags/${skier.nationality.toLowerCase()}.png`;
+        card.innerHTML = `
+            <img src="${flagPath}" style="width:32px;height:auto;border-radius:2px;" onerror="this.style.display='none'">
+            <div style="flex:1;min-width:0;">
+                <div style="font-weight:700;font-size:0.9rem;color:#222;">${skier.firstName} ${skier.lastName}</div>
+                <div style="font-size:0.8rem;color:#666;">${skier.nationality} &bull; ${skier.disciplines.join(", ")}</div>
+            </div>
+            <div style="font-weight:700;color:#c62828;white-space:nowrap;">${skier.Price}★</div>
+        `;
+        if (!alreadySelected) {
+            card.addEventListener("mouseenter", () => {
+                card.style.borderColor = "#c62828";
+                card.style.boxShadow = "0 2px 8px rgba(198,40,40,0.2)";
+            });
+            card.addEventListener("mouseleave", () => {
+                card.style.borderColor = "#e0e0e0";
+                card.style.boxShadow = "none";
+            });
+            card.addEventListener("click", () => {
+                closeSkierModal();
+                selectSkier(skier);
+            });
+        }
+        grid.appendChild(card);
+    });
+}
+
+function closeSkierModal() {
+    document.getElementById("skierModal").style.display = "none";
+    document.body.style.overflow = "";
+    activeSlotBox = null;
+}
+
+function filterModalGrid() {
+    const search = document.getElementById("modal-search").value.toLowerCase().trim();
+    const discipline = document.getElementById("modal-discipline").value;
+    const sort = document.getElementById("modal-sort").value;
+    let data = skiersData.filter(skier => {
+        const name = `${skier.firstName} ${skier.lastName}`.toLowerCase();
+        const matchSearch = !search || name.includes(search);
+        const matchDiscipline = !discipline || skier.disciplines.includes(discipline);
+        return matchSearch && matchDiscipline;
+    });
+    if (sort === "asc") data = [...data].sort((a, b) => a.Price - b.Price);
+    if (sort === "desc") data = [...data].sort((a, b) => b.Price - a.Price);
+    renderModalGrid(data);
 }
 
 function resetSelection() {
@@ -1709,20 +1840,6 @@ function getMissingDisciplines(skiers) {
   return required.filter(d => !covered.has(d));
 }
 
-function showDisciplineError(missing) {
-    const container = document.getElementById("discipline-error");
-    if (!container) return;
-    container.innerHTML = `<p class='error-msg'>Vous devez sélectionner un skieur pour chaque discipline. Manquant : ${missing.join(", ")}</p>`;
-    container.style.display = "block";
-}
-
-function hideDisciplineError() {
-    const container = document.getElementById("discipline-error");
-    if (container) {
-        container.innerHTML = "";
-        container.style.display = "none";
-    }
-}
 function showDisciplineError(missing) {
   const container = document.getElementById("discipline-error");
   if (!container) return;
