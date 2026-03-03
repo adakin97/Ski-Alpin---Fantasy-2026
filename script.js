@@ -85,78 +85,26 @@ function formatDate(date) {
   return `${day}.${month}.${year}`;
 }
 
-async function loadArticles() {
-    const RSS_URL = 'https://news.google.com/rss/search?q=ski+alpin+rts.ch&hl=fr&gl=CH&ceid=CH:fr';
-    const PROXY = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(RSS_URL);
-    const FALLBACK_IMG = 'Image/background.jpeg';
-
-    try {
-        const response = await fetch(PROXY, { signal: AbortSignal.timeout(8000) });
-        if (!response.ok) throw new Error('HTTP ' + response.status);
-        const text = await response.text();
-
-        const xml = new DOMParser().parseFromString(text, 'text/xml');
-        const parseError = xml.querySelector('parsererror');
-        if (parseError) throw new Error('XML parse error');
-
-        const items = Array.from(xml.querySelectorAll('item'));
-        if (items.length === 0) throw new Error('No items in feed');
-
-        const articles = items.slice(0, 6).map(item => {
-            const title = item.querySelector('title')?.textContent?.trim() || '';
-            // <link> in RSS is a text node sibling of the element; textContent works in XML mode
-            const link = item.querySelector('link')?.textContent?.trim() || '#';
-
-            // Try media:thumbnail or media:content (namespace-agnostic query)
-            let image = '';
-            const mediaThumbnail = item.getElementsByTagNameNS('*', 'thumbnail')[0];
-            const mediaContent = item.getElementsByTagNameNS('*', 'content')[0];
-            if (mediaThumbnail) image = mediaThumbnail.getAttribute('url') || '';
-            else if (mediaContent) image = mediaContent.getAttribute('url') || '';
-
-            // Try extracting <img> from description HTML if still no image
-            if (!image) {
-                const desc = item.querySelector('description')?.textContent || '';
-                const imgMatch = desc.match(/<img[^>]+src=["']([^"']+)["']/i);
-                if (imgMatch) image = imgMatch[1];
-            }
-
-            return { title, link, image: image || FALLBACK_IMG };
-        }).filter(a => a.title);
-
-        if (articles.length === 0) throw new Error('No valid articles parsed');
-        displayArticles(articles);
-
-    } catch (err) {
-        console.error('Chargement RSS échoué, repli sur articles.json :', err.message);
-        fetch('articles.json')
-            .then(r => r.json())
-            .then(displayArticles)
-            .catch(e => console.error('Erreur articles.json :', e));
-    }
-}
-
-function displayArticles(articles) {
-    const articleList = document.getElementById('articles');
-    if (!articleList) return;
-    articleList.innerHTML = '';
-    articles.forEach(article => {
-        const li = document.createElement('li');
-        li.classList.add('article-item');
-        const a = document.createElement('a');
-        a.href = article.link;
-        a.target = '_blank';
-        a.rel = 'noopener';
-        const img = document.createElement('img');
-        img.src = article.image;
-        img.alt = article.title;
-        img.onerror = function() { this.src = 'Image/background.jpeg'; };
-        const h3 = document.createElement('h3');
-        h3.textContent = article.title;
-        a.append(img, h3);
-        li.appendChild(a);
-        articleList.appendChild(li);
-    });
-}
-
-loadArticles();
+fetch('articles.json')
+    .then(response => response.json())
+    .then(data => {
+        const articleList = document.getElementById('articles');
+        data.forEach(article => {
+            const li = document.createElement('li');
+            li.classList.add('article-item');
+            const a = document.createElement('a');
+            a.href = article.link;
+            a.target = '_blank';
+            a.rel = 'noopener';
+            const img = document.createElement('img');
+            img.src = article.image || 'Image/background.jpeg';
+            img.alt = article.title;
+            img.onerror = function() { this.src = 'Image/background.jpeg'; };
+            const h3 = document.createElement('h3');
+            h3.textContent = article.title;
+            a.append(img, h3);
+            li.appendChild(a);
+            articleList.appendChild(li);
+        });
+    })
+    .catch(error => console.error('Erreur lors du chargement des articles:', error));
