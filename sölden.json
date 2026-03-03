@@ -1,0 +1,2977 @@
+[
+{
+  "id": "5099-42-99",
+  "key": "5099-42-99",
+  "displayName": "Géant",
+  "state": "Finished",
+  "competitionItems": [
+    {
+      "id": 1811127,
+      "dateTimeInfo": {
+        "fullDateTime": "2024-10-27T10:00:00",
+        "date": "dim. 27.10.",
+        "time": "10:00"
+      },
+      "type": "Race",
+      "displayTitle": "1ère manche",
+      "state": "Finished",
+      "location": "Sölden",
+      "category": "Géant",
+      "isRankingRelevant": true,
+      "competitors": [
+        {
+          "id": 1089301,
+          "firstName": "Alexander",
+          "lastName": "Steen Olsen",
+          "name": "Alexander Steen Olsen",
+          "shortName": "Alexander Steen Olsen",
+          "competitorType": "Person",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "team": {
+            "id": 2114,
+            "firstName": null,
+            "lastName": null,
+            "name": "Norvège",
+            "shortName": "Norvège",
+            "competitorType": "Team",
+            "country": "NOR",
+            "countryName": "Norvège",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 64310,
+            "rank": 1,
+            "delay": 64310,
+            "startPosition": 6
+          }
+        },
+        {
+          "id": 48314,
+          "firstName": "Filip",
+          "lastName": "Zubcic",
+          "name": "Filip Zubcic",
+          "shortName": "Filip Zubcic",
+          "competitorType": "Person",
+          "country": "CRO",
+          "countryName": "Croatie",
+          "team": {
+            "id": 2115,
+            "firstName": null,
+            "lastName": null,
+            "name": "Croatie",
+            "shortName": "Croatie",
+            "competitorType": "Team",
+            "country": "CRO",
+            "countryName": "Croatie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 64330,
+            "rank": 2,
+            "delay": 20,
+            "startPosition": 2
+          }
+        },
+        {
+          "id": 52041,
+          "firstName": "Henrik",
+          "lastName": "Kristoffersen",
+          "name": "Henrik Kristoffersen",
+          "shortName": "Henrik Kristoffersen",
+          "competitorType": "Person",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "team": {
+            "id": 2114,
+            "firstName": null,
+            "lastName": null,
+            "name": "Norvège",
+            "shortName": "Norvège",
+            "competitorType": "Team",
+            "country": "NOR",
+            "countryName": "Norvège",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 64390,
+            "rank": 3,
+            "delay": 80,
+            "startPosition": 4
+          }
+        },
+        {
+          "id": 51566,
+          "firstName": "Thomas",
+          "lastName": "Tumler",
+          "name": "Thomas Tumler",
+          "shortName": "Thomas Tumler",
+          "competitorType": "Person",
+          "country": "SUI",
+          "countryName": "Suisse",
+          "team": {
+            "id": 2109,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suisse",
+            "shortName": "Suisse",
+            "competitorType": "Team",
+            "country": "SUI",
+            "countryName": "Suisse",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 64730,
+            "rank": 4,
+            "delay": 420,
+            "startPosition": 3
+          }
+        },
+        {
+          "id": 1052178,
+          "firstName": "Atle Lie",
+          "lastName": "McGrath",
+          "name": "Atle Lie McGrath",
+          "shortName": "Atle Lie McGrath",
+          "competitorType": "Person",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "team": {
+            "id": 2114,
+            "firstName": null,
+            "lastName": null,
+            "name": "Norvège",
+            "shortName": "Norvège",
+            "competitorType": "Team",
+            "country": "NOR",
+            "countryName": "Norvège",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 64810,
+            "rank": 5,
+            "delay": 500,
+            "startPosition": 14
+          }
+        },
+        {
+          "id": 48376,
+          "firstName": "Zan",
+          "lastName": "Kranjec",
+          "name": "Zan Kranjec",
+          "shortName": "Zan Kranjec",
+          "competitorType": "Person",
+          "country": "SLO",
+          "countryName": "Slovénie",
+          "team": {
+            "id": 2116,
+            "firstName": null,
+            "lastName": null,
+            "name": "Slovénie",
+            "shortName": "Slovénie",
+            "competitorType": "Team",
+            "country": "SLO",
+            "countryName": "Slovénie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 64990,
+            "rank": 6,
+            "delay": 680,
+            "startPosition": 5
+          }
+        },
+        {
+          "id": 1081737,
+          "firstName": "Raphael",
+          "lastName": "Haaser",
+          "name": "Raphael Haaser",
+          "shortName": "Raphael Haaser",
+          "competitorType": "Person",
+          "country": "AUT",
+          "countryName": "Autriche",
+          "team": {
+            "id": 2110,
+            "firstName": null,
+            "lastName": null,
+            "name": "Autriche",
+            "shortName": "Autriche",
+            "competitorType": "Team",
+            "country": "AUT",
+            "countryName": "Autriche",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 65020,
+            "rank": 7,
+            "delay": 710,
+            "startPosition": 18
+          }
+        },
+        {
+          "id": 50990,
+          "firstName": "Luca",
+          "lastName": "De Aliprandini",
+          "name": "Luca De Aliprandini",
+          "shortName": "Luca De Aliprandini",
+          "competitorType": "Person",
+          "country": "ITA",
+          "countryName": "Italie",
+          "team": {
+            "id": 2119,
+            "firstName": null,
+            "lastName": null,
+            "name": "Italie",
+            "shortName": "Italie",
+            "competitorType": "Team",
+            "country": "ITA",
+            "countryName": "Italie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 65070,
+            "rank": 8,
+            "delay": 760,
+            "startPosition": 9
+          }
+        },
+        {
+          "id": 139104,
+          "firstName": "River",
+          "lastName": "Radamus",
+          "name": "River Radamus",
+          "shortName": "River Radamus",
+          "competitorType": "Person",
+          "country": "USA",
+          "countryName": "États-Unis",
+          "team": {
+            "id": 2122,
+            "firstName": null,
+            "lastName": null,
+            "name": "Etats-Unis",
+            "shortName": "Etats-Unis",
+            "competitorType": "Team",
+            "country": "USA",
+            "countryName": "États-Unis",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 65230,
+            "rank": 9,
+            "delay": 920,
+            "startPosition": 13
+          }
+        },
+        {
+          "id": 84665,
+          "firstName": "Thibaut",
+          "lastName": "Favrot",
+          "name": "Thibaut Favrot",
+          "shortName": "Thibaut Favrot",
+          "competitorType": "Person",
+          "country": "FRA",
+          "countryName": "France",
+          "team": {
+            "id": 2113,
+            "firstName": null,
+            "lastName": null,
+            "name": "France",
+            "shortName": "France",
+            "competitorType": "Team",
+            "country": "FRA",
+            "countryName": "France",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 65310,
+            "rank": 10,
+            "delay": 1000,
+            "startPosition": 17
+          }
+        },
+        {
+          "id": 51576,
+          "firstName": "Gino",
+          "lastName": "Caviezel",
+          "name": "Gino Caviezel",
+          "shortName": "Gino Caviezel",
+          "competitorType": "Person",
+          "country": "SUI",
+          "countryName": "Suisse",
+          "team": {
+            "id": 2109,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suisse",
+            "shortName": "Suisse",
+            "competitorType": "Team",
+            "country": "SUI",
+            "countryName": "Suisse",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 65390,
+            "rank": 11,
+            "delay": 1080,
+            "startPosition": 10
+          }
+        },
+        {
+          "id": 142837,
+          "firstName": "Sam",
+          "lastName": "Maes",
+          "name": "Sam Maes",
+          "shortName": "Sam Maes",
+          "competitorType": "Person",
+          "country": "BEL",
+          "countryName": "Belgique",
+          "team": {
+            "id": 2474,
+            "firstName": null,
+            "lastName": null,
+            "name": "Belgique",
+            "shortName": "Belgique",
+            "competitorType": "Team",
+            "country": "BEL",
+            "countryName": "Belgique",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 65440,
+            "rank": 12,
+            "delay": 1130,
+            "startPosition": 19
+          }
+        },
+        {
+          "id": 138570,
+          "firstName": "Alex",
+          "lastName": "Vinatzer",
+          "name": "Alex Vinatzer",
+          "shortName": "Alex Vinatzer",
+          "competitorType": "Person",
+          "country": "ITA",
+          "countryName": "Italie",
+          "team": {
+            "id": 2119,
+            "firstName": null,
+            "lastName": null,
+            "name": "Italie",
+            "shortName": "Italie",
+            "competitorType": "Team",
+            "country": "ITA",
+            "countryName": "Italie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 65510,
+            "rank": 13,
+            "delay": 1200,
+            "startPosition": 11
+          }
+        },
+        {
+          "id": 1050418,
+          "firstName": "Patrick",
+          "lastName": "Feurstein",
+          "name": "Patrick Feurstein",
+          "shortName": "Patrick Feurstein",
+          "competitorType": "Person",
+          "country": "AUT",
+          "countryName": "Autriche",
+          "team": {
+            "id": 2110,
+            "firstName": null,
+            "lastName": null,
+            "name": "Autriche",
+            "shortName": "Autriche",
+            "competitorType": "Team",
+            "country": "AUT",
+            "countryName": "Autriche",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 65560,
+            "rank": 14,
+            "delay": 1250,
+            "startPosition": 27
+          }
+        },
+        {
+          "id": 76081,
+          "firstName": "Alexander",
+          "lastName": "Schmid",
+          "name": "Alexander Schmid",
+          "shortName": "Alexander Schmid",
+          "competitorType": "Person",
+          "country": "GER",
+          "countryName": "Allemagne",
+          "team": {
+            "id": 2111,
+            "firstName": null,
+            "lastName": null,
+            "name": "Allemagne",
+            "shortName": "Allemagne",
+            "competitorType": "Team",
+            "country": "GER",
+            "countryName": "Allemagne",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 65570,
+            "rank": 15,
+            "delay": 1260,
+            "startPosition": 8
+          }
+        },
+        {
+          "id": 1052179,
+          "firstName": null,
+          "lastName": null,
+          "name": "Leo Anguenot",
+          "shortName": "Leo Anguenot",
+          "competitorType": "Person",
+          "country": "FRA",
+          "countryName": "France",
+          "team": {
+            "id": 2113,
+            "firstName": null,
+            "lastName": null,
+            "name": "France",
+            "shortName": "France",
+            "competitorType": "Team",
+            "country": "FRA",
+            "countryName": "France",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 65790,
+            "rank": 16,
+            "delay": 1480,
+            "startPosition": 22
+          }
+        },
+        {
+          "id": 1100120,
+          "firstName": "Fadri",
+          "lastName": "Janutin",
+          "name": "Fadri Janutin",
+          "shortName": "Fadri Janutin",
+          "competitorType": "Person",
+          "country": "SUI",
+          "countryName": "Suisse",
+          "team": {
+            "id": 2109,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suisse",
+            "shortName": "Suisse",
+            "competitorType": "Team",
+            "country": "SUI",
+            "countryName": "Suisse",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 65880,
+            "rank": 17,
+            "delay": 1570,
+            "startPosition": 26
+          }
+        },
+        {
+          "id": 1117637,
+          "firstName": "Jonas",
+          "lastName": "Stockinger",
+          "name": "Jonas Stockinger",
+          "shortName": "Jonas Stockinger",
+          "competitorType": "Person",
+          "country": "GER",
+          "countryName": "Allemagne",
+          "team": {
+            "id": 2111,
+            "firstName": null,
+            "lastName": null,
+            "name": "Allemagne",
+            "shortName": "Allemagne",
+            "competitorType": "Team",
+            "country": "GER",
+            "countryName": "Allemagne",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 65920,
+            "rank": 18,
+            "delay": 1610,
+            "startPosition": 39
+          }
+        },
+        {
+          "id": 1050021,
+          "firstName": null,
+          "lastName": null,
+          "name": "Lucas Braathen",
+          "shortName": "Lucas Braathen",
+          "competitorType": "Person",
+          "country": "BRA",
+          "countryName": "Brésil",
+          "team": {
+            "id": 8012,
+            "firstName": null,
+            "lastName": null,
+            "name": "Brésil",
+            "shortName": "Brésil",
+            "competitorType": "Team",
+            "country": "BRA",
+            "countryName": "Brésil",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 65990,
+            "rank": 19,
+            "delay": 1680,
+            "startPosition": 41
+          }
+        },
+        {
+          "id": 42093,
+          "firstName": "Tommy",
+          "lastName": "Ford",
+          "name": "Tommy Ford",
+          "shortName": "Tommy Ford",
+          "competitorType": "Person",
+          "country": "USA",
+          "countryName": "États-Unis",
+          "team": {
+            "id": 2122,
+            "firstName": null,
+            "lastName": null,
+            "name": "Etats-Unis",
+            "shortName": "Etats-Unis",
+            "competitorType": "Team",
+            "country": "USA",
+            "countryName": "États-Unis",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 66020,
+            "rank": 20,
+            "delay": 1710,
+            "startPosition": 24
+          }
+        },
+        {
+          "id": 65074,
+          "firstName": "Linus",
+          "lastName": "Strasser",
+          "name": "Linus Strasser",
+          "shortName": "Linus Strasser",
+          "competitorType": "Person",
+          "country": "GER",
+          "countryName": "Allemagne",
+          "team": {
+            "id": 2111,
+            "firstName": null,
+            "lastName": null,
+            "name": "Allemagne",
+            "shortName": "Allemagne",
+            "competitorType": "Team",
+            "country": "GER",
+            "countryName": "Allemagne",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 66040,
+            "rank": 21,
+            "delay": 1730,
+            "startPosition": 31
+          }
+        },
+        {
+          "id": 139764,
+          "firstName": "Timon",
+          "lastName": "Haugan",
+          "name": "Timon Haugan",
+          "shortName": "Timon Haugan",
+          "competitorType": "Person",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "team": {
+            "id": 2114,
+            "firstName": null,
+            "lastName": null,
+            "name": "Norvège",
+            "shortName": "Norvège",
+            "competitorType": "Team",
+            "country": "NOR",
+            "countryName": "Norvège",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 66100,
+            "rank": 22,
+            "delay": 1790,
+            "startPosition": 16
+          }
+        },
+        {
+          "id": 39536,
+          "firstName": "Giovanni",
+          "lastName": "Borsotti",
+          "name": "Giovanni Borsotti",
+          "shortName": "Giovanni Borsotti",
+          "competitorType": "Person",
+          "country": "ITA",
+          "countryName": "Italie",
+          "team": {
+            "id": 2119,
+            "firstName": null,
+            "lastName": null,
+            "name": "Italie",
+            "shortName": "Italie",
+            "competitorType": "Team",
+            "country": "ITA",
+            "countryName": "Italie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 66260,
+            "rank": 23,
+            "delay": 1950,
+            "startPosition": 21
+          }
+        },
+        {
+          "id": 1100289,
+          "firstName": "Livio",
+          "lastName": "Simonet",
+          "name": "Livio Simonet",
+          "shortName": "Livio Simonet",
+          "competitorType": "Person",
+          "country": "SUI",
+          "countryName": "Suisse",
+          "team": {
+            "id": 2109,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suisse",
+            "shortName": "Suisse",
+            "competitorType": "Team",
+            "country": "SUI",
+            "countryName": "Suisse",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 66340,
+            "rank": 24,
+            "delay": 2030,
+            "startPosition": 30
+          }
+        },
+        {
+          "id": 42667,
+          "firstName": "Justin",
+          "lastName": "Murisier",
+          "name": "Justin Murisier",
+          "shortName": "Justin Murisier",
+          "competitorType": "Person",
+          "country": "SUI",
+          "countryName": "Suisse",
+          "team": {
+            "id": 2109,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suisse",
+            "shortName": "Suisse",
+            "competitorType": "Team",
+            "country": "SUI",
+            "countryName": "Suisse",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 66350,
+            "rank": 25,
+            "delay": 2040,
+            "startPosition": 25
+          }
+        },
+        {
+          "id": 69197,
+          "firstName": "Rasmus",
+          "lastName": "Windingstad",
+          "name": "Rasmus Windingstad",
+          "shortName": "Rasmus Windingstad",
+          "competitorType": "Person",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "team": {
+            "id": 2114,
+            "firstName": null,
+            "lastName": null,
+            "name": "Norvège",
+            "shortName": "Norvège",
+            "competitorType": "Team",
+            "country": "NOR",
+            "countryName": "Norvège",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 66410,
+            "rank": 26,
+            "delay": 2100,
+            "startPosition": 23
+          }
+        },
+        {
+          "id": 39535,
+          "firstName": "Victor",
+          "lastName": "Muffat Jeandet",
+          "name": "Victor Muffat-Jeandet",
+          "shortName": "Victor Muffat-Jeandet",
+          "competitorType": "Person",
+          "country": "FRA",
+          "countryName": "France",
+          "team": {
+            "id": 2113,
+            "firstName": null,
+            "lastName": null,
+            "name": "France",
+            "shortName": "France",
+            "competitorType": "Team",
+            "country": "FRA",
+            "countryName": "France",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 66420,
+            "rank": 27,
+            "delay": 2110,
+            "startPosition": 29
+          }
+        },
+        {
+          "id": 28377,
+          "firstName": null,
+          "lastName": null,
+          "name": "Marcel Hirscher",
+          "shortName": "Marcel Hirscher",
+          "competitorType": "Person",
+          "country": "NED",
+          "countryName": "Pays-Bas",
+          "team": {
+            "id": 2360,
+            "firstName": null,
+            "lastName": null,
+            "name": "Pays-Bas",
+            "shortName": "Hollande",
+            "competitorType": "Team",
+            "country": "NED",
+            "countryName": "Pays-Bas",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 66600,
+            "rank": 28,
+            "delay": 2290,
+            "startPosition": 34
+          }
+        },
+        {
+          "id": 85472,
+          "firstName": "Cyprien",
+          "lastName": "Sarrazin",
+          "name": "Cyprien Sarrazin",
+          "shortName": "Cyprien Sarrazin",
+          "competitorType": "Person",
+          "country": "FRA",
+          "countryName": "France",
+          "team": {
+            "id": 2113,
+            "firstName": null,
+            "lastName": null,
+            "name": "France",
+            "shortName": "France",
+            "competitorType": "Team",
+            "country": "FRA",
+            "countryName": "France",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 66710,
+            "rank": 29,
+            "delay": 2400,
+            "startPosition": 32
+          }
+        },
+        {
+          "id": 1080420,
+          "firstName": "William",
+          "lastName": "Hansson",
+          "name": "William Hansson",
+          "shortName": "William Hansson",
+          "competitorType": "Person",
+          "country": "SWE",
+          "countryName": "Suède",
+          "team": {
+            "id": 2112,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suède",
+            "shortName": "Suède",
+            "competitorType": "Team",
+            "country": "SWE",
+            "countryName": "Suède",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 66850,
+            "rank": 30,
+            "delay": 2540,
+            "startPosition": 40
+          }
+        },
+        {
+          "id": 1117634,
+          "firstName": null,
+          "lastName": null,
+          "name": "Fredrik Moeller",
+          "shortName": "Fredrik Moeller",
+          "competitorType": "Person",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "team": {
+            "id": 2114,
+            "firstName": null,
+            "lastName": null,
+            "name": "Norvège",
+            "shortName": "Norvège",
+            "competitorType": "Team",
+            "country": "NOR",
+            "countryName": "Norvège",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 66890,
+            "rank": 31,
+            "delay": 2580,
+            "startPosition": 52
+          }
+        },
+        {
+          "id": 1081223,
+          "firstName": "Fabian",
+          "lastName": "Gratz",
+          "name": "Fabian Gratz",
+          "shortName": "Fabian Gratz",
+          "competitorType": "Person",
+          "country": "GER",
+          "countryName": "Allemagne",
+          "team": {
+            "id": 2111,
+            "firstName": null,
+            "lastName": null,
+            "name": "Allemagne",
+            "shortName": "Allemagne",
+            "competitorType": "Team",
+            "country": "GER",
+            "countryName": "Allemagne",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67140,
+            "rank": 32,
+            "delay": 2830,
+            "startPosition": 42
+          }
+        },
+        {
+          "id": 48105,
+          "firstName": "Erik",
+          "lastName": "Read",
+          "name": "Erik Read",
+          "shortName": "Erik Read",
+          "competitorType": "Person",
+          "country": "CAN",
+          "countryName": "Canada",
+          "team": {
+            "id": 2118,
+            "firstName": null,
+            "lastName": null,
+            "name": "Canada",
+            "shortName": "Canada",
+            "competitorType": "Team",
+            "country": "CAN",
+            "countryName": "Canada",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67240,
+            "rank": 33,
+            "delay": 2930,
+            "startPosition": 46
+          }
+        },
+        {
+          "id": 1107318,
+          "firstName": "Diego",
+          "lastName": "Orecchioni",
+          "name": "Diego Orecchioni",
+          "shortName": "Diego Orecchioni",
+          "competitorType": "Person",
+          "country": "FRA",
+          "countryName": "France",
+          "team": {
+            "id": 2113,
+            "firstName": null,
+            "lastName": null,
+            "name": "France",
+            "shortName": "France",
+            "competitorType": "Team",
+            "country": "FRA",
+            "countryName": "France",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67270,
+            "rank": 34,
+            "delay": 2960,
+            "startPosition": 37
+          }
+        },
+        {
+          "id": 1118945,
+          "firstName": "Flavio",
+          "lastName": "Vitale",
+          "name": "Flavio Vitale",
+          "shortName": "Flavio Vitale",
+          "competitorType": "Person",
+          "country": "FRA",
+          "countryName": "France",
+          "team": {
+            "id": 2113,
+            "firstName": null,
+            "lastName": null,
+            "name": "France",
+            "shortName": "France",
+            "competitorType": "Team",
+            "country": "FRA",
+            "countryName": "France",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67270,
+            "rank": 34,
+            "delay": 2960,
+            "startPosition": 49
+          }
+        },
+        {
+          "id": 1087921,
+          "firstName": "Filippo",
+          "lastName": "Della Vite",
+          "name": "Filippo Della Vite",
+          "shortName": "Filippo Della Vite",
+          "competitorType": "Person",
+          "country": "ITA",
+          "countryName": "Italie",
+          "team": {
+            "id": 2119,
+            "firstName": null,
+            "lastName": null,
+            "name": "Italie",
+            "shortName": "Italie",
+            "competitorType": "Team",
+            "country": "ITA",
+            "countryName": "Italie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67280,
+            "rank": 36,
+            "delay": 2970,
+            "startPosition": 20
+          }
+        },
+        {
+          "id": 125803,
+          "firstName": "Hannes",
+          "lastName": "Zingerle",
+          "name": "Hannes Zingerle",
+          "shortName": "Hannes Zingerle",
+          "competitorType": "Person",
+          "country": "ITA",
+          "countryName": "Italie",
+          "team": {
+            "id": 2119,
+            "firstName": null,
+            "lastName": null,
+            "name": "Italie",
+            "shortName": "Italie",
+            "competitorType": "Team",
+            "country": "ITA",
+            "countryName": "Italie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67300,
+            "rank": 37,
+            "delay": 2990,
+            "startPosition": 35
+          }
+        },
+        {
+          "id": 47854,
+          "firstName": "Vincent",
+          "lastName": "Kriechmayr",
+          "name": "Vincent Kriechmayr",
+          "shortName": "Vincent Kriechmayr",
+          "competitorType": "Person",
+          "country": "AUT",
+          "countryName": "Autriche",
+          "team": {
+            "id": 2110,
+            "firstName": null,
+            "lastName": null,
+            "name": "Autriche",
+            "shortName": "Autriche",
+            "competitorType": "Team",
+            "country": "AUT",
+            "countryName": "Autriche",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67310,
+            "rank": 38,
+            "delay": 3000,
+            "startPosition": 33
+          }
+        },
+        {
+          "id": 1096731,
+          "firstName": "Patrick",
+          "lastName": "Kenney",
+          "name": "Patrick Kenney",
+          "shortName": "Patrick Kenney",
+          "competitorType": "Person",
+          "country": "USA",
+          "countryName": "États-Unis",
+          "team": {
+            "id": 2122,
+            "firstName": null,
+            "lastName": null,
+            "name": "Etats-Unis",
+            "shortName": "Etats-Unis",
+            "competitorType": "Team",
+            "country": "USA",
+            "countryName": "États-Unis",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67310,
+            "rank": 38,
+            "delay": 3000,
+            "startPosition": 45
+          }
+        },
+        {
+          "id": 77416,
+          "firstName": "Mattias",
+          "lastName": "Roenngren",
+          "name": "Mattias Roenngren",
+          "shortName": "Mattias Roenngren",
+          "competitorType": "Person",
+          "country": "SWE",
+          "countryName": "Suède",
+          "team": {
+            "id": 2112,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suède",
+            "shortName": "Suède",
+            "competitorType": "Team",
+            "country": "SWE",
+            "countryName": "Suède",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67350,
+            "rank": 40,
+            "delay": 3040,
+            "startPosition": 57
+          }
+        },
+        {
+          "id": 1117636,
+          "firstName": null,
+          "lastName": null,
+          "name": "Halvor Hilde Gunleiksrud",
+          "shortName": "Halvor Gunleiksrud",
+          "competitorType": "Person",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "team": {
+            "id": 2114,
+            "firstName": null,
+            "lastName": null,
+            "name": "Norvège",
+            "shortName": "Norvège",
+            "competitorType": "Team",
+            "country": "NOR",
+            "countryName": "Norvège",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67360,
+            "rank": 41,
+            "delay": 3050,
+            "startPosition": 50
+          }
+        },
+        {
+          "id": 1127760,
+          "firstName": null,
+          "lastName": null,
+          "name": "Jesper Wahlqvist",
+          "shortName": "Jesper Wahlqvist",
+          "competitorType": "Person",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "team": {
+            "id": 2114,
+            "firstName": null,
+            "lastName": null,
+            "name": "Norvège",
+            "shortName": "Norvège",
+            "competitorType": "Team",
+            "country": "NOR",
+            "countryName": "Norvège",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67400,
+            "rank": 42,
+            "delay": 3090,
+            "startPosition": 38
+          }
+        },
+        {
+          "id": 1107317,
+          "firstName": "Isaiah",
+          "lastName": "Nelson",
+          "name": "Isaiah Nelson",
+          "shortName": "Isaiah Nelson",
+          "competitorType": "Person",
+          "country": "USA",
+          "countryName": "États-Unis",
+          "team": {
+            "id": 2122,
+            "firstName": null,
+            "lastName": null,
+            "name": "Etats-Unis",
+            "shortName": "Etats-Unis",
+            "competitorType": "Team",
+            "country": "USA",
+            "countryName": "États-Unis",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67400,
+            "rank": 42,
+            "delay": 3090,
+            "startPosition": 53
+          }
+        },
+        {
+          "id": 1118943,
+          "firstName": "Kaspar",
+          "lastName": "Kindem",
+          "name": "Kaspar Kindem",
+          "shortName": "Kaspar Kindem",
+          "competitorType": "Person",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "team": {
+            "id": 2114,
+            "firstName": null,
+            "lastName": null,
+            "name": "Norvège",
+            "shortName": "Norvège",
+            "competitorType": "Team",
+            "country": "NOR",
+            "countryName": "Norvège",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67400,
+            "rank": 42,
+            "delay": 3090,
+            "startPosition": 56
+          }
+        },
+        {
+          "id": 142838,
+          "firstName": "Tormis",
+          "lastName": "Laine",
+          "name": "Tormis Laine",
+          "shortName": "Tormis Laine",
+          "competitorType": "Person",
+          "country": "EST",
+          "countryName": "Estonie",
+          "team": {
+            "id": 42678,
+            "firstName": null,
+            "lastName": null,
+            "name": "Estonie",
+            "shortName": "Estonie",
+            "competitorType": "Team",
+            "country": "EST",
+            "countryName": "Estonie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67550,
+            "rank": 45,
+            "delay": 3240,
+            "startPosition": 48
+          }
+        },
+        {
+          "id": 1089757,
+          "firstName": "Lukas",
+          "lastName": "Feurstein",
+          "name": "Lukas Feurstein",
+          "shortName": "Lukas Feurstein",
+          "competitorType": "Person",
+          "country": "AUT",
+          "countryName": "Autriche",
+          "team": {
+            "id": 2110,
+            "firstName": null,
+            "lastName": null,
+            "name": "Autriche",
+            "shortName": "Autriche",
+            "competitorType": "Team",
+            "country": "AUT",
+            "countryName": "Autriche",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67580,
+            "rank": 46,
+            "delay": 3270,
+            "startPosition": 28
+          }
+        },
+        {
+          "id": 1118948,
+          "firstName": "Sandro",
+          "lastName": "Zurbrügg",
+          "name": "Sandro Zurbrügg",
+          "shortName": "Sandro Zurbruegg",
+          "competitorType": "Person",
+          "country": "SUI",
+          "countryName": "Suisse",
+          "team": {
+            "id": 2109,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suisse",
+            "shortName": "Suisse",
+            "competitorType": "Team",
+            "country": "SUI",
+            "countryName": "Suisse",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67710,
+            "rank": 47,
+            "delay": 3400,
+            "startPosition": 55
+          }
+        },
+        {
+          "id": 141789,
+          "firstName": "Fabio",
+          "lastName": "Gstrein",
+          "name": "Fabio Gstrein",
+          "shortName": "Fabio Gstrein",
+          "competitorType": "Person",
+          "country": "AUT",
+          "countryName": "Autriche",
+          "team": {
+            "id": 2110,
+            "firstName": null,
+            "lastName": null,
+            "name": "Autriche",
+            "shortName": "Autriche",
+            "competitorType": "Team",
+            "country": "AUT",
+            "countryName": "Autriche",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67800,
+            "rank": 48,
+            "delay": 3490,
+            "startPosition": 65
+          }
+        },
+        {
+          "id": 1118944,
+          "firstName": "Noel",
+          "lastName": "Zwischenbrugger",
+          "name": "Noel Zwischenbrugger",
+          "shortName": "Noel Zwischenbrugger",
+          "competitorType": "Person",
+          "country": "AUT",
+          "countryName": "Autriche",
+          "team": {
+            "id": 2110,
+            "firstName": null,
+            "lastName": null,
+            "name": "Autriche",
+            "shortName": "Autriche",
+            "competitorType": "Team",
+            "country": "AUT",
+            "countryName": "Autriche",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 67820,
+            "rank": 49,
+            "delay": 3510,
+            "startPosition": 47
+          }
+        },
+        {
+          "id": 1100288,
+          "firstName": "Anton",
+          "lastName": "Grammel",
+          "name": "Anton Grammel",
+          "shortName": "Anton Grammel",
+          "competitorType": "Person",
+          "country": "GER",
+          "countryName": "Allemagne",
+          "team": {
+            "id": 2111,
+            "firstName": null,
+            "lastName": null,
+            "name": "Allemagne",
+            "shortName": "Allemagne",
+            "competitorType": "Team",
+            "country": "GER",
+            "countryName": "Allemagne",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 68040,
+            "rank": 50,
+            "delay": 3730,
+            "startPosition": 58
+          }
+        },
+        {
+          "id": 1078881,
+          "firstName": "Louis",
+          "lastName": "Muhlen-Schulte",
+          "name": "Louis Muhlen-Schulte",
+          "shortName": "Louis Muhlen-Schulte",
+          "competitorType": "Person",
+          "country": "AUS",
+          "countryName": "Australie",
+          "team": {
+            "id": 2120,
+            "firstName": null,
+            "lastName": null,
+            "name": "Australie",
+            "shortName": "Australie",
+            "competitorType": "Team",
+            "country": "AUS",
+            "countryName": "Australie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 68060,
+            "rank": 51,
+            "delay": 3750,
+            "startPosition": 54
+          }
+        },
+        {
+          "id": 43375,
+          "firstName": "Mathieu",
+          "lastName": "Faivre",
+          "name": "Mathieu Faivre",
+          "shortName": "Mathieu Faivre",
+          "competitorType": "Person",
+          "country": "FRA",
+          "countryName": "France",
+          "team": {
+            "id": 2113,
+            "firstName": null,
+            "lastName": null,
+            "name": "France",
+            "shortName": "France",
+            "competitorType": "Team",
+            "country": "FRA",
+            "countryName": "France",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 68070,
+            "rank": 52,
+            "delay": 3760,
+            "startPosition": 63
+          }
+        },
+        {
+          "id": 39379,
+          "firstName": "Adam",
+          "lastName": "Zampa",
+          "name": "Adam Zampa",
+          "shortName": "Adam Zampa",
+          "competitorType": "Person",
+          "country": "SVK",
+          "countryName": "Slovaquie",
+          "team": {
+            "id": 2385,
+            "firstName": null,
+            "lastName": null,
+            "name": "Slovaquie",
+            "shortName": "Slovaquie",
+            "competitorType": "Team",
+            "country": "SVK",
+            "countryName": "Slovaquie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 68380,
+            "rank": 53,
+            "delay": 4070,
+            "startPosition": 60
+          }
+        },
+        {
+          "id": 1119701,
+          "firstName": "Simon",
+          "lastName": "Talacci",
+          "name": "Simon Talacci",
+          "shortName": "Simon Talacci",
+          "competitorType": "Person",
+          "country": "ITA",
+          "countryName": "Italie",
+          "team": {
+            "id": 2119,
+            "firstName": null,
+            "lastName": null,
+            "name": "Italie",
+            "shortName": "Italie",
+            "competitorType": "Team",
+            "country": "ITA",
+            "countryName": "Italie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 68390,
+            "rank": 54,
+            "delay": 4080,
+            "startPosition": 44
+          }
+        },
+        {
+          "id": 1127761,
+          "firstName": null,
+          "lastName": null,
+          "name": "Cooper Puckett",
+          "shortName": "Cooper Puckett",
+          "competitorType": "Person",
+          "country": "USA",
+          "countryName": "États-Unis",
+          "team": {
+            "id": 2122,
+            "firstName": null,
+            "lastName": null,
+            "name": "Etats-Unis",
+            "shortName": "Etats-Unis",
+            "competitorType": "Team",
+            "country": "USA",
+            "countryName": "États-Unis",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 68430,
+            "rank": 55,
+            "delay": 4120,
+            "startPosition": 61
+          }
+        },
+        {
+          "id": 1118163,
+          "firstName": "Fabian",
+          "lastName": "Ax Swartz",
+          "name": "Fabian Ax Swartz",
+          "shortName": "Fabian Ax Swartz",
+          "competitorType": "Person",
+          "country": "SWE",
+          "countryName": "Suède",
+          "team": {
+            "id": 2112,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suède",
+            "shortName": "Suède",
+            "competitorType": "Team",
+            "country": "SWE",
+            "countryName": "Suède",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 68450,
+            "rank": 56,
+            "delay": 4140,
+            "startPosition": 68
+          }
+        },
+        {
+          "id": 59689,
+          "firstName": "Andreas",
+          "lastName": "Zampa",
+          "name": "Andreas Zampa",
+          "shortName": "Andreas Zampa",
+          "competitorType": "Person",
+          "country": "SVK",
+          "countryName": "Slovaquie",
+          "team": {
+            "id": 2385,
+            "firstName": null,
+            "lastName": null,
+            "name": "Slovaquie",
+            "shortName": "Slovaquie",
+            "competitorType": "Team",
+            "country": "SVK",
+            "countryName": "Slovaquie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 68610,
+            "rank": 57,
+            "delay": 4300,
+            "startPosition": 67
+          }
+        },
+        {
+          "id": 1080459,
+          "firstName": "Albert",
+          "lastName": "Ortega",
+          "name": "Albert Ortega",
+          "shortName": "Albert Ortega",
+          "competitorType": "Person",
+          "country": "ESP",
+          "countryName": "Espagne",
+          "team": {
+            "id": 2123,
+            "firstName": null,
+            "lastName": null,
+            "name": "Espagne",
+            "shortName": "Espagne",
+            "competitorType": "Team",
+            "country": "ESP",
+            "countryName": "Espagne",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 68650,
+            "rank": 58,
+            "delay": 4340,
+            "startPosition": 66
+          }
+        },
+        {
+          "id": 1127763,
+          "firstName": null,
+          "lastName": null,
+          "name": "Aleix Aubert Serracanta",
+          "shortName": "Aleix Aubert Serracanta",
+          "competitorType": "Person",
+          "country": "ESP",
+          "countryName": "Espagne",
+          "team": {
+            "id": 2123,
+            "firstName": null,
+            "lastName": null,
+            "name": "Espagne",
+            "shortName": "Espagne",
+            "competitorType": "Team",
+            "country": "ESP",
+            "countryName": "Espagne",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 68650,
+            "rank": 58,
+            "delay": 4340,
+            "startPosition": 69
+          }
+        },
+        {
+          "id": 1088072,
+          "firstName": "Christian",
+          "lastName": "Borgnaes",
+          "name": "Christian Borgnaes",
+          "shortName": "Christian Borgnaes",
+          "competitorType": "Person",
+          "country": "DEN",
+          "countryName": "Danemark",
+          "team": {
+            "id": 5677,
+            "firstName": null,
+            "lastName": null,
+            "name": "Danemark",
+            "shortName": "Danemark",
+            "competitorType": "Team",
+            "country": "DEN",
+            "countryName": "Danemark",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 68890,
+            "rank": 60,
+            "delay": 4580,
+            "startPosition": 36
+          }
+        },
+        {
+          "id": 1053074,
+          "firstName": "Piotr",
+          "lastName": "Habdas",
+          "name": "Piotr Habdas",
+          "shortName": "Piotr Habdas",
+          "competitorType": "Person",
+          "country": "POL",
+          "countryName": "Pologne",
+          "team": {
+            "id": 2358,
+            "firstName": null,
+            "lastName": null,
+            "name": "Pologne",
+            "shortName": "Pologne",
+            "competitorType": "Team",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 69080,
+            "rank": 61,
+            "delay": 4770,
+            "startPosition": 70
+          }
+        },
+        {
+          "id": 60094,
+          "firstName": "Istok",
+          "lastName": "Rodes",
+          "name": "Istok Rodes",
+          "shortName": "Istok Rodes",
+          "competitorType": "Person",
+          "country": "CRO",
+          "countryName": "Croatie",
+          "team": {
+            "id": 2115,
+            "firstName": null,
+            "lastName": null,
+            "name": "Croatie",
+            "shortName": "Croatie",
+            "competitorType": "Team",
+            "country": "CRO",
+            "countryName": "Croatie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 69490,
+            "rank": 62,
+            "delay": 5180,
+            "startPosition": 71
+          }
+        },
+        {
+          "id": 1100290,
+          "firstName": "Hayata",
+          "lastName": "Wakatsuki",
+          "name": "Hayata Wakatsuki",
+          "shortName": "Hayata Wakatsuki",
+          "competitorType": "Person",
+          "country": "JPN",
+          "countryName": "Japon",
+          "team": {
+            "id": 2127,
+            "firstName": null,
+            "lastName": null,
+            "name": "Japon",
+            "shortName": "Japon",
+            "competitorType": "Team",
+            "country": "JPN",
+            "countryName": "Japon",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 69710,
+            "rank": 63,
+            "delay": 5400,
+            "startPosition": 62
+          }
+        },
+        {
+          "id": 1127764,
+          "firstName": null,
+          "lastName": null,
+          "name": "Shintaro Sato",
+          "shortName": "Shintaro Sato",
+          "competitorType": "Person",
+          "country": "JPN",
+          "countryName": "Japon",
+          "team": {
+            "id": 2127,
+            "firstName": null,
+            "lastName": null,
+            "name": "Japon",
+            "shortName": "Japon",
+            "competitorType": "Team",
+            "country": "JPN",
+            "countryName": "Japon",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 70490,
+            "rank": 64,
+            "delay": 6180,
+            "startPosition": 73
+          }
+        },
+        {
+          "id": 1089116,
+          "firstName": "Tiziano",
+          "lastName": "Gravier",
+          "name": "Tiziano Gravier",
+          "shortName": "Tiziano Gravier",
+          "competitorType": "Person",
+          "country": "ARG",
+          "countryName": "Argentine",
+          "team": {
+            "id": 2472,
+            "firstName": null,
+            "lastName": null,
+            "name": "Argentine",
+            "shortName": "Argentine",
+            "competitorType": "Team",
+            "country": "ARG",
+            "countryName": "Argentine",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 70960,
+            "rank": 65,
+            "delay": 6650,
+            "startPosition": 43
+          }
+        }
+      ],
+      "notFinishedCompetitors": [
+        {
+          "id": 86324,
+          "firstName": "Marco",
+          "lastName": "Odermatt",
+          "name": "Marco Odermatt",
+          "shortName": "Marco Odermatt",
+          "competitorType": "Person",
+          "country": "SUI",
+          "countryName": "Suisse",
+          "team": {
+            "id": 2109,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suisse",
+            "shortName": "Suisse",
+            "competitorType": "Team",
+            "country": "SUI",
+            "countryName": "Suisse",
+            "isNationalTeam": false
+          },
+          "results": {
+            "position": 1,
+            "startPosition": 1
+          }
+        },
+        {
+          "id": 59112,
+          "firstName": "Stefan",
+          "lastName": "Brennsteiner",
+          "name": "Stefan Brennsteiner",
+          "shortName": "Stefan Brennsteiner",
+          "competitorType": "Person",
+          "country": "AUT",
+          "countryName": "Autriche",
+          "team": {
+            "id": 2110,
+            "firstName": null,
+            "lastName": null,
+            "name": "Autriche",
+            "shortName": "Autriche",
+            "competitorType": "Team",
+            "country": "AUT",
+            "countryName": "Autriche",
+            "isNationalTeam": false
+          },
+          "results": {
+            "position": 12,
+            "startPosition": 12
+          }
+        },
+        {
+          "id": 59313,
+          "firstName": "Manuel",
+          "lastName": "Feller",
+          "name": "Manuel Feller",
+          "shortName": "Manuel Feller",
+          "competitorType": "Person",
+          "country": "AUT",
+          "countryName": "Autriche",
+          "team": {
+            "id": 2110,
+            "firstName": null,
+            "lastName": null,
+            "name": "Autriche",
+            "shortName": "Autriche",
+            "competitorType": "Team",
+            "country": "AUT",
+            "countryName": "Autriche",
+            "isNationalTeam": false
+          },
+          "results": {
+            "position": 15,
+            "startPosition": 15
+          }
+        },
+        {
+          "id": 128467,
+          "firstName": "Andrej",
+          "lastName": "Drukarov",
+          "name": "Andrej Drukarov",
+          "shortName": "Andrej Drukarov",
+          "competitorType": "Person",
+          "country": "LTU",
+          "countryName": "Lituanie",
+          "team": {
+            "id": 33828,
+            "firstName": null,
+            "lastName": null,
+            "name": "Lithuanie",
+            "shortName": "Lithuanie",
+            "competitorType": "Team",
+            "country": "LTU",
+            "countryName": "Lituanie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "position": 51,
+            "startPosition": 51
+          }
+        },
+        {
+          "id": 1086575,
+          "firstName": "Bridger",
+          "lastName": "Gile",
+          "name": "Bridger Gile",
+          "shortName": "Bridger Gile",
+          "competitorType": "Person",
+          "country": "USA",
+          "countryName": "États-Unis",
+          "team": {
+            "id": 2122,
+            "firstName": null,
+            "lastName": null,
+            "name": "Etats-Unis",
+            "shortName": "Etats-Unis",
+            "competitorType": "Team",
+            "country": "USA",
+            "countryName": "États-Unis",
+            "isNationalTeam": false
+          },
+          "results": {
+            "position": 59,
+            "startPosition": 59
+          }
+        },
+        {
+          "id": 1127762,
+          "firstName": null,
+          "lastName": null,
+          "name": "Jamie Casselman",
+          "shortName": "Jamie Casselman",
+          "competitorType": "Person",
+          "country": "CAN",
+          "countryName": "Canada",
+          "team": {
+            "id": 2118,
+            "firstName": null,
+            "lastName": null,
+            "name": "Canada",
+            "shortName": "Canada",
+            "competitorType": "Team",
+            "country": "CAN",
+            "countryName": "Canada",
+            "isNationalTeam": false
+          },
+          "results": {
+            "position": 64,
+            "startPosition": 64
+          }
+        },
+        {
+          "id": 137641,
+          "firstName": "Seigo",
+          "lastName": "Kato",
+          "name": "Seigo Kato",
+          "shortName": "Seigo Kato",
+          "competitorType": "Person",
+          "country": "JPN",
+          "countryName": "Japon",
+          "team": {
+            "id": 2127,
+            "firstName": null,
+            "lastName": null,
+            "name": "Japon",
+            "shortName": "Japon",
+            "competitorType": "Team",
+            "country": "JPN",
+            "countryName": "Japon",
+            "isNationalTeam": false
+          },
+          "results": {
+            "position": 72,
+            "startPosition": 72
+          }
+        },
+        {
+          "id": 1127765,
+          "firstName": null,
+          "lastName": null,
+          "name": "Ryoma Katayama",
+          "shortName": "Ryoma Katayama",
+          "competitorType": "Person",
+          "country": "JPN",
+          "countryName": "Japon",
+          "team": {
+            "id": 2127,
+            "firstName": null,
+            "lastName": null,
+            "name": "Japon",
+            "shortName": "Japon",
+            "competitorType": "Team",
+            "country": "JPN",
+            "countryName": "Japon",
+            "isNationalTeam": false
+          },
+          "results": {
+            "position": 74,
+            "startPosition": 74
+          }
+        }
+      ],
+      "notStartedCompetitors": [
+        {
+          "id": 77613,
+          "firstName": "Loic",
+          "lastName": "Meillard",
+          "name": "Loïc Meillard",
+          "shortName": "Loïc Meillard",
+          "competitorType": "Person",
+          "country": "SUI",
+          "countryName": "Suisse",
+          "team": {
+            "id": 2109,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suisse",
+            "shortName": "Suisse",
+            "competitorType": "Team",
+            "country": "SUI",
+            "countryName": "Suisse",
+            "isNationalTeam": false
+          },
+          "results": {
+            "position": 7,
+            "startPosition": 7
+          }
+        }
+      ],
+      "leader": {
+        "id": 1089301,
+        "firstName": "Alexander",
+        "lastName": "Steen Olsen",
+        "name": "Alexander Steen Olsen",
+        "shortName": "Alexander Steen Olsen",
+        "competitorType": "Person",
+        "country": "NOR",
+        "countryName": "Norvège",
+        "team": {
+          "id": 2114,
+          "firstName": null,
+          "lastName": null,
+          "name": "Norvège",
+          "shortName": "Norvège",
+          "competitorType": "Team",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "isNationalTeam": false
+        }
+      },
+      "pushLiveData": true,
+      "winner": {
+        "id": 1089301,
+        "firstName": "Alexander",
+        "lastName": "Steen Olsen",
+        "name": "Alexander Steen Olsen",
+        "shortName": "Alexander Steen Olsen",
+        "competitorType": "Person",
+        "country": "NOR",
+        "countryName": "Norvège",
+        "team": {
+          "id": 2114,
+          "firstName": null,
+          "lastName": null,
+          "name": "Norvège",
+          "shortName": "Norvège",
+          "competitorType": "Team",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "isNationalTeam": false
+        }
+      },
+      "gender": "Man",
+      "competitorType": "Person"
+    },
+    {
+      "id": 1811128,
+      "dateTimeInfo": {
+        "fullDateTime": "2024-10-27T13:00:00",
+        "date": "dim. 27.10.",
+        "time": "13:00"
+      },
+      "type": "Race",
+      "displayTitle": "2e manche",
+      "state": "Finished",
+      "videoAssetId": null,
+      "videoUrn": null,
+      "location": "Sölden",
+      "category": "Géant",
+      "isRankingRelevant": true,
+      "competitors": [
+        {
+          "id": 1089301,
+          "firstName": "Alexander",
+          "lastName": "Steen Olsen",
+          "name": "Alexander Steen Olsen",
+          "shortName": "Alexander Steen Olsen",
+          "competitorType": "Person",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "team": {
+            "id": 2114,
+            "firstName": null,
+            "lastName": null,
+            "name": "Norvège",
+            "shortName": "Norvège",
+            "competitorType": "Team",
+            "country": "NOR",
+            "countryName": "Norvège",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 129500,
+            "timeSecondRun": 65190,
+            "rank": 1,
+            "delay": 129500,
+            "startPosition": 30
+          }
+        },
+        {
+          "id": 52041,
+          "firstName": "Henrik",
+          "lastName": "Kristoffersen",
+          "name": "Henrik Kristoffersen",
+          "shortName": "Henrik Kristoffersen",
+          "competitorType": "Person",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "team": {
+            "id": 2114,
+            "firstName": null,
+            "lastName": null,
+            "name": "Norvège",
+            "shortName": "Norvège",
+            "competitorType": "Team",
+            "country": "NOR",
+            "countryName": "Norvège",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 130150,
+            "timeSecondRun": 65760,
+            "rank": 2,
+            "delay": 650,
+            "startPosition": 28,
+            "handicap": 80
+          }
+        },
+        {
+          "id": 1052178,
+          "firstName": "Atle Lie",
+          "lastName": "McGrath",
+          "name": "Atle Lie McGrath",
+          "shortName": "Atle Lie McGrath",
+          "competitorType": "Person",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "team": {
+            "id": 2114,
+            "firstName": null,
+            "lastName": null,
+            "name": "Norvège",
+            "shortName": "Norvège",
+            "competitorType": "Team",
+            "country": "NOR",
+            "countryName": "Norvège",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 130160,
+            "timeSecondRun": 65350,
+            "rank": 3,
+            "delay": 660,
+            "startPosition": 26,
+            "handicap": 500
+          }
+        },
+        {
+          "id": 1050021,
+          "firstName": null,
+          "lastName": null,
+          "name": "Lucas Braathen",
+          "shortName": "Lucas Braathen",
+          "competitorType": "Person",
+          "country": "BRA",
+          "countryName": "Brésil",
+          "team": {
+            "id": 8012,
+            "firstName": null,
+            "lastName": null,
+            "name": "Brésil",
+            "shortName": "Brésil",
+            "competitorType": "Team",
+            "country": "BRA",
+            "countryName": "Brésil",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 130400,
+            "timeSecondRun": 64410,
+            "rank": 4,
+            "delay": 900,
+            "startPosition": 12,
+            "handicap": 1680
+          }
+        },
+        {
+          "id": 138570,
+          "firstName": "Alex",
+          "lastName": "Vinatzer",
+          "name": "Alex Vinatzer",
+          "shortName": "Alex Vinatzer",
+          "competitorType": "Person",
+          "country": "ITA",
+          "countryName": "Italie",
+          "team": {
+            "id": 2119,
+            "firstName": null,
+            "lastName": null,
+            "name": "Italie",
+            "shortName": "Italie",
+            "competitorType": "Team",
+            "country": "ITA",
+            "countryName": "Italie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 130600,
+            "timeSecondRun": 65090,
+            "rank": 5,
+            "delay": 1100,
+            "startPosition": 18,
+            "handicap": 1200
+          }
+        },
+        {
+          "id": 48376,
+          "firstName": "Zan",
+          "lastName": "Kranjec",
+          "name": "Zan Kranjec",
+          "shortName": "Zan Kranjec",
+          "competitorType": "Person",
+          "country": "SLO",
+          "countryName": "Slovénie",
+          "team": {
+            "id": 2116,
+            "firstName": null,
+            "lastName": null,
+            "name": "Slovénie",
+            "shortName": "Slovénie",
+            "competitorType": "Team",
+            "country": "SLO",
+            "countryName": "Slovénie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 130760,
+            "timeSecondRun": 65770,
+            "rank": 6,
+            "delay": 1260,
+            "startPosition": 25,
+            "handicap": 680
+          }
+        },
+        {
+          "id": 1081737,
+          "firstName": "Raphael",
+          "lastName": "Haaser",
+          "name": "Raphael Haaser",
+          "shortName": "Raphael Haaser",
+          "competitorType": "Person",
+          "country": "AUT",
+          "countryName": "Autriche",
+          "team": {
+            "id": 2110,
+            "firstName": null,
+            "lastName": null,
+            "name": "Autriche",
+            "shortName": "Autriche",
+            "competitorType": "Team",
+            "country": "AUT",
+            "countryName": "Autriche",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 130850,
+            "timeSecondRun": 65830,
+            "rank": 7,
+            "delay": 1350,
+            "startPosition": 24,
+            "handicap": 710
+          }
+        },
+        {
+          "id": 1050418,
+          "firstName": "Patrick",
+          "lastName": "Feurstein",
+          "name": "Patrick Feurstein",
+          "shortName": "Patrick Feurstein",
+          "competitorType": "Person",
+          "country": "AUT",
+          "countryName": "Autriche",
+          "team": {
+            "id": 2110,
+            "firstName": null,
+            "lastName": null,
+            "name": "Autriche",
+            "shortName": "Autriche",
+            "competitorType": "Team",
+            "country": "AUT",
+            "countryName": "Autriche",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 130950,
+            "timeSecondRun": 65390,
+            "rank": 8,
+            "delay": 1450,
+            "startPosition": 17,
+            "handicap": 1250
+          }
+        },
+        {
+          "id": 51576,
+          "firstName": "Gino",
+          "lastName": "Caviezel",
+          "name": "Gino Caviezel",
+          "shortName": "Gino Caviezel",
+          "competitorType": "Person",
+          "country": "SUI",
+          "countryName": "Suisse",
+          "team": {
+            "id": 2109,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suisse",
+            "shortName": "Suisse",
+            "competitorType": "Team",
+            "country": "SUI",
+            "countryName": "Suisse",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131010,
+            "timeSecondRun": 65620,
+            "rank": 9,
+            "delay": 1510,
+            "startPosition": 20,
+            "handicap": 1080
+          }
+        },
+        {
+          "id": 50990,
+          "firstName": "Luca",
+          "lastName": "De Aliprandini",
+          "name": "Luca De Aliprandini",
+          "shortName": "Luca De Aliprandini",
+          "competitorType": "Person",
+          "country": "ITA",
+          "countryName": "Italie",
+          "team": {
+            "id": 2119,
+            "firstName": null,
+            "lastName": null,
+            "name": "Italie",
+            "shortName": "Italie",
+            "competitorType": "Team",
+            "country": "ITA",
+            "countryName": "Italie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131060,
+            "timeSecondRun": 65990,
+            "rank": 10,
+            "delay": 1560,
+            "startPosition": 23,
+            "handicap": 760
+          }
+        },
+        {
+          "id": 139104,
+          "firstName": "River",
+          "lastName": "Radamus",
+          "name": "River Radamus",
+          "shortName": "River Radamus",
+          "competitorType": "Person",
+          "country": "USA",
+          "countryName": "États-Unis",
+          "team": {
+            "id": 2122,
+            "firstName": null,
+            "lastName": null,
+            "name": "Etats-Unis",
+            "shortName": "Etats-Unis",
+            "competitorType": "Team",
+            "country": "USA",
+            "countryName": "États-Unis",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131120,
+            "timeSecondRun": 65890,
+            "rank": 11,
+            "delay": 1620,
+            "startPosition": 22,
+            "handicap": 920
+          }
+        },
+        {
+          "id": 139764,
+          "firstName": "Timon",
+          "lastName": "Haugan",
+          "name": "Timon Haugan",
+          "shortName": "Timon Haugan",
+          "competitorType": "Person",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "team": {
+            "id": 2114,
+            "firstName": null,
+            "lastName": null,
+            "name": "Norvège",
+            "shortName": "Norvège",
+            "competitorType": "Team",
+            "country": "NOR",
+            "countryName": "Norvège",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131230,
+            "timeSecondRun": 65130,
+            "rank": 12,
+            "delay": 1730,
+            "startPosition": 9,
+            "handicap": 1790
+          }
+        },
+        {
+          "id": 142837,
+          "firstName": "Sam",
+          "lastName": "Maes",
+          "name": "Sam Maes",
+          "shortName": "Sam Maes",
+          "competitorType": "Person",
+          "country": "BEL",
+          "countryName": "Belgique",
+          "team": {
+            "id": 2474,
+            "firstName": null,
+            "lastName": null,
+            "name": "Belgique",
+            "shortName": "Belgique",
+            "competitorType": "Team",
+            "country": "BEL",
+            "countryName": "Belgique",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131230,
+            "timeSecondRun": 65790,
+            "rank": 12,
+            "delay": 1730,
+            "startPosition": 19,
+            "handicap": 1130
+          }
+        },
+        {
+          "id": 51566,
+          "firstName": "Thomas",
+          "lastName": "Tumler",
+          "name": "Thomas Tumler",
+          "shortName": "Thomas Tumler",
+          "competitorType": "Person",
+          "country": "SUI",
+          "countryName": "Suisse",
+          "team": {
+            "id": 2109,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suisse",
+            "shortName": "Suisse",
+            "competitorType": "Team",
+            "country": "SUI",
+            "countryName": "Suisse",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131280,
+            "timeSecondRun": 66550,
+            "rank": 14,
+            "delay": 1780,
+            "startPosition": 27,
+            "handicap": 420
+          }
+        },
+        {
+          "id": 84665,
+          "firstName": "Thibaut",
+          "lastName": "Favrot",
+          "name": "Thibaut Favrot",
+          "shortName": "Thibaut Favrot",
+          "competitorType": "Person",
+          "country": "FRA",
+          "countryName": "France",
+          "team": {
+            "id": 2113,
+            "firstName": null,
+            "lastName": null,
+            "name": "France",
+            "shortName": "France",
+            "competitorType": "Team",
+            "country": "FRA",
+            "countryName": "France",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131350,
+            "timeSecondRun": 66040,
+            "rank": 15,
+            "delay": 1850,
+            "startPosition": 21,
+            "handicap": 1000
+          }
+        },
+        {
+          "id": 76081,
+          "firstName": "Alexander",
+          "lastName": "Schmid",
+          "name": "Alexander Schmid",
+          "shortName": "Alexander Schmid",
+          "competitorType": "Person",
+          "country": "GER",
+          "countryName": "Allemagne",
+          "team": {
+            "id": 2111,
+            "firstName": null,
+            "lastName": null,
+            "name": "Allemagne",
+            "shortName": "Allemagne",
+            "competitorType": "Team",
+            "country": "GER",
+            "countryName": "Allemagne",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131390,
+            "timeSecondRun": 65820,
+            "rank": 16,
+            "delay": 1890,
+            "startPosition": 16,
+            "handicap": 1260
+          }
+        },
+        {
+          "id": 42667,
+          "firstName": "Justin",
+          "lastName": "Murisier",
+          "name": "Justin Murisier",
+          "shortName": "Justin Murisier",
+          "competitorType": "Person",
+          "country": "SUI",
+          "countryName": "Suisse",
+          "team": {
+            "id": 2109,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suisse",
+            "shortName": "Suisse",
+            "competitorType": "Team",
+            "country": "SUI",
+            "countryName": "Suisse",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131440,
+            "timeSecondRun": 65090,
+            "rank": 17,
+            "delay": 1940,
+            "startPosition": 6,
+            "handicap": 2040
+          }
+        },
+        {
+          "id": 1080420,
+          "firstName": "William",
+          "lastName": "Hansson",
+          "name": "William Hansson",
+          "shortName": "William Hansson",
+          "competitorType": "Person",
+          "country": "SWE",
+          "countryName": "Suède",
+          "team": {
+            "id": 2112,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suède",
+            "shortName": "Suède",
+            "competitorType": "Team",
+            "country": "SWE",
+            "countryName": "Suède",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131530,
+            "timeSecondRun": 64680,
+            "rank": 18,
+            "delay": 2030,
+            "startPosition": 1,
+            "handicap": 2540
+          }
+        },
+        {
+          "id": 39536,
+          "firstName": "Giovanni",
+          "lastName": "Borsotti",
+          "name": "Giovanni Borsotti",
+          "shortName": "Giovanni Borsotti",
+          "competitorType": "Person",
+          "country": "ITA",
+          "countryName": "Italie",
+          "team": {
+            "id": 2119,
+            "firstName": null,
+            "lastName": null,
+            "name": "Italie",
+            "shortName": "Italie",
+            "competitorType": "Team",
+            "country": "ITA",
+            "countryName": "Italie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131540,
+            "timeSecondRun": 65280,
+            "rank": 19,
+            "delay": 2040,
+            "startPosition": 8,
+            "handicap": 1950
+          }
+        },
+        {
+          "id": 69197,
+          "firstName": "Rasmus",
+          "lastName": "Windingstad",
+          "name": "Rasmus Windingstad",
+          "shortName": "Rasmus Windingstad",
+          "competitorType": "Person",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "team": {
+            "id": 2114,
+            "firstName": null,
+            "lastName": null,
+            "name": "Norvège",
+            "shortName": "Norvège",
+            "competitorType": "Team",
+            "country": "NOR",
+            "countryName": "Norvège",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131580,
+            "timeSecondRun": 65170,
+            "rank": 20,
+            "delay": 2080,
+            "startPosition": 5,
+            "handicap": 2100
+          }
+        },
+        {
+          "id": 42093,
+          "firstName": "Tommy",
+          "lastName": "Ford",
+          "name": "Tommy Ford",
+          "shortName": "Tommy Ford",
+          "competitorType": "Person",
+          "country": "USA",
+          "countryName": "États-Unis",
+          "team": {
+            "id": 2122,
+            "firstName": null,
+            "lastName": null,
+            "name": "Etats-Unis",
+            "shortName": "Etats-Unis",
+            "competitorType": "Team",
+            "country": "USA",
+            "countryName": "États-Unis",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131600,
+            "timeSecondRun": 65580,
+            "rank": 21,
+            "delay": 2100,
+            "startPosition": 11,
+            "handicap": 1710
+          }
+        },
+        {
+          "id": 65074,
+          "firstName": "Linus",
+          "lastName": "Strasser",
+          "name": "Linus Strasser",
+          "shortName": "Linus Strasser",
+          "competitorType": "Person",
+          "country": "GER",
+          "countryName": "Allemagne",
+          "team": {
+            "id": 2111,
+            "firstName": null,
+            "lastName": null,
+            "name": "Allemagne",
+            "shortName": "Allemagne",
+            "competitorType": "Team",
+            "country": "GER",
+            "countryName": "Allemagne",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131630,
+            "timeSecondRun": 65590,
+            "rank": 22,
+            "delay": 2130,
+            "startPosition": 10,
+            "handicap": 1730
+          }
+        },
+        {
+          "id": 28377,
+          "firstName": null,
+          "lastName": null,
+          "name": "Marcel Hirscher",
+          "shortName": "Marcel Hirscher",
+          "competitorType": "Person",
+          "country": "NED",
+          "countryName": "Pays-Bas",
+          "team": {
+            "id": 2360,
+            "firstName": null,
+            "lastName": null,
+            "name": "Pays-Bas",
+            "shortName": "Hollande",
+            "competitorType": "Team",
+            "country": "NED",
+            "countryName": "Pays-Bas",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131660,
+            "timeSecondRun": 65060,
+            "rank": 23,
+            "delay": 2160,
+            "startPosition": 3,
+            "handicap": 2290
+          }
+        },
+        {
+          "id": 1052179,
+          "firstName": null,
+          "lastName": null,
+          "name": "Leo Anguenot",
+          "shortName": "Leo Anguenot",
+          "competitorType": "Person",
+          "country": "FRA",
+          "countryName": "France",
+          "team": {
+            "id": 2113,
+            "firstName": null,
+            "lastName": null,
+            "name": "France",
+            "shortName": "France",
+            "competitorType": "Team",
+            "country": "FRA",
+            "countryName": "France",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131700,
+            "timeSecondRun": 65910,
+            "rank": 24,
+            "delay": 2200,
+            "startPosition": 15,
+            "handicap": 1480
+          }
+        },
+        {
+          "id": 1117637,
+          "firstName": "Jonas",
+          "lastName": "Stockinger",
+          "name": "Jonas Stockinger",
+          "shortName": "Jonas Stockinger",
+          "competitorType": "Person",
+          "country": "GER",
+          "countryName": "Allemagne",
+          "team": {
+            "id": 2111,
+            "firstName": null,
+            "lastName": null,
+            "name": "Allemagne",
+            "shortName": "Allemagne",
+            "competitorType": "Team",
+            "country": "GER",
+            "countryName": "Allemagne",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 131900,
+            "timeSecondRun": 65980,
+            "rank": 25,
+            "delay": 2400,
+            "startPosition": 13,
+            "handicap": 1610
+          }
+        },
+        {
+          "id": 39535,
+          "firstName": "Victor",
+          "lastName": "Muffat Jeandet",
+          "name": "Victor Muffat-Jeandet",
+          "shortName": "Victor Muffat-Jeandet",
+          "competitorType": "Person",
+          "country": "FRA",
+          "countryName": "France",
+          "team": {
+            "id": 2113,
+            "firstName": null,
+            "lastName": null,
+            "name": "France",
+            "shortName": "France",
+            "competitorType": "Team",
+            "country": "FRA",
+            "countryName": "France",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 132430,
+            "timeSecondRun": 66010,
+            "rank": 26,
+            "delay": 2930,
+            "startPosition": 4,
+            "handicap": 2110
+          }
+        },
+        {
+          "id": 1100289,
+          "firstName": "Livio",
+          "lastName": "Simonet",
+          "name": "Livio Simonet",
+          "shortName": "Livio Simonet",
+          "competitorType": "Person",
+          "country": "SUI",
+          "countryName": "Suisse",
+          "team": {
+            "id": 2109,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suisse",
+            "shortName": "Suisse",
+            "competitorType": "Team",
+            "country": "SUI",
+            "countryName": "Suisse",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 132600,
+            "timeSecondRun": 66260,
+            "rank": 27,
+            "delay": 3100,
+            "startPosition": 7,
+            "handicap": 2030
+          }
+        },
+        {
+          "id": 85472,
+          "firstName": "Cyprien",
+          "lastName": "Sarrazin",
+          "name": "Cyprien Sarrazin",
+          "shortName": "Cyprien Sarrazin",
+          "competitorType": "Person",
+          "country": "FRA",
+          "countryName": "France",
+          "team": {
+            "id": 2113,
+            "firstName": null,
+            "lastName": null,
+            "name": "France",
+            "shortName": "France",
+            "competitorType": "Team",
+            "country": "FRA",
+            "countryName": "France",
+            "isNationalTeam": false
+          },
+          "results": {
+            "time": 132620,
+            "timeSecondRun": 65910,
+            "rank": 28,
+            "delay": 3120,
+            "startPosition": 2,
+            "handicap": 2400
+          }
+        }
+      ],
+      "notFinishedCompetitors": [
+        {
+          "id": 1100120,
+          "firstName": "Fadri",
+          "lastName": "Janutin",
+          "name": "Fadri Janutin",
+          "shortName": "Fadri Janutin",
+          "competitorType": "Person",
+          "country": "SUI",
+          "countryName": "Suisse",
+          "team": {
+            "id": 2109,
+            "firstName": null,
+            "lastName": null,
+            "name": "Suisse",
+            "shortName": "Suisse",
+            "competitorType": "Team",
+            "country": "SUI",
+            "countryName": "Suisse",
+            "isNationalTeam": false
+          },
+          "results": {
+            "position": 14,
+            "startPosition": 14,
+            "handicap": 1570
+          }
+        },
+        {
+          "id": 48314,
+          "firstName": "Filip",
+          "lastName": "Zubcic",
+          "name": "Filip Zubcic",
+          "shortName": "Filip Zubcic",
+          "competitorType": "Person",
+          "country": "CRO",
+          "countryName": "Croatie",
+          "team": {
+            "id": 2115,
+            "firstName": null,
+            "lastName": null,
+            "name": "Croatie",
+            "shortName": "Croatie",
+            "competitorType": "Team",
+            "country": "CRO",
+            "countryName": "Croatie",
+            "isNationalTeam": false
+          },
+          "results": {
+            "position": 29,
+            "startPosition": 29,
+            "handicap": 20
+          }
+        }
+      ],
+      "leader": {
+        "id": 1089301,
+        "firstName": "Alexander",
+        "lastName": "Steen Olsen",
+        "name": "Alexander Steen Olsen",
+        "shortName": "Alexander Steen Olsen",
+        "competitorType": "Person",
+        "country": "NOR",
+        "countryName": "Norvège",
+        "team": {
+          "id": 2114,
+          "firstName": null,
+          "lastName": null,
+          "name": "Norvège",
+          "shortName": "Norvège",
+          "competitorType": "Team",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "isNationalTeam": false
+        }
+      },
+      "pushLiveData": true,
+      "winner": {
+        "id": 1089301,
+        "firstName": "Alexander",
+        "lastName": "Steen Olsen",
+        "name": "Alexander Steen Olsen",
+        "shortName": "Alexander Steen Olsen",
+        "competitorType": "Person",
+        "country": "NOR",
+        "countryName": "Norvège",
+        "team": {
+          "id": 2114,
+          "firstName": null,
+          "lastName": null,
+          "name": "Norvège",
+          "shortName": "Norvège",
+          "competitorType": "Team",
+          "country": "NOR",
+          "countryName": "Norvège",
+          "isNationalTeam": false
+        }
+      }
+    }
+  ]}]

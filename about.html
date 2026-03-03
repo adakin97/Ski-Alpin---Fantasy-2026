@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>À propos - Ski Alpin Fantasy 2026</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+
+    :root {
+      --main-red: #c62828;
+      --dark-bg: #1a1a1a;
+      --white: #ffffff;
+      --font-primary: 'Montserrat', sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: var(--font-primary);
+      background: #f8f8f8;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    /* ---------- TOP BAR 1 ---------- */
+    .topbar1 {
+      background: #fff;
+      border-bottom: 1px solid #e0e0e0;
+      position: sticky;
+      top: 0;
+      z-index: 150;
+      padding: 0.75rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: var(--main-red);
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      cursor: default;
+      user-select: none;
+    }
+    .logo i { font-size: 1.6rem; }
+    .auth-links { display: flex; gap: 0.8rem; align-items: center; }
+    .auth-links a {
+      font-weight: 700;
+      color: #333;
+      text-decoration: none;
+      padding: 7px 14px;
+      border: 1.5px solid #ccc;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      cursor: pointer;
+      transition: border-color 0.2s, color 0.2s;
+      font-family: var(--font-primary);
+      white-space: nowrap;
+    }
+    .auth-links a:hover { border-color: var(--main-red); color: var(--main-red); }
+    /* ---------- TOP BAR 2 ---------- */
+    .topbar2 {
+      background-color: var(--dark-bg);
+      border-bottom: 3px solid var(--main-red);
+      position: sticky;
+      top: 56px;
+      z-index: 140;
+      display: flex;
+      justify-content: center;
+      user-select: none;
+      overflow-x: auto;
+    }
+    .topbar2 > nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      padding: 0;
+    }
+    .topbar2 > nav > a {
+      color: #bbb;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      padding: 13px 14px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+      border-bottom: 3px solid transparent;
+      position: relative;
+      top: 3px;
+      transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    }
+    .topbar2 > nav > a i { font-size: 0.85rem; }
+    .topbar2 > nav > a:hover,
+    .topbar2 > nav > a:focus {
+      color: #fff;
+      border-bottom-color: var(--main-red);
+      outline: none;
+    }
+    .topbar2 > nav > a.active {
+      color: #fff;
+      border-bottom-color: var(--main-red);
+    }
+
+    footer {
+      margin-top: auto;
+      background-color: var(--dark-bg);
+      color: #bbb;
+      text-align: center;
+      padding: 22px 0;
+      font-size: 0.9rem;
+    }
+
+    main {
+      max-width: 860px;
+      margin: 2.5rem auto;
+      padding: 2rem 2.5rem 3rem;
+      background: #fff;
+      border-top: 3px solid var(--main-red);
+      flex: 1;
+    }
+    main h1 {
+      font-size: 2rem;
+      font-weight: 900;
+      color: #1a1a1a;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      border-bottom: 3px solid var(--main-red);
+      padding-bottom: 0.6rem;
+      margin-bottom: 2rem;
+    }
+    main h2 {
+      font-size: 1.2rem;
+      font-weight: 900;
+      color: #1a1a1a;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      border-bottom: 1px solid #e2e2e2;
+      padding-bottom: 0.3rem;
+      margin: 2rem 0 0.7rem;
+    }
+    main h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--main-red);
+      margin: 1rem 0 0.2rem;
+    }
+    main p {
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: #555;
+    }
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1px;
+      background: #e2e2e2;
+      margin-top: 1.5rem;
+    }
+    .team-card {
+      background: #fff;
+      padding: 1.5rem;
+      border-top: 3px solid transparent;
+      transition: border-top-color 0.2s;
+    }
+    .team-card:hover { border-top-color: var(--main-red); }
+    .team-card i { font-size: 2rem; color: var(--main-red); margin-bottom: 0.5rem; }
+    .team-card h3 { font-size: 1rem; margin: 0; color: #1a1a1a; }
+    .team-card p { font-size: 0.85rem; color: #888; margin: 0.2rem 0 0; }
+  </style>
+</head>
+
+<body>
+
+<header class="topbar1" role="banner">
+  <div class="logo"><i class="fas fa-mountain"></i> Ski Alpin Fantasy 2026</div>
+  <nav id="nav-auth">
+    <div class="auth-links">
+      <a href="#" id="loginBtn"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+      <a href="#" id="logoutBtn" style="display: none;"><i class="fas fa-sign-out-alt"></i> Déconnexion</a>
+    </div>
+  </nav>
+</header>
+<nav class="topbar2" role="navigation">
+  <nav>
+      <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+      <a href="classement_skieurs.html"><i class="fas fa-chart-line"></i> Classements Skieurs</a>
+      <a href="classement_joueur.html"><i class="fas fa-users"></i> Classements Joueurs</a>
+      <a href="Mon_equipe.html"><i class="fas fa-user"></i> Mon Équipe</a>
+      <a href="rules.html"><i class="fas fa-book"></i> Règles</a>
+      <a href="about.html" class="active"><i class="fas fa-info-circle"></i> À propos</a>
+  </nav>
+</nav>
+
+  <main>
+    <h1>À propos</h1>
+    <h2>L'équipe</h2>
+    <div class="team-grid">
+      <div class="team-card">
+        <i class="fas fa-user-tie"></i>
+        <h3>Loïc Marendaz</h3>
+        <p>Co-fondateur</p>
+      </div>
+      <div class="team-card">
+        <i class="fas fa-user-tie"></i>
+        <h3>Arnaud Marendaz</h3>
+        <p>Co-fondateur</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 Ski Alpin Fantasy. Tous droits réservés.
+  </footer>
+
+  <script type="module" src="auth.js"></script>
+</body>
+</html>

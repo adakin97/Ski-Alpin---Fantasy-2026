@@ -1,0 +1,3895 @@
+[
+  {
+    "nationality": "Grèce",
+    "firstName": "Aj",
+    "lastName": "Ginnis",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 8,
+    "age": 30,
+    "dateofBirth": "17.11.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=161182"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Giovanni",
+    "lastName": "Borsotti",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 8,
+    "age": 33,
+    "dateofBirth": "18.12.1990",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=118636"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Mattia",
+    "lastName": "Casse",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 20,
+    "age": 34,
+    "dateofBirth": "19.02.1990",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=118669"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Luca",
+    "lastName": "De Aliprandini",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 15,
+    "age": 34,
+    "dateofBirth": "01.09.1990",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=118704"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Filippo",
+    "lastName": "Della Vite",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 9,
+    "age": 23,
+    "dateofBirth": "04.10.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=220545"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Giovanni",
+    "lastName": "Franzoni",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 13,
+    "age": 23,
+    "dateofBirth": "30.03.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=221571"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Stefano ",
+    "lastName": "Gross",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 8,
+    "age": 38,
+    "dateofBirth": "04.09.1986",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=71585"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Christof",
+    "lastName": "Innerhofer",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 10,
+    "age": 39,
+    "dateofBirth": "17.12.1984",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=26841"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Tobias",
+    "lastName": "Kastlunger",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 8,
+    "age": 25,
+    "dateofBirth": "09.09.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=205709"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Federico",
+    "lastName": "Liberatore",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 29,
+    "dateofBirth": "28.08.1995",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=165385"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Simon",
+    "lastName": "Maurberger",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 29,
+    "dateofBirth": "20.02.1995",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=163838"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Nicolo",
+    "lastName": "Molteni",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 26,
+    "dateofBirth": "27.07.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=196047"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Dominik",
+    "lastName": "Paris",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 22,
+    "age": 35,
+    "dateofBirth": "14.04.1989",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=109079"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Tommaso",
+    "lastName": "Sala",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 7,
+    "age": 29,
+    "dateofBirth": "06.09.1995",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=165227"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Florian",
+    "lastName": "Schieder",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 12,
+    "age": 28,
+    "dateofBirth": "26.12.1995",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=165366"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Simon",
+    "lastName": "Talacci",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 23,
+    "dateofBirth": "03.01.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=221817"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Alex",
+    "lastName": "Vinatzer",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 15,
+    "age": 25,
+    "dateofBirth": "22.09.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=204319"
+  },
+  {
+    "nationality": "Bulgarie",
+    "firstName": "Albert",
+    "lastName": "Popov",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 13,
+    "age": 27,
+    "dateofBirth": "08.08.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=190120"
+  },
+  {
+    "nationality": "Japon",
+    "firstName": "Seigo",
+    "lastName": "Kato",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 26,
+    "dateofBirth": "14.04.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=195035"
+  },
+  {
+    "nationality": "Japon",
+    "firstName": "Yohei",
+    "lastName": "Koyama",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 26,
+    "dateofBirth": "31.05.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=195079"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Theodor",
+    "lastName": "Braekken",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 20,
+    "dateofBirth": "26.02.2004",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=254718"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Sebastian",
+    "lastName": "Foss-Solevaag",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 8,
+    "age": 33,
+    "dateofBirth": "13.07.1991",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=132894"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Markus",
+    "lastName": "Fossland",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 25,
+    "dateofBirth": "05.01.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=205217"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Hans",
+    "lastName": "Grahl-Madsen",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 21,
+    "dateofBirth": "14.07.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=246187"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Halvor Hilde",
+    "lastName": "Gunleiksrud",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 24,
+    "dateofBirth": "18.11.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=213821"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Timon",
+    "lastName": "Haugan",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 22,
+    "age": 27,
+    "dateofBirth": "27.12.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=174450"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Alexander Aamodt",
+    "lastName": "Kilde",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 21,
+    "age": 32,
+    "dateofBirth": "21.09.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=137380"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Kaspar",
+    "lastName": "Kindem",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 24,
+    "dateofBirth": "02.09.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=213785"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Henrik",
+    "lastName": "Kristoffersen",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 25,
+    "age": 30,
+    "dateofBirth": "02.07.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=154950"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Atle Lie",
+    "lastName": "McGrath",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 22,
+    "age": 24,
+    "dateofBirth": "21.04.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=213823"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Fredrik",
+    "lastName": "Moeller",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 20,
+    "age": 24,
+    "dateofBirth": "27.10.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=213823"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Marcus",
+    "lastName": "Monsen",
+    "disciplines": [
+      "SG"
+    ],
+    "Price": 6,
+    "age": 29,
+    "dateofBirth": "19.02.1995",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=165999"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Jonathan",
+    "lastName": "Nordbotten",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 35,
+    "dateofBirth": "14.07.1989",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=108223"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Mikkel",
+    "lastName": "Remsoey",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 22,
+    "dateofBirth": "04.08.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=231803"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Henrik",
+    "lastName": "Roea",
+    "disciplines": [
+      "DH"
+    ],
+    "Price": 5,
+    "age": 29,
+    "dateofBirth": "05.08.1995",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=166012"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Oscar Andreas",
+    "lastName": "Sandvik",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 30,
+    "dateofBirth": "12.07.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=254733"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Adrian Smiseth",
+    "lastName": "Sejersted",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 16,
+    "age": 30,
+    "dateofBirth": "16.07.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=154956"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Christian Oliveira",
+    "lastName": "Soevik",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 22,
+    "dateofBirth": "27.12.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=222508"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Erik Hystad",
+    "lastName": "Solberg",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 22,
+    "dateofBirth": "14.10.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=231688"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Fabian Wilkens",
+    "lastName": "Solheim",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 28,
+    "dateofBirth": "10.04.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=174356"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Alexander",
+    "lastName": "Steen Olsen",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 21,
+    "age": 23,
+    "dateofBirth": "18.08.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=222507"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Jesper",
+    "lastName": "Wahlqvist",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 22,
+    "dateofBirth": "20.08.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=231772"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Rasmus",
+    "lastName": "Windingstad",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 6,
+    "age": 31,
+    "dateofBirth": "31.10.1993",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=146868"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Oscar",
+    "lastName": "Zimmer",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 23,
+    "dateofBirth": "23.06.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=222504"
+  },
+  {
+    "nationality": "Pays-Bas",
+    "firstName": "Marcel",
+    "lastName": "Hirscher",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 7,
+    "age": 35,
+    "dateofBirth": "02.03.1989",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=106332"
+  },
+  {
+    "nationality": "Slovaquie",
+    "firstName": "Adam",
+    "lastName": "Zampa",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 34,
+    "dateofBirth": "13.09.1990",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=119474"
+  },
+  {
+    "nationality": "Slovaquie",
+    "firstName": "Andreas",
+    "lastName": "Zampa",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 31,
+    "dateofBirth": "13.08.1993",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=149725"
+  },
+  {
+    "nationality": "Slovaquie",
+    "firstName": "Matej",
+    "lastName": "Prielozny",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 27,
+    "dateofBirth": "28.09.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=189109"
+  },
+  {
+    "nationality": "Slovénie",
+    "firstName": "Rok",
+    "lastName": "Aznoh",
+    "disciplines": [
+      "SG"
+    ],
+    "Price": 5,
+    "age": 22,
+    "dateofBirth": "09.11.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=230052"
+  },
+  {
+    "nationality": "Slovénie",
+    "firstName": "Martin",
+    "lastName": "Cater",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 9,
+    "age": 31,
+    "dateofBirth": "20.12.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=137323"
+  },
+  {
+    "nationality": "Slovénie",
+    "firstName": "Anze",
+    "lastName": "Gartner",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 23,
+    "dateofBirth": "19.01.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=221146"
+  },
+  {
+    "nationality": "Slovénie",
+    "firstName": "Miha",
+    "lastName": "Hrobat",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 18,
+    "age": 29,
+    "dateofBirth": "03.02.1995",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=163381"
+  },
+  {
+    "nationality": "Slovénie",
+    "firstName": "Klemen",
+    "lastName": "Kosi",
+    "disciplines": [
+      "SG",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 33,
+    "dateofBirth": "19.06.1991",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=126772"
+  },
+  {
+    "nationality": "Slovénie",
+    "firstName": "Zan",
+    "lastName": "Kranjec",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 20,
+    "age": 32,
+    "dateofBirth": "15.11.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=137306"
+  },
+  {
+    "nationality": "Slovénie",
+    "firstName": "Tijan",
+    "lastName": "Marvot",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 26,
+    "dateofBirth": "08.07.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=195151"
+  },
+  {
+    "nationality": "Slovénie",
+    "firstName": "Nejc",
+    "lastName": "Naralocnik",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 25,
+    "dateofBirth": "05.01.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=205081"
+  },
+  {
+    "nationality": "Slovénie",
+    "firstName": "Miha",
+    "lastName": "Oserban",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 18,
+    "dateofBirth": "27.09.2006",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=269594"
+  },
+  {
+    "nationality": "Espagne",
+    "firstName": "Tomas",
+    "lastName": "Barata",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 21,
+    "dateofBirth": "12.09.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=238630"
+  },
+  {
+    "nationality": "Espagne",
+    "firstName": "Juan",
+    "lastName": "Del Campo Hernandez",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 30,
+    "dateofBirth": "28.06.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=158917"
+  },
+  {
+    "nationality": "Espagne",
+    "firstName": "Adur",
+    "lastName": "Etxezarreta",
+    "disciplines": [
+      "DH",
+      ""
+    ],
+    "Price": 5,
+    "age": 28,
+    "dateofBirth": "27.01.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=173819"
+  },
+  {
+    "nationality": "Espagne",
+    "firstName": "Aingeru",
+    "lastName": "Garay Fernandez",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 26,
+    "dateofBirth": "25.06.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=194853"
+  },
+  {
+    "nationality": "Espagne",
+    "firstName": "Ander",
+    "lastName": "Mintegui",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 21,
+    "dateofBirth": "20.05.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=238621"
+  },
+  {
+    "nationality": "Espagne",
+    "firstName": "Albert",
+    "lastName": "Ortega",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 26,
+    "dateofBirth": "18.11.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=194846"
+  },
+  {
+    "nationality": "Espagne",
+    "firstName": "Joaquim",
+    "lastName": "Salarich",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 30,
+    "dateofBirth": "02.01.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=159191"
+  },
+  {
+    "nationality": "Suède",
+    "firstName": "Fabian",
+    "lastName": "Ax Swartz",
+    "disciplines": [
+      "SL",
+      "SG"
+    ],
+    "Price": 7,
+    "age": 20,
+    "dateofBirth": "12.02.2004",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=252120"
+  },
+  {
+    "nationality": "Suède",
+    "firstName": "William",
+    "lastName": "Hansson",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 23,
+    "dateofBirth": "19.06.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=219621"
+  },
+  {
+    "nationality": "Suède",
+    "firstName": "Adam",
+    "lastName": "Hofstedt",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 22,
+    "dateofBirth": "15.02.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=228289"
+  },
+  {
+    "nationality": "Suède",
+    "firstName": "Kristoffer",
+    "lastName": "Jakobsen",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 12,
+    "age": 30,
+    "dateofBirth": "09.09.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=160443"
+  },
+  {
+    "nationality": "Suède",
+    "firstName": "Axel",
+    "lastName": "Lindqvist",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 24,
+    "dateofBirth": "18.08.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=211169"
+  },
+  {
+    "nationality": "Suède",
+    "firstName": "Felix",
+    "lastName": "Monsen",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 9,
+    "age": 30,
+    "dateofBirth": "06.11.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=156153"
+  },
+  {
+    "nationality": "Suède",
+    "firstName": "Zack",
+    "lastName": "Monsen",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 27,
+    "dateofBirth": "04.01.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=187006"
+  },
+  {
+    "nationality": "Suède",
+    "firstName": "Mattias",
+    "lastName": "Roenngren",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 31,
+    "dateofBirth": "22.11.1993",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=145704"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Erik",
+    "lastName": "Arvidsson",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 28,
+    "dateofBirth": "03.09.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=173262"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Bryce",
+    "lastName": "Bennett",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 13,
+    "age": 32,
+    "dateofBirth": "14.07.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=137204"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Justin",
+    "lastName": "Bigatel",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 21,
+    "dateofBirth": "29.04.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=239629"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Stanley",
+    "lastName": "Buzek",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 19,
+    "dateofBirth": "18.08.2005",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=264246"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Ryan",
+    "lastName": "Cochran-Siegle",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 17,
+    "age": 32,
+    "dateofBirth": "27.03.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=139503"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Cooper",
+    "lastName": "Cornelius",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 25,
+    "dateofBirth": "20.06.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=202731"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Jacob",
+    "lastName": "Dilling",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 25,
+    "dateofBirth": "19.10.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=202746"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Finnigan",
+    "lastName": "Donley",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 19,
+    "dateofBirth": "28.02.2005",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=260542"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Samuel",
+    "lastName": "Dupratt",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 30,
+    "dateofBirth": "28.11.1993",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=145851"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Roman",
+    "lastName": "Elvidge",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 18,
+    "dateofBirth": "08.12.2005",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=262068"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Tommy",
+    "lastName": "Ford",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 7,
+    "age": 35,
+    "dateofBirth": "20.03.1989",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=105908"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Bridger",
+    "lastName": "Gile",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 25,
+    "dateofBirth": "15.10.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=202821"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Jared",
+    "lastName": "Goldberg",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 11,
+    "age": 33,
+    "dateofBirth": "17.06.1991",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=130869"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Patrick",
+    "lastName": "Kenney",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 27,
+    "dateofBirth": "27.02.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=189087"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "John",
+    "lastName": "Kerbaugh",
+    "disciplines": [
+      "DH",
+      "SG",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 19,
+    "dateofBirth": "11.11.2005",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=260763"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Jimmy",
+    "lastName": "Krupka",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 26,
+    "dateofBirth": "15.07.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=195007"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Wiley",
+    "lastName": "Maple",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 34,
+    "dateofBirth": "25.05.1990",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=113774"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Brian",
+    "lastName": "Mclaughlin",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 31,
+    "dateofBirth": "24.06.1993",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=145898"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Sam",
+    "lastName": "Morse",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 7,
+    "age": 28,
+    "dateofBirth": "27.05.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=173338"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Kyle",
+    "lastName": "Negomir",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 7,
+    "age": 26,
+    "dateofBirth": "03.10.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=195130"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Isaiah",
+    "lastName": "Nelson",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 7,
+    "age": 23,
+    "dateofBirth": "03.04.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=219838"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Camden",
+    "lastName": "Palmquist",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 21,
+    "dateofBirth": "15.04.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=238802"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Jay",
+    "lastName": "Poulter",
+    "disciplines": [
+      "DH",
+      "SG",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 21,
+    "dateofBirth": "01.07.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=238791"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Cooper",
+    "lastName": "Puckett",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 21,
+    "dateofBirth": "31.03.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=238741"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "River",
+    "lastName": "Radamus",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG",
+      "SL"
+    ],
+    "Price": 18,
+    "age": 26,
+    "dateofBirth": "12.02.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=194503"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Sawyer",
+    "lastName": "Reed",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 19,
+    "dateofBirth": "26.07.2005",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=262208"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Benjamin",
+    "lastName": "Ritchie",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 12,
+    "age": 24,
+    "dateofBirth": "05.09.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=210997"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Hunter",
+    "lastName": "Salani",
+    "disciplines": [
+      "DH"
+    ],
+    "Price": 5,
+    "age": 19,
+    "dateofBirth": "25.02.2005",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=260527"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Ryder",
+    "lastName": "Sarchett",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 21,
+    "dateofBirth": "28.07.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=238786"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Jack",
+    "lastName": "Smith",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 23,
+    "dateofBirth": "24.04.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=219841"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "George",
+    "lastName": "Steffey",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 27,
+    "dateofBirth": "08.08.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=189381"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Bradshaw",
+    "lastName": "Underhill",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 24,
+    "dateofBirth": "10.03.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=210989"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Jonas",
+    "lastName": "Stockinger",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 8,
+    "age": 25,
+    "dateofBirth": "07.10.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=203188"
+  },
+  {
+    "nationality": "Norvège",
+    "firstName": "Simen",
+    "lastName": "Sellaeg",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 21,
+    "dateofBirth": "19.02.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=245551"
+  },
+  {
+    "nationality": "Australie",
+    "firstName": "Louis",
+    "lastName": "Muhlen-schulte",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 26,
+    "dateofBirth": "12.03.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=194889"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Luis",
+    "lastName": "Vogt",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 7,
+    "age": 22,
+    "dateofBirth": "21.02.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=229136"
+  },
+  {
+    "nationality": "République Tchèque",
+    "firstName": "Jan",
+    "lastName": "Zabystran",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 12,
+    "age": 26,
+    "dateofBirth": "26.01.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=196154"
+  },
+  {
+    "nationality": "Lituanie",
+    "firstName": "Andrej",
+    "lastName": "Drukarov",
+    "disciplines": [
+      "GS",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 25,
+    "dateofBirth": "10.05.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=203571"
+  },
+  {
+    "nationality": "USA",
+    "firstName": "Jett",
+    "lastName": "Seymour",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 26,
+    "dateofBirth": "05.11.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=196192"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Hannes",
+    "lastName": "Zingerle",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 7,
+    "age": 29,
+    "dateofBirth": "11.04.1995",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=165575"
+  },
+  {
+    "nationality": "Argentine",
+    "firstName": "Tiziano",
+    "lastName": "Gravier",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 22,
+    "dateofBirth": "12.03.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=228976"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Andreas",
+    "lastName": "Sander",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 35,
+    "dateofBirth": "13.06.1989",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=104588"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Pietro",
+    "lastName": "Zazzi",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 30,
+    "dateofBirth": "22.07.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=157204"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Alexander",
+    "lastName": "Schmid",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 12,
+    "age": 30,
+    "dateofBirth": "09.06.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=156112"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Linus",
+    "lastName": "Strasser",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 20,
+    "age": 32,
+    "dateofBirth": "06.11.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=137475"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Thibaut",
+    "lastName": "Favrot",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 12,
+    "age": 29,
+    "dateofBirth": "22.12.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=159244"
+  },
+  {
+    "nationality": "Espagne",
+    "firstName": "Aleix",
+    "lastName": "Aubert Serracanta",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 19,
+    "dateofBirth": "09.04.2005",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=261017"
+  },
+  {
+    "nationality": "Estonie",
+    "firstName": "Tormis",
+    "lastName": "Laine",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 9,
+    "age": 24,
+    "dateofBirth": "06.08.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=210853"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Maximilian",
+    "lastName": "Schwarz",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 21,
+    "dateofBirth": "19.12.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=232755"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Dominik",
+    "lastName": "Schwaiger",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 33,
+    "dateofBirth": "01.05.1991",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=126647"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Linus",
+    "lastName": "Witte",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 23,
+    "dateofBirth": "06.04.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=220228"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Marinus",
+    "lastName": "Sennhofer",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 22,
+    "dateofBirth": "21.03.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=229135"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Anton",
+    "lastName": "Tremmel",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 6,
+    "age": 30,
+    "dateofBirth": "26.11.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=156247"
+  },
+  {
+    "nationality": "Chili",
+    "firstName": "Henrik",
+    "lastName": "Von Appen",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 29,
+    "dateofBirth": "15.12.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=154753"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Adrian",
+    "lastName": "Meisen",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 27,
+    "dateofBirth": "01.10.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=187770"
+  },
+  {
+    "nationality": "Suède",
+    "firstName": "Emil",
+    "lastName": "Pettersson",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 21,
+    "dateofBirth": "03.12.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=228301"
+  },
+  {
+    "nationality": "Italie",
+    "firstName": "Tommaso",
+    "lastName": "Saccardi",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 23,
+    "dateofBirth": "16.07.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=220202"
+  },
+  {
+    "nationality": "Bulgarie",
+    "firstName": "Kalin",
+    "lastName": "Zlatkov",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 23,
+    "dateofBirth": "27.01.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=220252"
+  },
+  {
+    "nationality": "Pologne",
+    "firstName": "Jedrzej",
+    "lastName": "Jasiczek",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 27,
+    "dateofBirth": "09.05.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=188143"
+  },
+  {
+    "nationality": "Corée du Sud",
+    "firstName": "Jeyun",
+    "lastName": "Park",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 29,
+    "dateofBirth": "30.12.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=154866"
+  },
+  {
+    "nationality": "Australie",
+    "firstName": "hugh",
+    "lastName": "mcadam",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 24,
+    "dateofBirth": "31.08.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=211809"
+  },
+  {
+    "nationality": "Japon",
+    "firstName": "Ryoma",
+    "lastName": "Katayama",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 20,
+    "dateofBirth": "23.12.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=238899"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Luca",
+    "lastName": "Aerni",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 12,
+    "age": 31,
+    "dateofBirth": "27.03.1993",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=148274"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Semyel",
+    "lastName": "Bissig",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 26,
+    "dateofBirth": "19.01.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=195357"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Arnaud",
+    "lastName": "Boisset",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 14,
+    "age": 26,
+    "dateofBirth": "08.05.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=195813"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Gino",
+    "lastName": "Caviezel",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 16,
+    "age": 32,
+    "dateofBirth": "23.06.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=138512"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Yannick",
+    "lastName": "Chabloz",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 7,
+    "age": 25,
+    "dateofBirth": "17.03.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=203778"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Denis",
+    "lastName": "Corthay",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 21,
+    "dateofBirth": "25.08.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=238687"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Remi",
+    "lastName": "Cuche",
+    "disciplines": [
+      "DH"
+    ],
+    "Price": 5,
+    "age": 24,
+    "dateofBirth": "25.04.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=212253"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Marco",
+    "lastName": "Fischbacher",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 27,
+    "dateofBirth": "15.01.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=189680"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Livio",
+    "lastName": "Hiltbrand",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 21,
+    "dateofBirth": "27.09.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=238436"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Niels",
+    "lastName": "Hintermann",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 15,
+    "age": 29,
+    "dateofBirth": "05.05.1995",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=166533"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Matthias",
+    "lastName": "Iten",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 25,
+    "dateofBirth": "12.08.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=203779"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Fadri",
+    "lastName": "Janutin",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 25,
+    "dateofBirth": "16.01.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=212495"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Marco",
+    "lastName": "Kohler",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 9,
+    "age": 25,
+    "dateofBirth": "23.11.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=189550"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Urs",
+    "lastName": "Kryenbuehl",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 30,
+    "dateofBirth": "28.01.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=156304"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Loïc",
+    "lastName": "Meillard",
+    "disciplines": [
+      "GS",
+      "SL",
+      "SG"
+    ],
+    "Price": 25,
+    "age": 28,
+    "dateofBirth": "29.10.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=174158"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Josua",
+    "lastName": "Mettler",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 26,
+    "dateofBirth": "30.06.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=195418"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Alexis",
+    "lastName": "Monney",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 22,
+    "age": 24,
+    "dateofBirth": "08.01.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=212375"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Justin",
+    "lastName": "Murisier",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 17,
+    "age": 32,
+    "dateofBirth": "08.01.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=138572"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Tanguy",
+    "lastName": "Nef",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 18,
+    "age": 28,
+    "dateofBirth": "19.11.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=175449"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Cedric",
+    "lastName": "Noger",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 32,
+    "dateofBirth": "17.05.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=138539"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Marco",
+    "lastName": "Odermatt",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 28,
+    "age": 27,
+    "dateofBirth": "08.10.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=190231"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Marc",
+    "lastName": "Rochat",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 9,
+    "age": 31,
+    "dateofBirth": "18.12.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=138575"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Lars",
+    "lastName": "Roesti",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 12,
+    "age": 26,
+    "dateofBirth": "19.01.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=195440"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Stefan",
+    "lastName": "Rogentin",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 19,
+    "age": 30,
+    "dateofBirth": "16.05.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=156299"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Giles",
+    "lastName": "Roulin",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 7,
+    "age": 30,
+    "dateofBirth": "15.05.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=156300"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Reto",
+    "lastName": "Schmidiger",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 32,
+    "dateofBirth": "22.04.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=138596"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Daniele",
+    "lastName": "Sette",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 32,
+    "dateofBirth": "28.02.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=138523"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Livio",
+    "lastName": "Simonet",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 26,
+    "dateofBirth": "24.08.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=195791"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Sandro",
+    "lastName": "Simonet",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 29,
+    "dateofBirth": "05.07.1995",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=167076"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Thomas",
+    "lastName": "Tumler",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 20,
+    "age": 35,
+    "dateofBirth": "05.11.1989",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=105040"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Franjo",
+    "lastName": "Von Allmen",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 23,
+    "age": 23,
+    "dateofBirth": "24.07.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=220878"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Noel",
+    "lastName": "Von Gruenigen",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 29,
+    "dateofBirth": "17.04.1995",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=166519"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Ralph",
+    "lastName": "Weber",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 31,
+    "dateofBirth": "31.05.1993",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=148261"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Daniel",
+    "lastName": "Yule",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 16,
+    "age": 31,
+    "dateofBirth": "18.02.1993",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=148287"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Ramon",
+    "lastName": "Zenhäusern",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 8,
+    "age": 32,
+    "dateofBirth": "04.05.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=138578"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Elia",
+    "lastName": "Zurbriggen",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 34,
+    "dateofBirth": "09.10.1990",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=117709"
+  },
+  {
+    "nationality": "Suisse",
+    "firstName": "Sandro",
+    "lastName": "Zurbrueg",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 22,
+    "dateofBirth": "21.09.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=230015"
+  },
+  {
+    "nationality": "Andorre",
+    "firstName": "Joan",
+    "lastName": "Verdu",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 16,
+    "age": 29,
+    "dateofBirth": "23.05.1995",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=166175"
+  },
+  {
+    "nationality": "Andorre",
+    "firstName": "Axel",
+    "lastName": "Esteve",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 29,
+    "dateofBirth": "19.12.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=159136"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Stefan",
+    "lastName": "Babinsky",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 14,
+    "age": 28,
+    "dateofBirth": "02.04.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=176974"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Fabian ",
+    "lastName": "Bachler",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 23,
+    "dateofBirth": "17.08.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=223367"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Stefan",
+    "lastName": "Brennsteiner",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 19,
+    "age": 33,
+    "dateofBirth": "03.10.1991",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=128892"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Daniel",
+    "lastName": "Danklmaier",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 7,
+    "age": 31,
+    "dateofBirth": "24.04.1993",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=149483"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Armin",
+    "lastName": "Dornauer",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 24,
+    "dateofBirth": "21.07.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=214225"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Stefan ",
+    "lastName": "Eichberger",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 17,
+    "age": 24,
+    "dateofBirth": "24.11.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=214543"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Jakob",
+    "lastName": "Eisner",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 21,
+    "dateofBirth": "21.08.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=238713"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Felix",
+    "lastName": "Endstrasser",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 21,
+    "dateofBirth": "29.05.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=239796"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Manuel",
+    "lastName": "Feller",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 22,
+    "age": 32,
+    "dateofBirth": "13.10.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=137557"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Lukas",
+    "lastName": "Feurstein",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 15,
+    "age": 23,
+    "dateofBirth": "18.05.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=219777"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Patrick",
+    "lastName": "Feurstein",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 10,
+    "age": 27,
+    "dateofBirth": "01.12.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=176104"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Lukas",
+    "lastName": "Gasser",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 23,
+    "dateofBirth": "12.08.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=223324"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Noah",
+    "lastName": "Geihseder",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 25,
+    "dateofBirth": "22.01.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=228366"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Mario",
+    "lastName": "Gramshammer",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 25,
+    "dateofBirth": "21.05.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=205113"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Jakob",
+    "lastName": "Greber",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 21,
+    "dateofBirth": "13.04.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=238715"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Fabio",
+    "lastName": "Gstrein",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 20,
+    "age": 27,
+    "dateofBirth": "14.06.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=191304"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Luca",
+    "lastName": "Gstrein",
+    "disciplines": [
+      "DH"
+    ],
+    "Price": 5,
+    "age": 24,
+    "dateofBirth": "04.02.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=212020"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Nicolas",
+    "lastName": "Gstrein",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 22,
+    "dateofBirth": "03.09.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=230885"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Raphael",
+    "lastName": "Haaser",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 19,
+    "age": 27,
+    "dateofBirth": "17.09.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=191305"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Felix",
+    "lastName": "Hacker",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 25,
+    "dateofBirth": "28.08.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=205017"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Oscar",
+    "lastName": "Heine",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 21,
+    "dateofBirth": "16.01.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=238714"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Daniel",
+    "lastName": "Hemetsberger",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 14,
+    "age": 33,
+    "dateofBirth": "23.05.1991",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=126467"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Christian",
+    "lastName": "Hirschbuehl",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 6,
+    "age": 34,
+    "dateofBirth": "19.04.1990",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=117790"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Philip",
+    "lastName": "Hoffmann",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 6,
+    "age": 22,
+    "dateofBirth": "29.08.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=231211"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Christoph",
+    "lastName": "Krenn",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 30,
+    "dateofBirth": "07.07.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=156781"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Vincent",
+    "lastName": "Kriechmayr",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 23,
+    "age": 33,
+    "dateofBirth": "01.10.1991",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=126472"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Felix",
+    "lastName": "Marksteiner",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 6,
+    "age": 22,
+    "dateofBirth": "03.11.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=230796"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Michael",
+    "lastName": "Matt",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 10,
+    "age": 31,
+    "dateofBirth": "13.05.1993",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=149514"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Christoph",
+    "lastName": "Meissl",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 24,
+    "dateofBirth": "05.01.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=211933"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Christopher",
+    "lastName": "Neumayer",
+    "disciplines": [
+      "DH"
+    ],
+    "Price": 6,
+    "age": 32,
+    "dateofBirth": "29.04.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=137585"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Lukas",
+    "lastName": "Passrugger",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 23,
+    "dateofBirth": "15.07.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=222708"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Adrian",
+    "lastName": "Pertl",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 9,
+    "age": 28,
+    "dateofBirth": "22.04.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=175813"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Andreas",
+    "lastName": "Ploier",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 27,
+    "dateofBirth": "30.04.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=190039"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Kilian",
+    "lastName": "Pramstaller",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 7,
+    "age": 22,
+    "dateofBirth": "18.08.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=231160"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Dominik",
+    "lastName": "Raschner",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 11,
+    "age": 30,
+    "dateofBirth": "23.08.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=159978"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Raphael",
+    "lastName": "Riederer",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 6,
+    "age": 23,
+    "dateofBirth": "01.02.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=219778"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Stefan",
+    "lastName": "Rieser",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 25,
+    "dateofBirth": "06.01.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=205325"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Simon",
+    "lastName": "Rueland",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 6,
+    "age": 27,
+    "dateofBirth": "15.05.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=191307"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Marco",
+    "lastName": "Schwarz",
+    "disciplines": [
+      "GS",
+      "SL",
+      "SG"
+    ],
+    "Price": 20,
+    "age": 29,
+    "dateofBirth": "16.08.1995",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=169280"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Ralph",
+    "lastName": "Seidler",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 22,
+    "dateofBirth": "12.01.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=228367"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Florian",
+    "lastName": "Strauss",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 6,
+    "age": 20,
+    "dateofBirth": "29.02.2004",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=254034"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Otmar",
+    "lastName": "Striedinger",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 11,
+    "age": 33,
+    "dateofBirth": "14.04.1991",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=126498"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Johannes",
+    "lastName": "Strolz",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 6,
+    "age": 32,
+    "dateofBirth": "12.09.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=137598"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Joshua",
+    "lastName": "Sturm",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 18,
+    "dateofBirth": "26.08.2006",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=219779"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Nicolas",
+    "lastName": "Tabernig",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 21,
+    "dateofBirth": "04.07.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=239799"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Manuel",
+    "lastName": "Traninger",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 26,
+    "dateofBirth": "29.09.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=196711"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Luis",
+    "lastName": "Tritscher",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 7,
+    "age": 22,
+    "dateofBirth": "06.07.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=231189"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Adrian",
+    "lastName": "Tschach",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 19,
+    "dateofBirth": "11.12.2004",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=254207"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Fabio",
+    "lastName": "Walch",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 21,
+    "dateofBirth": "10.06.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=240189"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Martin-Luis",
+    "lastName": "Walch",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 21,
+    "dateofBirth": "01.05.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=246326"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Christian",
+    "lastName": "Walder",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 33,
+    "dateofBirth": "31.08.1991",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=126502"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Vincent",
+    "lastName": "Wiesser",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 22,
+    "dateofBirth": "12.11.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=231190"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Moritz",
+    "lastName": "Zudrell",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 7,
+    "age": 19,
+    "dateofBirth": "03.07.2005",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=262368"
+  },
+  {
+    "nationality": "Autriche",
+    "firstName": "Noel",
+    "lastName": "Zwischenbrugger",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 6,
+    "age": 23,
+    "dateofBirth": "24.05.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=219780"
+  },
+  {
+    "nationality": "Belgique",
+    "firstName": "Sam",
+    "lastName": "Maes",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 12,
+    "age": 26,
+    "dateofBirth": "07.06.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=194529"
+  },
+  {
+    "nationality": "Belgique",
+    "firstName": "Armand",
+    "lastName": "Marchant",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 11,
+    "age": 26,
+    "dateofBirth": "14.12.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=189043"
+  },
+  {
+    "nationality": "Brésil",
+    "firstName": "Lucas",
+    "lastName": "Braathen",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 23,
+    "age": 24,
+    "dateofBirth": "19.04.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=213820"
+  },
+  {
+    "nationality": "Canada",
+    "firstName": "Cameron",
+    "lastName": "Alexander",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 20,
+    "age": 27,
+    "dateofBirth": "31.05.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=189309"
+  },
+  {
+    "nationality": "Canada",
+    "firstName": "Kyle",
+    "lastName": "Alexander",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 7,
+    "age": 25,
+    "dateofBirth": "17.03.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=203739"
+  },
+  {
+    "nationality": "Canada",
+    "firstName": "Asher",
+    "lastName": "Jordan",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 25,
+    "dateofBirth": "23.11.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=203745"
+  },
+  {
+    "nationality": "Canada",
+    "firstName": "Jamie",
+    "lastName": "Casselman",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 6,
+    "age": 24,
+    "dateofBirth": "17.05.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=212122"
+  },
+  {
+    "nationality": "Canada",
+    "firstName": "James",
+    "lastName": "Crawford",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 21,
+    "age": 27,
+    "dateofBirth": "03.05.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=188682"
+  },
+  {
+    "nationality": "Canada",
+    "firstName": "Simon",
+    "lastName": "Fournier",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 27,
+    "dateofBirth": "26.05.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=187997"
+  },
+  {
+    "nationality": "Canada",
+    "firstName": "Erik",
+    "lastName": "Read",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 33,
+    "dateofBirth": "31.05.1991",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=125587"
+  },
+  {
+    "nationality": "Canada",
+    "firstName": "Jeffrey",
+    "lastName": "Read",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 8,
+    "age": 27,
+    "dateofBirth": "01.10.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=187933"
+  },
+  {
+    "nationality": "Canada",
+    "firstName": "Brodie",
+    "lastName": "Seger",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 11,
+    "age": 28,
+    "dateofBirth": "28.12.1995",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=164059"
+  },
+  {
+    "nationality": "Canada",
+    "firstName": "Riley",
+    "lastName": "Seger",
+    "disciplines": [
+      "SG",
+      "D"
+    ],
+    "Price": 5,
+    "age": 27,
+    "dateofBirth": "21.04.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=189311"
+  },
+  {
+    "nationality": "Croatie",
+    "firstName": "Samuel",
+    "lastName": "Kolega",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 13,
+    "age": 25,
+    "dateofBirth": "15.01.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=202395"
+  },
+  {
+    "nationality": "Croatie",
+    "firstName": "Tvrtko",
+    "lastName": "Ljutic",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 6,
+    "age": 22,
+    "dateofBirth": "08.09.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=229505"
+  },
+  {
+    "nationality": "Croatie",
+    "firstName": "Istok",
+    "lastName": "Rodes",
+    "disciplines": [
+      "SL",
+      "GS"
+    ],
+    "Price": 8,
+    "age": 28,
+    "dateofBirth": "27.01.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=172529"
+  },
+  {
+    "nationality": "Croatie",
+    "firstName": "Matej",
+    "lastName": "Vidovic",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 31,
+    "dateofBirth": "14.04.1993",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=146640"
+  },
+  {
+    "nationality": "Croatie",
+    "firstName": "Filip",
+    "lastName": "Zubcic",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 20,
+    "age": 31,
+    "dateofBirth": "27.01.1993",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=146641"
+  },
+  {
+    "nationality": "Danemark",
+    "firstName": "Vitus",
+    "lastName": "Hanghoej",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 20,
+    "dateofBirth": "03.05.2004",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=252281"
+  },
+  {
+    "nationality": "Danemark",
+    "firstName": "Casper",
+    "lastName": "Dyrbye",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 28,
+    "dateofBirth": "19.06.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=172223"
+  },
+  {
+    "nationality": "Danemark",
+    "firstName": "Christian",
+    "lastName": "Borgnaes",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 6,
+    "age": 28,
+    "dateofBirth": "19.03.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=176625"
+  },
+  {
+    "nationality": "Finlande",
+    "firstName": "Eduard",
+    "lastName": "Hallberg",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 10,
+    "age": 21,
+    "dateofBirth": "06.08.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=246186"
+  },
+  {
+    "nationality": "Finlande",
+    "firstName": "Jesperi",
+    "lastName": "Kemppainen",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 20,
+    "dateofBirth": "21.05.2004",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=253673"
+  },
+  {
+    "nationality": "Finlande",
+    "firstName": "Emil",
+    "lastName": "Keranen",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 24,
+    "dateofBirth": "25.12.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=207147"
+  },
+  {
+    "nationality": "Finlande",
+    "firstName": "Elian",
+    "lastName": "Lehto",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 11,
+    "age": 24,
+    "dateofBirth": "02.06.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=215760"
+  },
+  {
+    "nationality": "Finlande",
+    "firstName": "Joel",
+    "lastName": "Palosaari",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 23,
+    "dateofBirth": "14.05.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=222144"
+  },
+  {
+    "nationality": "Finlande",
+    "firstName": "Jesper",
+    "lastName": "Pohjolainen",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 23,
+    "dateofBirth": "14.09.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=222476"
+  },
+  {
+    "nationality": "Finlande",
+    "firstName": "Andreas",
+    "lastName": "Romar",
+    "disciplines": [
+      "DH"
+    ],
+    "Price": 5,
+    "age": 35,
+    "dateofBirth": "04.09.1989",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=105314"
+  },
+  {
+    "nationality": "Finlande",
+    "firstName": "Erik",
+    "lastName": "Saravuo",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 21,
+    "dateofBirth": "13.05.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=244818"
+  },
+  {
+    "nationality": "Finlande",
+    "firstName": "Salomo",
+    "lastName": "Sirvio",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 23,
+    "dateofBirth": "26.07.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=222545"
+  },
+  {
+    "nationality": "Finlande",
+    "firstName": "Teddy",
+    "lastName": "Takki",
+    "disciplines": [
+      "DH",
+      ""
+    ],
+    "Price": 5,
+    "age": 28,
+    "dateofBirth": "23.02.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=172961"
+  },
+  {
+    "nationality": "Finlande",
+    "firstName": "Jaakko",
+    "lastName": "Tapanainen",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 22,
+    "dateofBirth": "19.01.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=231954"
+  },
+  {
+    "nationality": "Finlande",
+    "firstName": "Samu",
+    "lastName": "Torsti",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 33,
+    "dateofBirth": "05.09.1991",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=127584"
+  },
+  {
+    "nationality": "Finlande",
+    "firstName": "Turo",
+    "lastName": "Torvinen",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 25,
+    "dateofBirth": "13.10.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=212968"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Nils",
+    "lastName": "Allegre",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 19,
+    "age": 30,
+    "dateofBirth": "02.01.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=154638"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Nils",
+    "lastName": "Alphand",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 8,
+    "age": 28,
+    "dateofBirth": "16.06.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=172446"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Sam",
+    "lastName": "Alphand",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 27,
+    "dateofBirth": "29.09.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=187315"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Steven",
+    "lastName": "Amiez",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 18,
+    "age": 26,
+    "dateofBirth": "07.09.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=194749"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Leo",
+    "lastName": "Anguenot",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 13,
+    "age": 26,
+    "dateofBirth": "25.08.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=195194"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Auguste",
+    "lastName": "Aulnette",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 22,
+    "dateofBirth": "29.10.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=228839"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Mathieu",
+    "lastName": "Bailet",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 7,
+    "age": 28,
+    "dateofBirth": "23.04.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=172438"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Fabio",
+    "lastName": "Banfi",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 23,
+    "dateofBirth": "04.10.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=220886"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Victor",
+    "lastName": "Bessiere",
+    "disciplines": [
+      "DH"
+    ],
+    "Price": 5,
+    "age": 22,
+    "dateofBirth": "21.02.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=228823"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Ken",
+    "lastName": "Caillot",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 26,
+    "dateofBirth": "29.04.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=194744"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Hugo",
+    "lastName": "Desgrippes",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 24,
+    "dateofBirth": "16.01.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=194744"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Sacha",
+    "lastName": "Dimier Chambet",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 22,
+    "dateofBirth": "09.08.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=228787"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Leo",
+    "lastName": "Ducros",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 23,
+    "dateofBirth": "17.04.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=220900"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Mathieu",
+    "lastName": "Faivre",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 15,
+    "age": 32,
+    "dateofBirth": "18.01.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=135985"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Guerlain",
+    "lastName": "Favre",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 5,
+    "age": 24,
+    "dateofBirth": "18.07.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=211664"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Adrien ",
+    "lastName": "Fresquet",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 25,
+    "dateofBirth": "09.10.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=203029"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Charles",
+    "lastName": "Gamel Seigneur",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 24,
+    "dateofBirth": "14.10.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=228583"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Blaise",
+    "lastName": "Giezendanner",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 11,
+    "age": 32,
+    "dateofBirth": "29.11.1991",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=126982"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Thomas",
+    "lastName": "Lardon",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 23,
+    "dateofBirth": "13.02.2001",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=221350"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Theo",
+    "lastName": "Letitre",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 26,
+    "dateofBirth": "17.12.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=188113"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Florian",
+    "lastName": "Loriot",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 12,
+    "age": 26,
+    "dateofBirth": "21.11.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=200704"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Victor",
+    "lastName": "Muffat-Jeandet",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 35,
+    "dateofBirth": "05.03.1989",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=108784"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Maxence",
+    "lastName": "Muzaton",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 12,
+    "age": 34,
+    "dateofBirth": "26.06.1990",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=120313"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Clément",
+    "lastName": "Noël",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 21,
+    "age": 27,
+    "dateofBirth": "03.05.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=187117"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Diego",
+    "lastName": "Orecchioni",
+    "disciplines": [
+      "GS",
+      "SL"
+    ],
+    "Price": 6,
+    "age": 24,
+    "dateofBirth": "19.03.2000",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=211665"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Loevan",
+    "lastName": "Parand",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 25,
+    "dateofBirth": "15.06.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=203193"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Alexis",
+    "lastName": "Pintuault",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 15,
+    "age": 33,
+    "dateofBirth": "20.03.1991",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=127048"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Paco",
+    "lastName": "Rassat",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 11,
+    "age": 26,
+    "dateofBirth": "13.11.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=194724"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Baptiste",
+    "lastName": "Sambuis",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 22,
+    "dateofBirth": "30.01.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=234446"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Cyprien",
+    "lastName": "Sarrazin",
+    "disciplines": [
+      "GS",
+      "DH",
+      "SG"
+    ],
+    "Price": 20,
+    "age": 30,
+    "dateofBirth": "13.10.1994",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=154653"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Adrien",
+    "lastName": "Theaux",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 9,
+    "age": 40,
+    "dateofBirth": "18.09.1984",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=61175"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Louis",
+    "lastName": "Tuaire",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 25,
+    "dateofBirth": "09.11.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=203179"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Flavio",
+    "lastName": "Vitale",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 7,
+    "age": 19,
+    "dateofBirth": "28.07.2005",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=262695"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Stefan",
+    "lastName": "Luitz",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 6,
+    "age": 32,
+    "dateofBirth": "26.03.1992",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=137452"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Simon",
+    "lastName": "Jocher",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 28,
+    "dateofBirth": "25.05.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=175189"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Sebastian",
+    "lastName": "Holzmann",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 6,
+    "age": 31,
+    "dateofBirth": "22.03.1993",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=146347"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Fabian",
+    "lastName": "Himmelsbach",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 5,
+    "age": 25,
+    "dateofBirth": "25.06.1999",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=203187"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Fabian",
+    "lastName": "Gratz",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 9,
+    "age": 27,
+    "dateofBirth": "22.07.1997",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=187951"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Anton",
+    "lastName": "Gramel",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 11,
+    "age": 26,
+    "dateofBirth": "24.07.1998",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=195408"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Josef",
+    "lastName": "Ferstl",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 6,
+    "age": 35,
+    "dateofBirth": "29.12.1988",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=95447"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Romed",
+    "lastName": "Baumann",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 10,
+    "age": 38,
+    "dateofBirth": "14.01.1986",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=68659"
+  },
+  {
+    "nationality": "Allemagne",
+    "firstName": "Hannes",
+    "lastName": "Amman",
+    "disciplines": [
+      "GS"
+    ],
+    "Price": 5,
+    "age": 22,
+    "dateofBirth": "04.10.2002",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=229669"
+  },
+  {
+    "nationality": "Royaume-Uni",
+    "firstName": "Billy",
+    "lastName": "Major",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 7,
+    "age": 28,
+    "dateofBirth": "21.11.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=173085"
+  },
+  {
+    "nationality": "Royaume-Uni",
+    "firstName": "Dave",
+    "lastName": "Ryding",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 13,
+    "age": 37,
+    "dateofBirth": "05.12.1986",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=77191"
+  },
+  {
+    "nationality": "Royaume-Uni",
+    "firstName": "Roy-Alexander",
+    "lastName": "Steudle",
+    "disciplines": [
+      "DH",
+      "SG"
+    ],
+    "Price": 5,
+    "age": 31,
+    "dateofBirth": "05.07.1993",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=146884"
+  },
+  {
+    "nationality": "Royaume-Uni",
+    "firstName": "Laurie",
+    "lastName": "Tylor",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 8,
+    "age": 28,
+    "dateofBirth": "10.02.1996",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=175928"
+  },
+  {
+    "nationality": "France",
+    "firstName": "Enzo",
+    "lastName": "Canaferina",
+    "disciplines": [
+      "SL"
+    ],
+    "Price": 7,
+    "age": 22,
+    "dateofBirth": "15.08.2003",
+    "lien": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=al&competitorid=239148"
+  }
+]

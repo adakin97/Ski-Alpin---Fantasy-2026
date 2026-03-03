@@ -1,0 +1,1887 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ski Alpin Fantasy 2026</title>
+
+  <!-- Police Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome pour icônes -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <style>
+     :root {
+      --main-red: #c62828; 
+      --dark-bg: #1a1a1a;
+      --light-bg: #f8f8f8;
+      --hover-gray: #ddd;
+      --white: #ffffff;
+      --shadow-color: rgba(0, 0, 0, 0.18);
+      --yellow-alert-bg: #fff3b0;
+      --yellow-alert-border: #f2d600;
+      --font-primary: 'Montserrat', sans-serif;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-primary);
+      background: linear-gradient(to bottom right, #ffffff, #f0f0f0);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    /* ---------- TOP BAR 1 ---------- */
+    .topbar1 {
+      background: #fff;
+      border-bottom: 1px solid #e0e0e0;
+      position: sticky;
+      top: 0;
+      z-index: 150;
+      padding: 0.75rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: var(--main-red);
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      cursor: default;
+      user-select: none;
+    }
+    .logo i { font-size: 1.6rem; }
+    .auth-links { display: flex; gap: 0.8rem; align-items: center; }
+    .auth-links a {
+      font-weight: 700;
+      color: #333;
+      text-decoration: none;
+      padding: 7px 14px;
+      border: 1.5px solid #ccc;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      cursor: pointer;
+      transition: border-color 0.2s, color 0.2s;
+      font-family: var(--font-primary);
+      white-space: nowrap;
+    }
+    .auth-links a:hover { border-color: var(--main-red); color: var(--main-red); }
+    /* ---------- TOP BAR 2 ---------- */
+    .topbar2 {
+      background-color: var(--dark-bg);
+      border-bottom: 3px solid var(--main-red);
+      position: sticky;
+      top: 56px;
+      z-index: 140;
+      display: flex;
+      justify-content: center;
+      user-select: none;
+      overflow-x: auto;
+    }
+    .topbar2 > nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      padding: 0;
+    }
+    .topbar2 > nav > a {
+      color: #bbb;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      padding: 13px 14px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+      border-bottom: 3px solid transparent;
+      position: relative;
+      top: 3px;
+      transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    }
+    .topbar2 > nav > a i { font-size: 0.85rem; }
+    .topbar2 > nav > a:hover,
+    .topbar2 > nav > a:focus {
+      color: #fff;
+      border-bottom-color: var(--main-red);
+      outline: none;
+    }
+    .topbar2 > nav > a.active {
+      color: #fff;
+      border-bottom-color: var(--main-red);
+    }
+
+    /* SECTION CONTENU */
+    .section {
+      max-width: 720px;
+      margin: auto;
+      padding: 60px 20px 80px;
+      background-color: var(--white);
+      border-radius: 16px;
+      box-shadow: 0 7px 30px var(--shadow-color);
+      text-align: center;
+      user-select: none;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .section h2 {
+      font-size: 2.9rem;
+      font-weight: 900;
+      color: var(--main-red);
+      margin-bottom: 0;
+      letter-spacing: 1.3px;
+    }
+
+    .section p {
+      font-weight: 500;
+      font-size: 1.3rem;
+      color: #555;
+      line-height: 1.7;
+      letter-spacing: 0.3px;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+
+  
+.details {
+        background-color: #e9ecef;
+        padding: 10px;
+        margin: 0;
+        display: none; /* Caché par défaut */
+      }
+  
+.visible {
+        display: table-row; /* Montre les détails sous forme de rangée */
+      }
+
+.subtitle{
+        background-color: red;
+        text-align: center;
+        color: white;
+        margin-top: 60px;
+        margin-bottom: -10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 40px;
+      }
+
+      .subtitle_2{
+        background-color: red;
+        text-align: center;
+        color: white;
+        margin-top: 60px;
+        margin-bottom: -10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 40px;
+      }
+
+    .auth-links {
+      display: flex;
+      gap: 1.2rem;
+    }
+
+    .auth-links a {
+      font-weight: 600;
+      color: var(--main-red);
+      text-decoration: none;
+      padding: 10px 20px;
+      border: 2px solid var(--main-red);
+      border-radius: 30px;
+      transition: background-color 0.35s ease, color 0.35s ease, box-shadow 0.35s ease;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 1rem;
+      white-space: nowrap;
+      box-shadow: 0 0 0 transparent;
+      cursor: pointer;
+    }
+    .auth-links a:hover,
+    .auth-links a:focus {
+      background-color: var(--main-red);
+      color: var(--white);
+      box-shadow: 0 4px 12px var(--main-red);
+      outline: none;
+      text-decoration: none;
+    }
+
+    /* User menu styles */
+    .user-menu {
+      position: relative;
+      display: inline-block;
+    }
+
+    #user-menu-button {
+      background: none;
+      border: 2px solid var(--main-red);
+      color: var(--main-red);
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-weight: 600;
+      font-family: var(--font-primary);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      user-select: none;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    #user-menu-button:hover,
+    #user-menu-button:focus {
+      background-color: var(--main-red);
+      color: var(--white);
+      outline: none;
+    }
+
+    #user-dropdown {
+      position: absolute;
+      top: calc(100% + 6px);
+      right: 0;
+      background: var(--white);
+      box-shadow: 0 5px 15px var(--shadow-color);
+      border-radius: 10px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      min-width: 160px;
+      z-index: 200;
+      display: none; /* Hidden by default */
+    }
+
+    #user-dropdown li {
+      border-bottom: 1px solid #eee;
+    }
+
+    #user-dropdown li:last-child {
+      border-bottom: none;
+    }
+
+    #user-dropdown a,
+    #user-dropdown button {
+      display: block;
+      padding: 12px 16px;
+      color: var(--main-red);
+      text-decoration: none;
+      font-weight: 600;
+      background: none;
+      border: none;
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+      font-family: var(--font-primary);
+      user-select: none;
+      transition: background-color 0.3s ease;
+    }
+
+    #user-dropdown a:hover,
+    #user-dropdown button:hover,
+    #user-dropdown a:focus,
+    #user-dropdown button:focus {
+      background-color: var(--main-red);
+      color: var(--white);
+      outline: none;
+    }
+
+    /* Modal styles */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed;
+      z-index: 200;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.5);
+    }
+
+    .modal-content {
+      background-color: #fff;
+      margin: 15% auto;
+      padding: 30px;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 400px;
+      position: relative;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+.modal-content button:hover {
+  background-color: #c40810;
+}
+
+.close {
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  font-size: 1.6rem;
+  color: #888;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: #000;
+}
+        /* Form styles */
+    form label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    form input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    form button {
+      background-color: var(--main-red);
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      width: 100%;
+    }
+
+    /* FOOTER */
+    footer {
+      margin-top: auto;
+      background-color: var(--dark-bg);
+      color: #bbb;
+      text-align: center;
+      padding: 22px 0;
+      font-size: 0.9rem;
+      user-select: none;
+    }
+
+    .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+    line-height: 0;
+    font-size: 30px;
+}
+
+.captain-badge {
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  margin-top: 6px;
+}
+.captain-btn {
+  background: linear-gradient(135deg, #ffb300, #ffca28);
+  color: #222;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 14px;
+  margin-top: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+.captain-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #ffca28, #ffd54f);
+}
+.captain-btn.active {
+  background: linear-gradient(135deg, #ffd700, #fff176);
+  color: #000;
+  box-shadow: 0 0 10px gold;
+}
+#captain-confirmation {
+  position: fixed;
+  bottom: 60%;
+  right: 40%;
+  background-color: #ffb300;
+  color: #222;
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  font-weight: bold;
+  display: none;
+  z-index: 1000;
+}
+
+
+#boxes-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3; /* lightgray un peu plus doux */
+  padding: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  height: 160px;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  user-select: none;
+}
+
+.box img {
+  width: 60px;
+  margin-bottom: 12px;
+  border-radius: 3px;
+  object-fit: cover;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.box .skier-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+.box .points-total {
+  color: #2e7d32; /* vert foncé */
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.box .points-last {
+  color: #f57c00; /* orange */
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.box .price {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.box.selected {
+  background-color: #2e7d32; /* darkgreen plus doux */
+  color: white;
+  border-color: #1b4d20;
+  box-shadow: 0 0 15px #1b4d20;
+  transform: translateY(-4px);
+}
+
+.box:hover:not(.selected) {
+  background-color: #d32f2f; /* rouge moins agressif */
+  color: white;
+  box-shadow: 0 0 10px #d32f2f;
+  transform: translateY(-2px);
+}
+
+#filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#filters input,
+#filters select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#skier-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+}
+
+/* 1. Carte globale */
+.skier-card {
+  background: #fff;
+  border-radius: 0;
+  border: 1px solid #e0e0e0;
+  border-top: 3px solid transparent;
+  overflow: hidden;
+  transition: border-top-color 0.2s ease;
+  cursor: pointer;
+  margin: 0;
+}
+
+/* Effet hover sur ordi */
+.skier-card:hover {
+  border-top-color: #c62828;
+  transform: none;
+  box-shadow: none;
+}
+
+/* 2. Contenu flex horizontal sur desktop, vertical sur mobile */
+.skier-card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 12px;
+}
+
+/* Desktop >= 600px = ligne */
+@media (min-width: 600px) {
+  .skier-card-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* 3. Bloc info (drapeau + texte) */
+.skier-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: 0; /* ESSENTIEL pour ne pas déborder */
+}
+
+/* Desktop = alignement à gauche */
+@media (min-width: 600px) {
+  .skier-info {
+    align-items: flex-start;
+  }
+}
+
+/* Drapeau */
+.skier-info img {
+  width: 40px;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Nom */
+.skier-info h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #222;
+  text-align: center;
+  word-break: break-word;       /* coupe proprement */
+  overflow-wrap: anywhere;      /* plus permissif */
+  white-space: normal;
+  max-width: 180px;             /* limite la largeur */
+}
+
+/* Desktop = texte aligné à gauche + plus d’espace */
+@media (min-width: 600px) {
+  .skier-info h4 {
+    text-align: left;
+    max-width: 240px;
+  }
+}
+
+/* Âge & disciplines */
+.skier-info p {
+  margin: 2px 0;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.3;
+  text-align: center;
+}
+
+/* Desktop = aligné à gauche */
+@media (min-width: 600px) {
+  .skier-info p {
+    text-align: left;
+  }
+}
+
+/* Lien “Voir plus” */
+.see-more-btn {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 5px 12px;
+  background: #c62828;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: inherit;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.see-more-btn:hover {
+  background: #a31f1f;
+}
+
+/* 4. Prix */
+.skier-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skier-price span {
+  background: #f5f5f5;
+  color: #c62828;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 6px 14px;
+  border-radius: 0;
+  border: 1px solid #e0e0e0;
+}
+
+.skier-points {
+  color: #28a745;
+  font-weight: 600;
+  margin: 2px 0;
+}
+
+.skier-card.selected {
+    background-color: rgb(208, 255, 208);
+    align-items: center;
+}
+
+.dashboard-item {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+  }
+
+  .dashboard-item:hover {
+    transform: translateY(-4px);
+  }
+
+  .dashboard-item .label {
+    font-size: 0.95rem;
+    color: #666;
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .dashboard-item .value {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #222;
+  }
+
+#save-button {
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+    display: block;
+    width: 80%; /* Largeur ajustable */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#save-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+button.remove-button {
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+button.remove-button:hover {
+  background-color: #e04848;
+}
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .topbar1 {
+        padding: 0.7rem 1.5rem;
+      }
+      .logo {
+        font-size: 1.5rem;
+      }
+      .logo i {
+        font-size: 1.8rem;
+      }
+      .auth-links a {
+        font-size: 0.9rem;
+        padding: 8px 14px;
+      }
+      .topbar2 nav {
+        gap: 1.8rem;
+        padding: 0.6rem 1rem;
+      }
+      .topbar2 nav a {
+        font-size: 1.1rem;
+        padding: 10px 16px;
+      }
+      .hero h1 {
+        font-size: 3.1rem;
+      }
+      .hero p {
+        font-size: 1.3rem;
+      }
+      .construction-alert {
+        font-size: 1rem;
+        padding: 12px 16px;
+        gap: 10px;
+      }
+      .section h2 {
+        font-size: 2.3rem;
+      }
+      .section p {
+        font-size: 1.1rem;
+      }
+    }
+    @media screen and (max-width: 600px) {
+  .skier-card {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .skier-card h3 {
+    font-size: 1rem;
+  }
+
+  .skier-card .remove-button {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+  </style>
+</head>
+<body>
+<header class="topbar1" role="banner" aria-label="Barre de navigation principale">
+  <div class="logo" aria-label="Logo Ski Alpin Fantasy">
+    <i class="fas fa-mountain"></i> Ski Alpin Fantasy 2026
+  </div>
+  <nav id="nav-auth">
+    <div class="auth-links">
+      <a href="#" id="openLogin"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+      <a href="#" id="openSignup"><i class="fas fa-user-plus"></i> Inscription</a>
+    </div>
+  </nav>
+</header>
+  <!-- Top bar 2 - menu principal -->
+  <nav class="topbar2" role="navigation" aria-label="Menu principal">
+    <nav>
+      <a href="index.html"  tabindex="0"><i class="fas fa-home" aria-hidden="true"></i> Accueil</a>
+      <a href="classement_skieurs.html" tabindex="0"><i class="fas fa-chart-line" aria-hidden="true"></i> Classements Skieurs</a>
+      <a href="classement_joueur.html" tabindex="0"><i class="fas fa-users" aria-hidden="true"></i> Classements Joueurs</a>
+      <a href="#Mon_equipe.html" class="active" tabindex="0"><i class="fas fa-user" aria-hidden="true"></i> Mon Équipe</a>
+      <a href="rules.html" tabindex="0"><i class="fas fa-book" aria-hidden="true"></i> Règles</a>
+      <a href="about.html" tabindex="0"><i class="fas fa-info-circle" aria-hidden="true"></i> À propos</a>
+    </nav>
+  </nav>
+ <h1>Mon équipe</h1>
+<p>
+  Compose ton équipe en sélectionnant <strong>8 skieurs</strong> pour marquer un maximum de points !
+  <br>Pour chaque case ci-dessous, clique pour voir les skieurs disponibles et utilise les filtres pour t'aider à choisir.</br>
+  <br>Le <span style="color:blue;"><strong>prix</strong></span> de chaque skieur est affiché en bleu, et tu peux consulter son profil FIS via un lien direct.</br>
+  <br>Quelques règles importantes à respecter :</br>
+  <ul class="my_text2">
+    <li>Tu dois avoir <strong>au moins un skieur par discipline</strong> (par exemple, Odermatt compte pour le géant, la descente et le Super-G).</li>
+    <li>Ton équipe ne peut pas dépasser <strong>120 étoiles</strong>.</li>
+    <li>Tu peux choisir <strong>maximum 2 skieurs de la même nationalité</strong>.</li>
+  </ul>
+</p>
+<div id="team-dashboard" style="
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin: 2rem auto;
+  padding: 20px;
+  max-width: 1000px;
+  background-color: var(--light-bg);
+  border-radius: 16px;
+  box-shadow: 0 4px 12px var(--shadow-color);
+  font-family: var(--font-primary);
+">
+
+  <div class="dashboard-item">
+    <i class="fas fa-crown" style="color: gold; font-size: 1.4rem;"></i>
+    <div class="label">Capitaine</div>
+    <div class="value" id="team-captain">Aucun</div>
+  </div>
+
+  <div class="dashboard-item">
+    <i class="fas fa-coins" style="color: var(--main-red); font-size: 1.4rem;"></i>
+    <div class="label">Budget restant</div>
+    <div class="value" id="remaining-budget">120 ★</div>
+  </div>
+
+  <div class="dashboard-item">
+    <i class="fas fa-exchange-alt" style="color: #28a745; font-size: 1.4rem;"></i>
+    <div class="label">Transferts restants</div>
+    <div class="value" id="transfers-left">8</div>
+  </div>
+
+  <div class="dashboard-item">
+    <i class="fas fa-flag-checkered" style="color: #ffc107; font-size: 1.4rem;"></i>
+    <div class="label">Points dernière course</div>
+    <div class="value" id="last-race-points">0 pts</div>
+  </div>
+
+  <div class="dashboard-item">
+    <i class="fas fa-chart-line" style="color: #17a2b8; font-size: 1.4rem;"></i>
+    <div class="label">Total cumulé</div>
+    <div class="value" id="total-points">0 pts</div>
+  </div>
+</div>
+
+
+                <div class="container">            
+                    <!-- Boxes pour les skieurs sélectionnés -->
+                    <div id="boxes-container">
+                        <!-- Cases dynamiques générées via JS -->
+                        <div class="box" onclick="openSkierList(this)"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
+                        <div class="box" onclick="openSkierList(this)"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
+                        <div class="box" onclick="openSkierList(this)"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
+                        <div class="box" onclick="openSkierList(this)"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
+                        <div class="box" onclick="openSkierList(this)"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
+                        <div class="box" onclick="openSkierList(this)"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
+                        <div class="box" onclick="openSkierList(this)"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
+                        <div class="box" onclick="openSkierList(this)"><img src="person.png" alt="person icon"><p>Sélectionner un skieur</p></div>
+                    </div>
+                </div>
+            
+                <!-- Barre de recherche et filtres -->
+                <div id="filters">
+                    <input type="text" id="search-bar" placeholder="Rechercher un skieur..." oninput="searchSkiers()">
+                    <select id="discipline-filter" onchange="applyFilters()">
+                        <option value="">-- Filtrer par discipline --</option>
+                        <option value="SL">SL</option>
+                        <option value="GS">GS</option>
+                        <option value="DH">DH</option>
+                        <option value="SG">SG</option>
+                    </select>
+                    <select id="nationality-filter" onchange="applyFilters()">
+                        <option value="">-- Filtrer par nationalité --</option>
+                    </select>
+                    <input type="number" id="age-filter" placeholder="Filtrer par âge" oninput="applyFilters()">
+                    
+                    <!-- Price filter added here -->
+                    <input type="number" id="price-filter-min" placeholder="Prix min" oninput="applyFilters()">
+                    <input type="number" id="price-filter-max" placeholder="Prix max" oninput="applyFilters()">
+                    <select id="sort-price" onchange="applyFilters()">
+                      <option value="">-- Trier par prix --</option>
+                      <option value="asc">Prix croissant</option>
+                      <option value="desc">Prix décroissant</option>
+                    </select>
+                </div>
+
+            
+                <!-- Liste des skieurs avec pagination -->
+                <div id="skier-list">
+                    <div id="skier-info"></div>
+                    <div id="pagination-controls">
+                        <button id="prev-page" onclick="prevPage()">Précédent</button>
+                        <span id="current-page">Page 1</span>
+                        <button id="next-page" onclick="nextPage()">Suivant</button>
+                    </div>
+                </div>
+                <button id="save-button">Sauvegarder l'équipe</button>
+                <div id="save-confirmation" style="
+                position: fixed;
+                bottom: 60%;
+                right: 40%;
+                background-color: #bf4a3b;
+                color: white;
+                padding: 12px 20px;
+                border-radius: 10px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+                font-weight: bold;
+                display: none;
+                z-index: 1000;
+                ">
+                ✔  Équipe sauvegardée avec succès !
+              </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </p>
+        </main>
+
+  <footer>
+    &copy; 2026 Ski Alpin Fantasy. Tous droits réservés.
+  </footer>
+
+<!-- MODALE CONNEXION -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close" data-close="loginModal">&times;</span>
+      <h2>Connexion</h2>
+      <form id="loginForm">
+        <label>Pseudo : <input type="text" name="username" required></label>
+        <label>Mot de passe : <input type="password" name="password" required></label>
+        <button type="submit">Se connecter</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- MODALE INSCRIPTION -->
+  <div id="signupModal" class="modal">
+    <div class="modal-content">
+      <span class="close" data-close="signupModal">&times;</span>
+      <h2>Inscription</h2>
+      <form id="signupForm">
+        <label>Pseudo : <input type="text" name="username" required></label>
+        <label>Email : <input type="email" name="email" required></label>
+        <label>Mot de passe : <input type="password" name="password" required></label>
+        <label>Confirmez : <input type="password" name="confirmPassword" required></label>
+        <button type="submit">Créer un compte</button>
+      </form>
+    </div>
+  </div>
+
+
+
+  <script type="module">
+// Firebase Auth + Firestore
+import { auth, db } from "./firebase.js";
+import { onAuthStateChanged, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
+import { doc, setDoc, getDoc, updateDoc, collection, query, where, getDocs, serverTimestamp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js";
+
+// ================================
+// Script complet - Fantasy Ski App
+// ================================
+
+// -------- Variables globales --------
+let currentPage = 1;
+const skiersPerPage = 18;
+let skiersData = [];
+let filteredSkiers = [];
+const maxSelections = 8;
+const maxPerNationality = 2;
+let totalBudget = 120;
+let remainingBudget = totalBudget;
+let budgetElement = null;
+let totalBudgetElement = null;
+let racePointsData = []; // tableau d'objets { Nom, Pays, points, ... } après fusion
+let selectedSkiers = [];
+let teamCaptain = null;
+
+// Liste des fichiers de courses (modifie / ajoute tes JSON ici)
+const courses = [
+];
+
+// --- utilitaires de normalisation ---
+function normalizeText(s) {
+  if (!s && s !== 0) return "";
+  return s.toString()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // retire les accents
+    .toLowerCase()
+    .trim();
+}
+
+// --- chargement et fusion de plusieurs fichiers points ---
+async function loadAllRacePoints(courseFiles = []) {
+  if (!Array.isArray(courseFiles) || courseFiles.length === 0) {
+    racePointsData = [];
+    return;
+  }
+
+  // fetch tous les fichiers en parallèle mais sans échouer complètement si un seul manque
+  const promises = courseFiles.map(file =>
+    fetch(file).then(r => {
+      if (!r.ok) throw new Error(`${file} status ${r.status}`);
+      return r.json();
+    })
+  );
+
+  const settled = await Promise.allSettled(promises);
+  const successes = settled
+    .filter(s => s.status === "fulfilled")
+    .map(s => s.value);
+
+  if (successes.length === 0) {
+    console.warn("Aucun fichier points chargé (vérifie le chemin ou lance un serveur HTTP).");
+    racePointsData = [];
+    return;
+  }
+
+  // mergedMap: clé = normalizedName + '|' + countryCode
+  const mergedMap = {};
+
+  successes.forEach(courseArr => {
+    if (!Array.isArray(courseArr)) return;
+    courseArr.forEach(entry => {
+      const entryName = normalizeText(entry.Nom || "");
+      const entryPays = (entry.Pays || "").toString().toUpperCase().trim();
+      const key = `${entryName}|${entryPays}`;
+
+      if (!mergedMap[key]) {
+        // clone et s'assurer que nombres sont numbers
+        mergedMap[key] = {
+          Nom: entry.Nom,
+          Pays: entry.Pays,
+          points: Number(entry.points) || 0,
+          "Points bonus": Number(entry["Points bonus"]) || 0,
+          "Points classement": Number(entry["Points classement"]) || 0,
+          "Places gagnées": Number(entry["Places gagnées"]) || 0,
+          Dossard: entry.Dossard
+        };
+      } else {
+        mergedMap[key].points += Number(entry.points) || 0;
+        mergedMap[key]["Points bonus"] += Number(entry["Points bonus"]) || 0;
+        mergedMap[key]["Points classement"] += Number(entry["Points classement"]) || 0;
+        mergedMap[key]["Places gagnées"] += Number(entry["Places gagnées"]) || 0;
+        // Dossard / Pays / Nom : on garde la première valeur (ok)
+      }
+    });
+  });
+
+  racePointsData = Object.values(mergedMap);
+}
+
+// --- mapping pays (ton object existant, conserve-le) ---
+const countryCodeMap = {
+  "France": "FRA",
+  "Norvège": "NOR",
+  "Suisse": "SUI",
+  "Belgique": "BEL",
+  "Brésil": "BRA",
+  "Autriche":"AUT",
+  "USA":"USA",
+  "Allemagne":"GER",
+  "Pays-Bas":"NED",
+  "Italie":"ITA",
+  "Slovénie":"SLO",
+  "Poland":"POL",
+  "Finlande":"FIN",
+  "Suède":"SWE",
+  "Chili":"CHI",
+  "Argentine":"ARG",
+  "Japon":"JAP",
+  "Espagne":"SPA",
+  "Andorre":"AND",
+  "Bulgarie":"BUG",
+  "Slovaquie":"SVK",
+  "Croatie":"CRO",
+  "Royaume Uni":"GBR",
+  "Estonie":"EST"
+};
+
+async function loadLastRacePoints() {
+  if (!Array.isArray(courses) || courses.length === 0) {
+    const el0 = document.getElementById("last-race-points");
+    if (el0) el0.innerText = `0 pts`;
+    return 0;
+  }
+  const lastCourseFile = courses[courses.length - 1];
+  try {
+    const response = await fetch(lastCourseFile);
+    if (!response.ok) throw new Error(`Erreur chargement ${lastCourseFile}`);
+    window.lastRaceData = await response.json(); // <--- stock en global
+    if (!Array.isArray(window.lastRaceData)) {
+      window.lastRaceData = [];
+      return 0;
+    }
+
+    let totalLastRacePoints = 0;
+    selectedSkiers.forEach(skier => {
+      totalLastRacePoints += getLastRacePointsForSkier(skier);
+    });
+
+    const lastRacePointsEl = document.getElementById("last-race-points");
+    if (lastRacePointsEl) lastRacePointsEl.innerText = `${totalLastRacePoints} pts`;
+    return totalLastRacePoints;
+
+  } catch (err) {
+    console.warn("Erreur lors du chargement des points de la dernière course :", err);
+    window.lastRaceData = [];
+    const el0 = document.getElementById("last-race-points");
+    if (el0) el0.innerText = `0 pts`;
+    return 0;
+  }
+}
+
+// --- helper pour comparer pays robustement ---
+function countryMatches(entryPays, skierNationality) {
+  const entryP = (entryPays || "").toString().toUpperCase().trim();
+  const skierRaw = (skierNationality || "").toString().trim();
+  const skierCode = (countryCodeMap[skierRaw] || skierRaw).toString().toUpperCase().trim();
+  if (!entryP || !skierCode) return false;
+  if (entryP === skierCode) return true;
+  // si entryPays est un nom complet (ex: "France"), map et comparer
+  for (const [name, code] of Object.entries(countryCodeMap)) {
+    if (entryP === name.toUpperCase() && code.toUpperCase() === skierCode) return true;
+  }
+  return false;
+}
+
+// --- récupération des fantasy points pour un skieur (utilise racePointsData) ---
+function getFantasyPointsForSkier(skier) {
+  if (!Array.isArray(racePointsData) || racePointsData.length === 0) return 0;
+
+  const fullName = normalizeText(`${skier.firstName} ${skier.lastName}`);
+  const match = racePointsData.find(entry => {
+    const entryName = normalizeText(entry.Nom || "");
+    if (entryName !== fullName) return false;
+    // comparer pays de façon tolérante
+    return countryMatches(entry.Pays, skier.nationality);
+  });
+
+  return match ? Number(match.points) || 0 : 0;
+}
+
+// --- met à jour total points de l'équipe
+function updateTeamTotalPoints() {
+  let total = 0;
+  selectedSkiers.forEach(skier => {
+    let pts = getFantasyPointsForSkier(skier);
+    if (teamCaptain && teamCaptain.firstName === skier.firstName && teamCaptain.lastName === skier.lastName) {
+      pts *= 2; // double pour capitaine
+    }
+    total += pts;
+  });
+
+  const el = document.getElementById("total-points");
+  if (el) el.innerText = `${total} pts`;
+  return total;
+}
+
+
+// --- update remaining budget (prend soin d'éviter erreur si element absent)
+function updateRemainingBudget() {
+  if (!budgetElement) budgetElement = document.getElementById("remaining-budget");
+  if (budgetElement) budgetElement.innerText = `${remainingBudget}`;
+}
+
+// --- affichage des résultats agrégés (optionnel, sécurisé) ---
+function displayResults(data) {
+  const tbody = document.querySelector("#resultsTable tbody");
+  if (!tbody) {
+    console.warn("Pas de #resultsTable dans la page — displayResults ignoré.");
+    return;
+  }
+  tbody.innerHTML = "";
+  data.sort((a,b) => (Number(b.points)||0) - (Number(a.points)||0));
+  data.forEach((runner, i) => {
+    const row = document.createElement("tr");
+    row.innerHTML = `
+      <td>${i+1}</td>
+      <td>${runner.Nom}</td>
+      <td>${runner.Pays}</td>
+      <td>${runner.points}</td>
+      <td>${runner["Places gagnées"]}</td>
+      <td>${runner.Dossard || ""}</td>
+      <td>${runner["Points bonus"]}</td>
+      <td>${runner["Points classement"]}</td>
+    `;
+    tbody.appendChild(row);
+  });
+}
+
+// ----------------- initialisation centralisée -----------------
+document.addEventListener("DOMContentLoaded", async function() {
+  budgetElement = document.getElementById("remaining-budget");
+  totalBudgetElement = document.getElementById("total-budget");
+  try {
+    await loadAllRacePoints(courses);
+    displayResults(racePointsData);
+  } catch (err) {
+    console.warn("Erreur lors du chargement des points:", err);
+  }
+  try {
+    await loadSkiers();
+  } catch (err) {
+    console.warn("Erreur loadSkiers:", err);
+  }
+  updateRemainingBudget();
+  updateTeamTotalPoints();
+
+  await loadLastRacePoints();  // <-- ajout ici
+});
+
+// -------- Auth (Firebase) --------
+function openModal(id) {
+  document.getElementById(id).style.display = "block";
+}
+
+function closeModal(id) {
+  document.getElementById(id).style.display = "none";
+}
+
+async function updateNavAuthUI(user) {
+  const nav = document.getElementById("nav-auth");
+  if (user) {
+    const userDoc = await getDoc(doc(db, "users", user.uid));
+    const username = userDoc.exists() ? userDoc.data().username : user.email;
+    nav.innerHTML = `
+      <div class="user-menu">
+        <button id="user-menu-button">${username} <i class="fas fa-caret-down"></i></button>
+        <ul id="user-dropdown">
+          <li><a href="Mon Compte.html">Mon Compte</a></li>
+          <li><a href="Paramètres.html">Paramètres</a></li>
+          <li><button id="logoutBtn">Déconnexion</button></li>
+        </ul>
+      </div>
+    `;
+    document.getElementById("user-menu-button").addEventListener("click", () => {
+      const dropdown = document.getElementById("user-dropdown");
+      dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+    });
+    document.getElementById("logoutBtn").addEventListener("click", async () => {
+      resetSelection();
+      await signOut(auth);
+    });
+  } else {
+    nav.innerHTML = `
+      <div class="auth-links">
+        <a href="#" id="openLogin"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+        <a href="#" id="openSignup"><i class="fas fa-user-plus"></i> Inscription</a>
+      </div>
+    `;
+    document.getElementById("openLogin").addEventListener("click", (e) => {
+      e.preventDefault();
+      openModal("loginModal");
+    });
+    document.getElementById("openSignup").addEventListener("click", (e) => {
+      e.preventDefault();
+      openModal("signupModal");
+    });
+    resetSelection();
+  }
+}
+
+// Firebase Auth state listener
+onAuthStateChanged(auth, async (user) => {
+  await updateNavAuthUI(user);
+  if (user) {
+    await loadSavedTeam(user);
+  }
+});
+
+// Modal and form setup
+document.addEventListener("DOMContentLoaded", () => {
+  if (!document.getElementById("discipline-error")) {
+    const err = document.createElement("div");
+    err.id = "discipline-error";
+    err.style.display = "none";
+    err.className = "discipline-error-container";
+    document.body.appendChild(err);
+  }
+  document.getElementById("save-button")?.addEventListener("click", saveTeam);
+
+  window.addEventListener("click", (e) => {
+    if (e.target.classList.contains("modal")) {
+      closeModal(e.target.id);
+    }
+  });
+
+  document.querySelectorAll(".close").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      closeModal(btn.dataset.close);
+    });
+  });
+
+  // Signup form - Firebase
+  document.getElementById("signupForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const username = e.target.username.value.trim();
+    const email = e.target.email.value.trim();
+    const password = e.target.password.value;
+    const confirmPassword = e.target.confirmPassword.value;
+    if (password !== confirmPassword) {
+      alert("Les mots de passe ne correspondent pas !");
+      return;
+    }
+    try {
+      const cred = await createUserWithEmailAndPassword(auth, email, password);
+      await setDoc(doc(db, "users", cred.user.uid), { username, email, points: 0, team: [] });
+      closeModal("signupModal");
+      alert("Compte créé avec succès !");
+    } catch (err) {
+      alert(err.message);
+    }
+  });
+
+  // Login form - Firebase
+  document.getElementById("loginForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const username = e.target.username.value.trim();
+    const password = e.target.password.value;
+    const q = query(collection(db, "users"), where("username", "==", username));
+    const snapshot = await getDocs(q);
+    if (snapshot.empty) { alert("Utilisateur inconnu"); return; }
+    const email = snapshot.docs[0].data().email;
+    try {
+      await signInWithEmailAndPassword(auth, email, password);
+      closeModal("loginModal");
+    } catch (err) {
+      alert("Mot de passe incorrect");
+    }
+  });
+});
+
+// -------- Chargement des skieurs --------
+async function loadSkiers() {
+    try {
+        const response = await fetch("output.json");
+        if (!response.ok) throw new Error("Erreur lors du chargement des skieurs.");
+        skiersData = await response.json();
+        populateNationalityFilter();
+        loadPage(currentPage);
+        // Team is loaded via onAuthStateChanged → loadSavedTeam(user)
+    } catch (error) {
+        console.error("Erreur de chargement :", error);
+    }
+}
+
+function populateNationalityFilter() {
+    const nationalities = [...new Set(skiersData.map(skier => skier.nationality))];
+    const filter = document.getElementById("nationality-filter");
+    filter.innerHTML = '<option value="">-- Filtrer par nationalité --</option>';
+    nationalities.forEach(nationality => {
+        const option = document.createElement("option");
+        option.value = nationality;
+        option.textContent = nationality;
+        filter.appendChild(option);
+    });
+}
+
+async function loadSavedTeam(user) {
+    try {
+        const userDoc = await getDoc(doc(db, "users", user.uid));
+        if (userDoc.exists() && userDoc.data().team && userDoc.data().team.length > 0) {
+            selectedSkiers = userDoc.data().team.map(skier => ({
+                ...skier,
+                Price: parseFloat(skier.Price) || 0
+            }));
+            remainingBudget = totalBudget - selectedSkiers.reduce((total, skier) => total + skier.Price, 0);
+            remainingBudget = Math.max(remainingBudget, 0);
+            updateRemainingBudget();
+            updateSelectedBoxes();
+            await loadLastRacePoints();
+        }
+    } catch (err) {
+        console.error("Erreur chargement équipe :", err);
+    }
+}
+
+function loadPage(page) {
+  const container = document.getElementById("skier-info");
+  if (!container) return;
+  container.innerHTML = "";
+
+    const fragment = document.createDocumentFragment();
+    const skiersToShow = filteredSkiers.length ? filteredSkiers : skiersData;
+    const startIndex = (page - 1) * skiersPerPage;
+    const pageData = skiersToShow.slice(startIndex, startIndex + skiersPerPage);
+
+    pageData.forEach(skier => {
+        const card = document.createElement("div");
+        card.className = "skier-card";
+        const flagPath = `flags/${skier.nationality.toLowerCase()}.png`;
+        card.innerHTML = `
+  <div class="skier-card-content">
+    <div class="skier-info">
+      <img src="${flagPath}" alt="${skier.nationality} flag">
+      <h4>${skier.firstName} ${skier.lastName}</h4>
+      <p>${skier.nationality} &bull; Âge: ${skier.age}</p>
+      <p>Disciplines: ${skier.disciplines.join(", ")}</p>
+      <button class="see-more-btn" onclick="event.stopPropagation(); window.open('${skier.lien}', '_blank')">Voir plus</button>
+    </div>
+    <div class="skier-price">
+      <span>${skier.Price}★</span>
+    </div>
+  </div>
+        `;
+        card.onclick = () => selectSkier(skier);
+        fragment.appendChild(card);
+    });
+
+    container.appendChild(fragment);
+    updatePaginationButtons();
+}
+
+function selectSkier(skier) {
+    const skierIndex = selectedSkiers.findIndex(
+        s => s.firstName === skier.firstName && s.lastName === skier.lastName
+    );
+
+    if (skierIndex !== -1) {
+        deselectSkier(skierIndex);
+        return;
+    }
+
+    if (selectedSkiers.length >= maxSelections) {
+        alert("Nombre maximal de skieurs atteint.");
+        return;
+    }
+
+    const skierCountByNationality = selectedSkiers.filter(
+        s => s.nationality === skier.nationality
+    ).length;
+
+    if (skierCountByNationality >= maxPerNationality) {
+        alert(`Limite atteinte pour la nationalité ${skier.nationality}`);
+        return;
+    }
+
+    const skierPrice = parseFloat(skier.Price);
+    if (remainingBudget < skierPrice) {
+        alert("Budget insuffisant.");
+        return;
+    }
+
+    selectedSkiers.push(skier);
+    remainingBudget -= skierPrice;
+
+    updateSelectedBoxes();
+    updateRemainingBudget();
+    persistTeam();
+      loadLastRacePoints();
+}
+
+// Nouvelle fonction pour obtenir les points d'un skieur à la dernière course
+function getLastRacePointsForSkier(skier) {
+  if (!Array.isArray(courses) || courses.length === 0) return 0;
+
+  const lastCourseFile = courses[courses.length - 1];
+  // On suppose que lastRaceData est déjà chargé par loadLastRacePoints,
+  // sinon il faut le charger ici de façon synchrone (via cache global)
+  if (!window.lastRaceData || !Array.isArray(window.lastRaceData)) return 0;
+
+  const fullName = normalizeText(`${skier.firstName} ${skier.lastName}`);
+  const match = window.lastRaceData.find(entry => {
+    const entryName = normalizeText(entry.Nom || "");
+    if (entryName !== fullName) return false;
+    return countryMatches(entry.Pays, skier.nationality);
+  });
+
+  return match ? Number(match.points) || 0 : 0;
+}
+
+
+function updateSelectedBoxes() {
+  if (!Array.isArray(selectedSkiers)) selectedSkiers = [];
+  const boxes = document.querySelectorAll(".box");
+  boxes.forEach((box, index) => {
+    if (selectedSkiers[index]) {
+      const skier = selectedSkiers[index];
+      const flagPath = `flags/${skier.nationality.toLowerCase()}.png`;
+      const pointsTotal = getFantasyPointsForSkier(skier);
+      const pointsLast = getLastRacePointsForSkier(skier); // <--- nouveau
+
+       const isCaptain =
+        teamCaptain &&
+        teamCaptain.firstName === skier.firstName &&
+        teamCaptain.lastName === skier.lastName;
+
+      box.classList.add("selected");
+     box.innerHTML = `
+  <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+    <img src="${flagPath}" alt="Flag" style="width: 32px; height: 22px; object-fit: cover; margin-bottom: 4px;">
+    <div style="font-size: 0.9rem; font-weight: 600;">${skier.firstName} ${skier.lastName}</div>
+    <div style="display: flex; flex-direction: column; align-items: center; margin-top: 4px; font-size: 0.85rem;">
+      <span style="color: #28a745;">🏁 Total: ${pointsTotal} pts</span>
+      <span style="color: #ff9800;">Dernière course: ${pointsLast} pts</span>
+      <span style="color: #007bff;">💰 ${skier.Price}★</span>
+    </div>
+    <button class="captain-btn" onclick="event.stopPropagation(); setCaptain(${index});">
+      ${teamCaptain && teamCaptain.firstName === skier.firstName && teamCaptain.lastName === skier.lastName ? "👑 Capitaine" : "🏅 Définir capitaine"}
+    </button>
+  </div>
+`;
+      box.onclick = () => deselectSkier(index);
+    } else {
+      box.classList.remove("selected");
+      box.innerHTML = `<img src="icons/person.png" alt="person icon"><p>Sélectionner un skieur</p>`;
+      box.onclick = () => openSkierList(box);
+    }
+  });
+
+  updateTeamTotalPoints();
+}
+
+function setCaptain(index) {
+  const skier = selectedSkiers[index];
+  if (!skier) return;
+
+  // Définir ou retirer le capitaine
+  if (
+    teamCaptain &&
+    teamCaptain.firstName === skier.firstName &&
+    teamCaptain.lastName === skier.lastName
+  ) {
+    teamCaptain = null;
+    document.getElementById("team-captain").innerText = "Aucun";
+  } else {
+    teamCaptain = skier;
+    document.getElementById("team-captain").innerText = `${skier.firstName} ${skier.lastName}`;
+    showCaptainConfirmation();
+  }
+
+  updateSelectedBoxes();
+  updateTeamTotalPoints();
+}
+
+function showCaptainConfirmation() {
+  const el = document.getElementById("captain-confirmation");
+  el.style.display = "block";
+  setTimeout(() => (el.style.display = "none"), 2000);
+}
+
+function deselectSkier(skierIndex) {
+    const skier = selectedSkiers[skierIndex];
+    if (!skier) return;
+
+    remainingBudget += parseFloat(skier.Price) || 0;
+    selectedSkiers.splice(skierIndex, 1);
+
+    updateRemainingBudget();
+    updateSelectedBoxes();
+    persistTeam();
+}
+
+function openSkierList(box) {
+    if (!box.classList.contains("selected")) {
+        document.getElementById("skier-list").scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+}
+
+function resetSelection() {
+    selectedSkiers = [];
+    remainingBudget = totalBudget;
+    document.querySelectorAll('.skier-card').forEach(card => {
+        card.classList.remove('selected');
+    });
+    updateRemainingBudget();
+    updateSelectedBoxes();
+}
+
+function persistTeam() {
+    // Auto-persistence removed; use Save button to store to Firestore
+}
+
+function updatePaginationButtons() {
+    const totalPages = Math.ceil((filteredSkiers.length || skiersData.length) / skiersPerPage);
+    document.getElementById("current-page").textContent = `Page ${currentPage}`;
+    document.getElementById("prev-page").disabled = currentPage === 1;
+    document.getElementById("next-page").disabled = currentPage === totalPages;
+}
+
+function nextPage() {
+    const totalPages = Math.ceil((filteredSkiers.length || skiersData.length) / skiersPerPage);
+    if (currentPage < totalPages) {
+        currentPage++;
+        loadPage(currentPage);
+    }
+}
+
+function prevPage() {
+    if (currentPage > 1) {
+        currentPage--;
+        loadPage(currentPage);
+    }
+}
+
+function applyFilters() {
+    const searchQuery = document.getElementById("search-bar").value.toLowerCase();
+    const selectedDiscipline = document.getElementById("discipline-filter").value;
+    const selectedNationality = document.getElementById("nationality-filter").value;
+    const ageFilter = document.getElementById("age-filter").value;
+    const minPrice = parseFloat(document.getElementById("price-filter-min").value) || 5;
+    const maxPrice = parseFloat(document.getElementById("price-filter-max").value) || 28;
+    const sortPrice = document.getElementById("sort-price").value;
+
+    // Filtres
+    filteredSkiers = skiersData.filter(skier => {
+        const matchesSearch = `${skier.firstName} ${skier.lastName}`.toLowerCase().includes(searchQuery);
+        const matchesDiscipline = selectedDiscipline ? skier.disciplines.includes(selectedDiscipline) : true;
+        const matchesNationality = selectedNationality ? skier.nationality === selectedNationality : true;
+        const matchesAge = ageFilter ? skier.age === parseInt(ageFilter) : true;
+        const skierPrice = parseFloat(skier.Price);
+        const matchesPrice = skierPrice >= minPrice && skierPrice <= maxPrice;
+
+        return matchesSearch && matchesDiscipline && matchesNationality && matchesAge && matchesPrice;
+    });
+
+    // Tri
+    if (sortPrice === "asc") {
+        filteredSkiers.sort((a, b) => parseFloat(a.Price) - parseFloat(b.Price));
+    } else if (sortPrice === "desc") {
+        filteredSkiers.sort((a, b) => parseFloat(b.Price) - parseFloat(a.Price));
+    }
+
+    currentPage = 1;
+    loadPage(currentPage);
+}
+
+function searchSkiers() {
+    applyFilters();
+}
+
+function hasDisciplineCoverage(skiers) {
+  const requiredDisciplines = ["DH", "SG", "GS", "SL"];
+  const disciplinesCovered = new Set();
+
+  skiers.forEach(skier => {
+    if (Array.isArray(skier.disciplines)) {
+      skier.disciplines.forEach(d => {
+        const cleaned = d.trim().toUpperCase();
+        disciplinesCovered.add(cleaned);
+      });
+    }
+  });
+
+  return requiredDisciplines.every(d => disciplinesCovered.has(d));
+}
+
+function getMissingDisciplines(skiers) {
+  const required = ["DH", "SG", "GS", "SL"];
+  const covered = new Set();
+
+  skiers.forEach(s => {
+    if (Array.isArray(s.disciplines)) {
+      s.disciplines.forEach(d => covered.add(d.trim().toUpperCase()));
+    }
+  });
+
+  return required.filter(d => !covered.has(d));
+}
+
+function showDisciplineError(missing) {
+    const container = document.getElementById("discipline-error");
+    if (!container) return;
+    container.innerHTML = `<p class='error-msg'>Vous devez sélectionner un skieur pour chaque discipline. Manquant : ${missing.join(", ")}</p>`;
+    container.style.display = "block";
+}
+
+function hideDisciplineError() {
+    const container = document.getElementById("discipline-error");
+    if (container) {
+        container.innerHTML = "";
+        container.style.display = "none";
+    }
+}
+function showDisciplineError(missing) {
+  const container = document.getElementById("discipline-error");
+  if (!container) return;
+
+  container.innerHTML = `<p class='error-msg'>⚠ Vous devez sélectionner au moins un skieur pour chaque discipline. Disciplines manquantes : <strong>${missing.join(", ")}</strong></p>`;
+  container.style.display = "block";
+
+  // Positionne le message au centre haut de l'écran
+  container.style.position = "fixed";
+  container.style.top = "20%";
+  container.style.left = "50%";
+  container.style.transform = "translateX(-50%)";
+  container.style.backgroundColor = "#f8d7da";
+  container.style.color = "#721c24";
+  container.style.padding = "10px 20px";
+  container.style.border = "1px solid #f5c6cb";
+  container.style.borderRadius = "8px";
+  container.style.zIndex = "9999";
+
+  // Disparition automatique après 5 secondes
+  setTimeout(() => {
+    container.style.display = "none";
+  }, 5000);
+}
+
+async function saveTeam() {
+  const user = auth.currentUser;
+  if (!user) {
+    alert("Vous devez être connecté pour sauvegarder votre équipe.");
+    return;
+  }
+
+  if (!hasDisciplineCoverage(selectedSkiers)) {
+    const missing = getMissingDisciplines(selectedSkiers);
+    showDisciplineError(missing);
+    return;
+  } else {
+    hideDisciplineError();
+  }
+
+  if (selectedSkiers.length === 0) {
+    alert("Aucun skieur n'a été sélectionné.");
+    return;
+  }
+
+  try {
+    await updateDoc(doc(db, "users", user.uid), {
+      team: selectedSkiers,
+      teamSavedAt: serverTimestamp()
+    });
+    showSaveConfirmation();
+  } catch (err) {
+    console.error("Erreur sauvegarde :", err);
+    alert("Erreur lors de la sauvegarde.");
+  }
+}
+function showSaveConfirmation() {
+  const confirmation = document.getElementById("save-confirmation");
+  confirmation.style.display = "block";
+  setTimeout(() => {
+    confirmation.style.display = "none";
+  }, 3000);
+}
+// ==========================
+// 🔒 Gestion de la deadline
+// ==========================
+
+// Fixe la date limite pour dimanche 08:00
+function getNextSundayDeadline() {
+  const now = new Date();
+  const nextSunday = new Date(now);
+  // Dimanche = 0 en JS
+  const daysUntilSunday = (7 - now.getDay()) % 7; 
+  nextSunday.setDate(now.getDate() + daysUntilSunday);
+  nextSunday.setHours(8, 0, 0, 0); // 08:00 dimanche
+  return nextSunday;
+}
+
+const teamDeadline = getNextSundayDeadline();
+const countdownElement = document.createElement("div");
+countdownElement.id = "countdown-timer";
+countdownElement.style.cssText = `
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 20px auto;
+  font-weight: 600;
+  color: #c62828;
+`;
+document.querySelector("h1").insertAdjacentElement("afterend", countdownElement);
+
+let teamLocked = false;
+
+// Fonction qui verrouille l'équipe
+function lockTeam() {
+  const user = auth.currentUser;
+  const uid = user ? user.uid : "guest";
+  const userKey = `teamLocked_${uid}`;
+  localStorage.setItem(userKey, "true");
+  teamLocked = true;
+
+  // Désactiver toutes les interactions
+  document.querySelectorAll(".box").forEach(box => {
+    box.onclick = null;
+    box.style.opacity = "0.6";
+    box.style.cursor = "not-allowed";
+  });
+  const saveBtn = document.getElementById("save-button");
+  if (saveBtn) {
+    saveBtn.disabled = true;
+    saveBtn.style.backgroundColor = "#999";
+    saveBtn.innerText = "Équipe verrouillée";
+  }
+
+  countdownElement.innerHTML = "⛔ Équipe verrouillée — la course commence !";
+}
+
+// Vérifie si l’équipe est déjà verrouillée
+function checkIfTeamLocked() {
+  const user = auth.currentUser;
+  if (!user) return false;
+  const userKey = `teamLocked_${user.uid}`;
+  return localStorage.getItem(userKey) === "true";
+}
+
+// Compte à rebours dynamique
+function updateCountdown() {
+  if (teamLocked) return;
+  const now = new Date();
+  const diff = teamDeadline - now;
+
+  if (diff <= 0) {
+    lockTeam();
+    return;
+  }
+
+  const hours = Math.floor(diff / (1000 * 60 * 60));
+  const minutes = Math.floor((diff / (1000 * 60)) % 60);
+  const seconds = Math.floor((diff / 1000) % 60);
+
+  countdownElement.innerHTML = `🕒 Temps restant avant verrouillage : ${hours}h ${minutes}m ${seconds}s`;
+}
+
+// Initialisation au chargement
+document.addEventListener("DOMContentLoaded", () => {
+  if (auth.currentUser && checkIfTeamLocked()) {
+    lockTeam();
+  } else {
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  }
+});
+
+// Expose functions used by inline onclick handlers
+window.openSkierList = openSkierList;
+window.applyFilters = applyFilters;
+window.searchSkiers = searchSkiers;
+window.prevPage = prevPage;
+window.nextPage = nextPage;
+window.setCaptain = setCaptain;
+
+</script>
+</html>

@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ski Alpin Fantasy 2026</title>
+
+  <!-- Police Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome pour icônes -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <style>
+    :root {
+      --main-red: #c62828; 
+      --dark-bg: #1a1a1a;
+      --light-bg: #f8f8f8;
+      --hover-gray: #ddd;
+      --white: #ffffff;
+      --shadow-color: rgba(0, 0, 0, 0.18);
+      --yellow-alert-bg: #fff3b0;
+      --yellow-alert-border: #f2d600;
+      --font-primary: 'Montserrat', sans-serif;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-primary);
+      background: linear-gradient(to bottom right, #ffffff, #f0f0f0);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ---------- TOP BAR 1 ---------- */
+    .topbar1 {
+      background: #fff;
+      border-bottom: 1px solid #e0e0e0;
+      position: sticky;
+      top: 0;
+      z-index: 150;
+      padding: 0.75rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: var(--main-red);
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      cursor: default;
+      user-select: none;
+    }
+    .logo i { font-size: 1.6rem; }
+    .auth-links { display: flex; gap: 0.8rem; align-items: center; }
+    .auth-links a {
+      font-weight: 700;
+      color: #333;
+      text-decoration: none;
+      padding: 7px 14px;
+      border: 1.5px solid #ccc;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      cursor: pointer;
+      transition: border-color 0.2s, color 0.2s;
+      font-family: var(--font-primary);
+      white-space: nowrap;
+    }
+    .auth-links a:hover { border-color: var(--main-red); color: var(--main-red); }
+    /* ---------- TOP BAR 2 ---------- */
+    .topbar2 {
+      background-color: var(--dark-bg);
+      border-bottom: 3px solid var(--main-red);
+      position: sticky;
+      top: 56px;
+      z-index: 140;
+      display: flex;
+      justify-content: center;
+      user-select: none;
+      overflow-x: auto;
+    }
+    .topbar2 > nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      padding: 0;
+    }
+    .topbar2 > nav > a {
+      color: #bbb;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      padding: 13px 14px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+      border-bottom: 3px solid transparent;
+      position: relative;
+      top: 3px;
+      transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    }
+    .topbar2 > nav > a i { font-size: 0.85rem; }
+    .topbar2 > nav > a:hover,
+    .topbar2 > nav > a:focus {
+      color: #fff;
+      border-bottom-color: var(--main-red);
+      outline: none;
+    }
+    .topbar2 > nav > a.active {
+      color: #fff;
+      border-bottom-color: var(--main-red);
+    }
+
+
+    /* SECTION HERO */
+    .hero {
+      text-align: left;
+      padding: 90px 4rem 70px;
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),
+        url('Image/background_title.jpeg') center/cover no-repeat;
+      color: var(--white);
+      user-select: none;
+      letter-spacing: 0.5px;
+      min-height: 380px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      border-left: 5px solid var(--main-red);
+    }
+
+    .hero h1 {
+      font-size: 4.5rem;
+      font-weight: 900;
+      margin-bottom: 0.5rem;
+      text-shadow: 3px 3px 15px #000000dd;
+    }
+
+    .hero p {
+      font-size: 1.7rem;
+      font-weight: 500;
+      max-width: 680px;
+      line-height: 1.5;
+      color: #f0f0f0dd;
+      text-shadow: 1.5px 1.5px 6px #000000cc;
+      margin-bottom: 2rem;
+    }
+
+    .hero-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--main-red);
+      color: var(--white);
+      font-weight: 800;
+      font-size: 1rem;
+      text-decoration: none;
+      padding: 14px 32px;
+      border-radius: 0;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      transition: background 0.2s ease;
+    }
+    .hero-cta:hover {
+      background: #a31f1f;
+      text-decoration: none;
+    }
+
+    /* FEATURE CARDS */
+    .features-section {
+      max-width: 1100px;
+      margin: 60px auto 20px;
+      padding: 0 20px 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      width: 100%;
+    }
+
+    .feature-card {
+      background: var(--white);
+      border-radius: 0;
+      padding: 28px 24px;
+      text-align: left;
+      box-shadow: none;
+      text-decoration: none;
+      color: inherit;
+      transition: border-top-color 0.2s ease;
+      border: 1px solid #e2e2e2;
+      border-top: 3px solid transparent;
+    }
+    .feature-card:hover {
+      border-top-color: var(--main-red);
+      text-decoration: none;
+    }
+    .feature-icon {
+      width: auto;
+      height: auto;
+      background: none;
+      border-radius: 0;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      margin: 0 0 16px;
+      box-shadow: none;
+    }
+    .feature-icon i {
+      font-size: 1.8rem;
+      color: var(--main-red);
+    }
+    .feature-card h3 {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: #1a1a1a;
+      margin: 0 0 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .feature-card p {
+      font-size: 0.95rem;
+      color: #777;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    @media (max-width: 768px) {
+      .features-grid { grid-template-columns: 1fr; }
+    }
+
+#articles {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Disposer les articles en flex */
+    flex-wrap: wrap; /* Pour gérer le passage à la ligne */
+    justify-content: space-evenly; /* Espacement entre les éléments */
+}
+
+.article-item {
+  width: 300px;
+  margin: 16px;
+  text-align: left;
+  background: #fff;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: none;
+  border: 1px solid #e2e2e2;
+  border-top: 3px solid transparent;
+  transition: border-top-color 0.2s ease;
+}
+
+
+.article-item h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333;
+  padding: 16px 20px 10px;
+  transition: color 0.3s ease;
+}
+
+.article-item h3 a:hover {
+  color: #000;
+}
+
+.article-item:hover {
+  border-top-color: var(--main-red);
+  transform: none;
+  box-shadow: none;
+}
+
+
+.article-item img {
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.article-item h3 a:hover {
+  color: #000;
+}
+
+.article-item:hover img {
+  transform: scale(1.05);
+}
+
+/* Ajout d'un effet de clic (optionnel) */
+.article-item:active {
+    transform: scale(1.02); /* Réduit l'effet de zoom au clic */
+}
+
+.scrollable {
+  width: 95%;
+  margin: 40px auto;
+  overflow-x: auto;
+  border-radius: 0;
+  border: 1px solid #e2e2e2;
+  background-color: #fff;
+}
+  
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+  
+th {
+  background-color: var(--main-red);
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 14px 20px;
+}
+
+td {
+  padding: 14px 20px;
+  font-size: 1.05rem;
+  border-bottom: 1px solid #eee;
+}
+
+  
+tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+  
+tr:hover {
+  background-color: #fafafa;
+}
+  
+.details {
+        background-color: #e9ecef;
+        padding: 10px;
+        margin: 0;
+        display: none; /* Caché par défaut */
+      }
+  
+.visible {
+        display: table-row; /* Montre les détails sous forme de rangée */
+      }
+
+.subtitle,
+.subtitle_2 {
+  background: none;
+  text-align: left;
+  color: #1a1a1a;
+  margin: 60px 4rem 24px;
+  padding: 0 0 12px;
+  font-size: 1.6rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  border-radius: 0;
+  box-shadow: none;
+  width: auto;
+  text-transform: uppercase;
+  border-bottom: 3px solid var(--main-red);
+}
+.subtitle::after,
+.subtitle_2::after {
+  display: none;
+}
+    .auth-links {
+      display: flex;
+      gap: 1.2rem;
+    }
+
+    .auth-links a {
+      font-weight: 600;
+      color: var(--main-red);
+      text-decoration: none;
+      padding: 10px 20px;
+      border: 2px solid var(--main-red);
+      border-radius: 30px;
+      transition: background-color 0.35s ease, color 0.35s ease, box-shadow 0.35s ease;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 1rem;
+      white-space: nowrap;
+      box-shadow: 0 0 0 transparent;
+      cursor: pointer;
+    }
+    .auth-links a:hover,
+    .auth-links a:focus {
+      background-color: var(--main-red);
+      color: var(--white);
+      box-shadow: 0 4px 12px var(--main-red);
+      outline: none;
+      text-decoration: none;
+    }
+
+    /* User menu styles */
+    .user-menu {
+      position: relative;
+      display: inline-block;
+    }
+
+    #user-menu-button {
+      background: none;
+      border: 2px solid var(--main-red);
+      color: var(--main-red);
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-weight: 600;
+      font-family: var(--font-primary);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      user-select: none;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    #user-menu-button:hover,
+    #user-menu-button:focus {
+      background-color: var(--main-red);
+      color: var(--white);
+      outline: none;
+    }
+
+    #user-dropdown {
+      position: absolute;
+      top: calc(100% + 6px);
+      right: 0;
+      background: var(--white);
+      box-shadow: 0 5px 15px var(--shadow-color);
+      border-radius: 10px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      min-width: 160px;
+      z-index: 200;
+      display: none; /* Hidden by default */
+    }
+
+    #user-dropdown li {
+      border-bottom: 1px solid #eee;
+    }
+
+    #user-dropdown li:last-child {
+      border-bottom: none;
+    }
+
+    #user-dropdown a,
+    #user-dropdown button {
+      display: block;
+      padding: 12px 16px;
+      color: var(--main-red);
+      text-decoration: none;
+      font-weight: 600;
+      background: none;
+      border: none;
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+      font-family: var(--font-primary);
+      user-select: none;
+      transition: background-color 0.3s ease;
+    }
+
+    #user-dropdown a:hover,
+    #user-dropdown button:hover,
+    #user-dropdown a:focus,
+    #user-dropdown button:focus {
+      background-color: var(--main-red);
+      color: var(--white);
+      outline: none;
+    }
+
+    /* Modal styles */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 200;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.55);
+      backdrop-filter: blur(3px);
+      animation: fadeInModal 0.2s ease;
+    }
+    @keyframes fadeInModal {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
+    .modal-content {
+      background-color: #fff;
+      margin: 8% auto;
+      padding: 40px 36px 36px;
+      border-radius: 0;
+      border-top: 4px solid var(--main-red);
+      width: 90%;
+      max-width: 420px;
+      position: relative;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.18);
+      animation: slideUpModal 0.25s ease;
+    }
+    @keyframes slideUpModal {
+      from { transform: translateY(24px); opacity: 0; }
+      to   { transform: translateY(0);    opacity: 1; }
+    }
+
+    .modal-content h2 {
+      font-size: 1.8rem;
+      font-weight: 900;
+      color: #1a1a1a;
+      margin: 0 0 6px;
+    }
+    .modal-subtitle {
+      color: #888;
+      font-size: 0.95rem;
+      margin: 0 0 28px;
+    }
+
+    .close {
+      position: absolute;
+      top: 16px;
+      right: 20px;
+      font-size: 1.4rem;
+      color: #bbb;
+      cursor: pointer;
+      line-height: 1;
+      transition: color 0.2s;
+    }
+    .close:hover { color: #333; }
+
+    /* Form styles */
+    .form-group {
+      position: relative;
+      margin-bottom: 18px;
+    }
+    .form-group label {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: #555;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .form-group .input-icon {
+      position: absolute;
+      left: 14px;
+      bottom: 13px;
+      color: #bbb;
+      font-size: 0.95rem;
+      pointer-events: none;
+      transition: color 0.2s;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 13px 14px 13px 40px;
+      border: 1.5px solid #e0e0e0;
+      border-radius: 10px;
+      font-size: 0.97rem;
+      font-family: var(--font-primary);
+      background: #fafafa;
+      transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+      outline: none;
+    }
+    .form-group input:focus {
+      border-color: var(--main-red);
+      box-shadow: 0 0 0 3px rgba(198,40,40,0.12);
+      background: #fff;
+    }
+    .form-group input:focus + .input-icon,
+    .form-group input:focus ~ .input-icon {
+      color: var(--main-red);
+    }
+
+    form button[type="submit"] {
+      background: linear-gradient(135deg, #c62828, #e53935);
+      color: white;
+      border: none;
+      padding: 14px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 1rem;
+      font-family: var(--font-primary);
+      width: 100%;
+      margin-top: 6px;
+      letter-spacing: 0.03em;
+      transition: opacity 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 4px 14px rgba(198,40,40,0.35);
+    }
+    form button[type="submit"]:hover {
+      opacity: 0.92;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(198,40,40,0.4);
+    }
+    form button[type="submit"]:active {
+      transform: translateY(0);
+    }
+    .form-footer {
+      text-align: center;
+      margin-top: 18px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    .form-footer a {
+      color: var(--main-red);
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .form-footer a:hover { text-decoration: underline; }
+
+    /* ENCADRÉ JAUNE SITE EN CONSTRUCTION DANS LA SECTION */
+    .construction-alert {
+      background-color: var(--yellow-alert-bg);
+      border-left: 8px solid var(--yellow-alert-border);
+      color: #4a4a00;
+      font-weight: 700;
+      font-size: 1.15rem;
+      padding: 16px 22px;
+      border-radius: 10px;
+      box-shadow: 0 3px 12px rgba(242, 214, 0, 0.35);
+      user-select: none;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    .construction-alert i {
+      font-size: 1.7rem;
+    }
+
+    /* FOOTER */
+    footer {
+      margin-top: auto;
+      background-color: var(--dark-bg);
+      color: #bbb;
+      text-align: center;
+      padding: 22px 0;
+      font-size: 0.9rem;
+      user-select: none;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .topbar1 {
+        padding: 0.7rem 1.5rem;
+      }
+      .logo {
+        font-size: 1.5rem;
+      }
+      .logo i {
+        font-size: 1.8rem;
+      }
+      .auth-links a {
+        font-size: 0.9rem;
+        padding: 8px 14px;
+      }
+      .topbar2 nav {
+        gap: 1.8rem;
+        padding: 0.6rem 1rem;
+      }
+      .topbar2 nav a {
+        font-size: 1.1rem;
+        padding: 10px 16px;
+      }
+      .hero h1 {
+        font-size: 3.1rem;
+      }
+      .hero p {
+        font-size: 1.3rem;
+      }
+      .construction-alert {
+        font-size: 1rem;
+        padding: 12px 16px;
+        gap: 10px;
+      }
+      .section h2 {
+        font-size: 2.3rem;
+      }
+      .section p {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<header class="topbar1" role="banner" aria-label="Barre de navigation principale">
+  <div class="logo" aria-label="Logo Ski Alpin Fantasy">
+    <i class="fas fa-mountain"></i> Ski Alpin Fantasy 2026
+  </div>
+  <nav id="nav-auth">
+    <div class="auth-links">
+      <a href="#" id="openLogin"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+      <a href="#" id="openSignup"><i class="fas fa-user-plus"></i> Inscription</a>
+    </div>
+  </nav>
+</header>
+
+  <!-- Top bar 2 - menu principal -->
+  <nav class="topbar2" role="navigation" aria-label="Menu principal">
+    <nav>
+      <a href="index.html" class="active" tabindex="0"><i class="fas fa-home" aria-hidden="true"></i> Accueil</a>
+      <a href="classement_skieurs.html" tabindex="0"><i class="fas fa-chart-line" aria-hidden="true"></i> Classements Skieurs</a>
+      <a href="classement_joueur.html" tabindex="0"><i class="fas fa-users" aria-hidden="true"></i> Classements Joueurs</a>
+      <a href="Mon_equipe.html" tabindex="0"><i class="fas fa-user" aria-hidden="true"></i> Mon Équipe</a>
+      <a href="rules.html" tabindex="0"><i class="fas fa-book" aria-hidden="true"></i> Règles</a>
+      <a href="about.html" tabindex="0"><i class="fas fa-info-circle" aria-hidden="true"></i> À propos</a>
+    </nav>
+  </nav>
+
+  <!-- Section Hero -->
+  <section class="hero" aria-label="Bienvenue sur Ski Alpin Fantasy 2026">
+    <h1>Bienvenue sur Ski Alpin Fantasy 2026</h1>
+    <p>Plongez dans l'univers palpitant du ski alpin et créez votre équipe de rêve !</p>
+    <a href="Mon_equipe.html" class="hero-cta"><i class="fas fa-skiing"></i> Créer mon équipe</a>
+  </section>
+
+  <!-- Feature cards -->
+  <section class="features-section">
+    <div class="features-grid">
+      <a href="Mon_equipe.html" class="feature-card">
+        <div class="feature-icon"><i class="fas fa-users"></i></div>
+        <h3>Mon Équipe</h3>
+        <p>Sélectionnez jusqu'à 8 skieurs dans un budget de 120 étoiles et composez votre équipe idéale.</p>
+      </a>
+      <a href="classement_skieurs.html" class="feature-card">
+        <div class="feature-icon"><i class="fas fa-chart-bar"></i></div>
+        <h3>Classements</h3>
+        <p>Suivez les performances de vos skieurs en temps réel et comparez-vous aux autres joueurs.</p>
+      </a>
+      <a href="rules.html" class="feature-card">
+        <div class="feature-icon"><i class="fas fa-book-open"></i></div>
+        <h3>Règles du jeu</h3>
+        <p>Consultez le système de points, les contraintes de sélection et les règles de la compétition.</p>
+      </a>
+    </div>
+
+    <div class="construction-alert" role="alert">
+      <i class="fas fa-exclamation-triangle"></i>
+      Ce site est encore en construction, merci de votre patience !
+    </div>
+  </section>
+
+         <h2 class="subtitle_2">Calendrier des courses</h2>
+            <div class="scrollable">
+              <table id="courses-table">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Pays</th>
+                    <th>Ville</th>
+                    <th>Disciplines</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Les données sont insérées ici via JavaScript -->
+                </tbody>
+              </table>
+            </div>
+            <h2 class="subtitle">Derniers Articles RTS</h2>
+            <div id="articles-container">
+                <div id="articles"></div>
+            </div>
+              <script src="script.js"></script>
+        </main> 
+
+  <footer>
+    &copy; 2026 Ski Alpin Fantasy. Tous droits réservés.
+  </footer>
+
+<!-- MODALE CONNEXION -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close" data-close="loginModal">&times;</span>
+      <h2>Connexion</h2>
+      <p class="modal-subtitle">Bienvenue ! Entrez vos identifiants.</p>
+      <form id="loginForm">
+        <div class="form-group">
+          <label>Pseudo</label>
+          <input type="text" name="username" placeholder="Votre pseudo" required autocomplete="username">
+          <i class="fas fa-user input-icon"></i>
+        </div>
+        <div class="form-group">
+          <label>Mot de passe</label>
+          <input type="password" name="password" placeholder="••••••••" required autocomplete="current-password">
+          <i class="fas fa-lock input-icon"></i>
+        </div>
+        <button type="submit">Se connecter</button>
+      </form>
+      <p class="form-footer">Pas encore de compte ? <a id="switchToSignup">Créer un compte</a></p>
+    </div>
+  </div>
+
+  <!-- MODALE INSCRIPTION -->
+  <div id="signupModal" class="modal">
+    <div class="modal-content">
+      <span class="close" data-close="signupModal">&times;</span>
+      <h2>Créer un compte</h2>
+      <p class="modal-subtitle">Rejoignez Ski Alpin Fantasy 2026 !</p>
+      <form id="signupForm">
+        <div class="form-group">
+          <label>Pseudo</label>
+          <input type="text" name="username" placeholder="Choisissez un pseudo" required autocomplete="username">
+          <i class="fas fa-user input-icon"></i>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="votre@email.com" required autocomplete="email">
+          <i class="fas fa-envelope input-icon"></i>
+        </div>
+        <div class="form-group">
+          <label>Mot de passe</label>
+          <input type="password" name="password" placeholder="Minimum 6 caractères" required autocomplete="new-password">
+          <i class="fas fa-lock input-icon"></i>
+        </div>
+        <div class="form-group">
+          <label>Confirmer le mot de passe</label>
+          <input type="password" name="confirmPassword" placeholder="••••••••" required autocomplete="new-password">
+          <i class="fas fa-lock input-icon"></i>
+        </div>
+        <button type="submit">Créer mon compte</button>
+      </form>
+      <p class="form-footer">Déjà inscrit ? <a id="switchToLogin">Se connecter</a></p>
+    </div>
+  </div>
+
+    <script type="module">
+    import { auth, db } from "./firebase.js";
+    import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
+    import { collection, doc, setDoc, getDoc, getDocs, query, where } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js";
+
+    const loginForm = document.getElementById("loginForm");
+    const signupForm = document.getElementById("signupForm");
+
+async function updateUI(user) {
+  const nav = document.getElementById("nav-auth");
+  if (user) {
+    // Récupérer le username en Firestore
+    const userDoc = await getDoc(doc(db, "users", user.uid));
+    const username = userDoc.exists() ? userDoc.data().username : user.email;
+
+    nav.innerHTML = `
+      <div class="user-menu">
+        <button id="user-menu-button">${username} <i class="fas fa-caret-down"></i></button>
+        <ul id="user-dropdown">
+          <li><a href="Mon Compte.html">Mon Compte</a></li>
+          <li><a href="Paramètres.html"><button id="settingsBtn">Paramètres</button></a></li>
+          <li><button id="logoutBtn">Déconnexion</button></li>
+        </ul>
+      </div>`;
+
+    const userButton = document.getElementById("user-menu-button");
+    const dropdown = document.getElementById("user-dropdown");
+
+    // Toggle affichage menu
+    userButton.addEventListener("click", () => {
+      dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+    });
+
+    // Déconnexion
+    document.getElementById("logoutBtn").addEventListener("click", async () => {
+      await signOut(auth);
+      updateUI(null);
+    });
+  } else {
+    nav.innerHTML = `
+      <div class="auth-links">
+        <a href="#" id="openLogin"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+        <a href="#" id="openSignup"><i class="fas fa-user-plus"></i> Inscription</a>
+      </div>`;
+
+    document.getElementById("openLogin").onclick = () => document.getElementById("loginModal").style.display = "block";
+    document.getElementById("openSignup").onclick = () => document.getElementById("signupModal").style.display = "block";
+  }
+}
+       document.querySelectorAll(".close").forEach(btn => {
+        btn.addEventListener("click", () => {
+          closeModal(btn.dataset.close);
+        });
+      });
+
+    signupForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const username = signupForm.username.value;
+      const email = signupForm.email.value;
+      const password = signupForm.password.value;
+      const confirmPassword = signupForm.confirmPassword.value;
+      if (password !== confirmPassword) return alert("Mots de passe différents");
+
+      try {
+        const cred = await createUserWithEmailAndPassword(auth, email, password);
+        await setDoc(doc(db, "users", cred.user.uid), {
+          username,
+          email,
+          points: 0
+        });
+        cred.user.displayName = username;
+        alert("Inscription réussie ! Connectez-vous maintenant.");
+        signupForm.reset();
+        document.getElementById("signupModal").style.display = "none";
+        document.getElementById("loginModal").style.display = "block";
+      } catch (err) {
+        alert(err.message);
+        console.error("Erreur à l'inscription:", err);
+      }
+    });
+
+    loginForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const username = loginForm.username.value;
+      const password = loginForm.password.value;
+
+      const q = query(collection(db, "users"), where("username", "==", username));
+      const snapshot = await getDocs(q);
+
+      if (snapshot.empty) return alert("Utilisateur inconnu");
+      const userDoc = snapshot.docs[0];
+      const email = userDoc.data().email;
+
+      try {
+        await signInWithEmailAndPassword(auth, email, password);
+        await updateUI(auth.currentUser);
+        loginForm.reset();
+        document.getElementById("loginModal").style.display = "none";
+      } catch (err) {
+        alert("Mot de passe incorrect");
+      }
+    });
+
+    window.addEventListener("click", (e) => {
+      if (e.target.classList.contains("modal")) {
+        e.target.style.display = "none";
+      }
+    });
+
+    // Switch between login and signup modals
+    document.getElementById("switchToSignup")?.addEventListener("click", () => {
+      document.getElementById("loginModal").style.display = "none";
+      document.getElementById("signupModal").style.display = "block";
+    });
+    document.getElementById("switchToLogin")?.addEventListener("click", () => {
+      document.getElementById("signupModal").style.display = "none";
+      document.getElementById("loginModal").style.display = "block";
+    });
+
+window.addEventListener("DOMContentLoaded", async () => {
+  await updateUI(auth.currentUser);
+});
+  </script>
+</html>

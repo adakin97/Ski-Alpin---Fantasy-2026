@@ -1,0 +1,77 @@
+{
+"Calendar Event":[
+ {
+  "Country": "Italy",
+  "Place": "Madonna Di Campiglio",
+  "Date": "08.01.2025",
+  "Event": "SL"
+ },
+ {
+  "Country": "Switzerland",
+  "Place": "Adelboden",
+  "Date": "11-12.01.25",
+  "Event": "GS,SL"
+ },
+ {
+  "Country": "Switzerland",
+  "Place": "Wengen",
+  "Date": "17-19.01.25",
+  "Event": "SG,DH,SL"
+ },
+ {
+  "Country": "Austria",
+  "Place": "Kitzbuhel",
+  "Date": "24-26.01.25",
+  "Event": "SG,DH,SL"
+ },
+ {
+  "Country": "Austria",
+  "Place": "Schladming",
+  "Date": "28-29.01.25",
+  "Event": "GS,SL"
+ },
+ {
+  "Country": "Germany",
+  "Place": "Garmisch",
+  "Date": "02.02.2025",
+  "Event": "DH"
+ },
+ {
+  "Country": "Austria",
+  "Place": "CM Saalbach",
+  "Date": "04-16.02.25",
+  "Event": "DH,GS,SG,SL,TE,TC",
+  "Column6": "2025 FIS Alpine Wolrd Ski Championships"
+ },
+ {
+  "Country": "Switzerland",
+  "Place": "Crans-Montana",
+  "Date": "22-23.02.26",
+  "Event": "SG,DH"
+ },
+ {
+  "Country": "Slovenia",
+  "Place": "Kranjka Gora",
+  "Date": "01-02.03.25",
+  "Event": "SL,GS"
+ },
+ {
+  "Country": "Norway",
+  "Place": "Kvitfjell",
+  "Date": "08-09.03.25",
+  "Event": "SG,DH"
+ },
+ {
+  "Country": "Norway",
+  "Place": "Hafjell",
+  "Date": "15-16.03.25",
+  "Event": "GS,SL"
+ },
+ {
+  "Country": "USA",
+  "Place": "Sun Valley",
+  "Date": "22-27.03.25",
+  "Event": "DH,SG,GS,SL",
+  "Column6": "Finals WC"
+ }
+]}

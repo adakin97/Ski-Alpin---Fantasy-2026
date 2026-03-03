@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Règles - Ski Alpin Fantasy 2026</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+
+    :root {
+      --main-red: #c62828;
+      --dark-bg: #1a1a1a;
+      --white: #ffffff;
+      --font-primary: 'Montserrat', sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: var(--font-primary);
+      background: #f8f8f8;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    /* ---------- TOP BAR 1 ---------- */
+    .topbar1 {
+      background: #fff;
+      border-bottom: 1px solid #e0e0e0;
+      position: sticky;
+      top: 0;
+      z-index: 150;
+      padding: 0.75rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: var(--main-red);
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      cursor: default;
+      user-select: none;
+    }
+    .logo i { font-size: 1.6rem; }
+    .auth-links { display: flex; gap: 0.8rem; align-items: center; }
+    .auth-links a {
+      font-weight: 700;
+      color: #333;
+      text-decoration: none;
+      padding: 7px 14px;
+      border: 1.5px solid #ccc;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      cursor: pointer;
+      transition: border-color 0.2s, color 0.2s;
+      font-family: var(--font-primary);
+      white-space: nowrap;
+    }
+    .auth-links a:hover { border-color: var(--main-red); color: var(--main-red); }
+    /* ---------- TOP BAR 2 ---------- */
+    .topbar2 {
+      background-color: var(--dark-bg);
+      border-bottom: 3px solid var(--main-red);
+      position: sticky;
+      top: 56px;
+      z-index: 140;
+      display: flex;
+      justify-content: center;
+      user-select: none;
+      overflow-x: auto;
+    }
+    .topbar2 > nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      padding: 0;
+    }
+    .topbar2 > nav > a {
+      color: #bbb;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      padding: 13px 14px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+      border-bottom: 3px solid transparent;
+      position: relative;
+      top: 3px;
+      transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    }
+    .topbar2 > nav > a i { font-size: 0.85rem; }
+    .topbar2 > nav > a:hover,
+    .topbar2 > nav > a:focus {
+      color: #fff;
+      border-bottom-color: var(--main-red);
+      outline: none;
+    }
+    .topbar2 > nav > a.active {
+      color: #fff;
+      border-bottom-color: var(--main-red);
+    }
+
+    footer {
+      margin-top: auto;
+      background-color: var(--dark-bg);
+      color: #bbb;
+      text-align: center;
+      padding: 22px 0;
+      font-size: 0.9rem;
+    }
+
+    main {
+      max-width: 860px;
+      margin: 2.5rem auto;
+      padding: 2rem 2.5rem 3rem;
+      background: #fff;
+      border-top: 3px solid var(--main-red);
+      flex: 1;
+    }
+    main h1 {
+      font-size: 2rem;
+      font-weight: 900;
+      color: #1a1a1a;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      border-bottom: 3px solid var(--main-red);
+      padding-bottom: 0.6rem;
+      margin-bottom: 2rem;
+    }
+    main h2 {
+      font-size: 1.2rem;
+      font-weight: 900;
+      color: #1a1a1a;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      border-bottom: 1px solid #e2e2e2;
+      padding-bottom: 0.3rem;
+      margin: 2rem 0 0.7rem;
+    }
+    main h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--main-red);
+      margin: 1.2rem 0 0.3rem;
+    }
+    main h4 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #555;
+      margin: 0.8rem 0 0.3rem;
+    }
+    main p, main ul li {
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: #555;
+      margin: 0.3rem 0;
+    }
+    main ul {
+      padding-left: 1.5rem;
+      margin: 0.5rem 0 1rem;
+    }
+    .bold { font-weight: 700; color: #333; }
+  </style>
+</head>
+
+<header class="topbar1" role="banner">
+  <div class="logo"><i class="fas fa-mountain"></i> Ski Alpin Fantasy 2026</div>
+  <nav id="nav-auth">
+    <div class="auth-links">
+      <a href="#" id="loginBtn"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+      <a href="#" id="logoutBtn" style="display: none;"><i class="fas fa-sign-out-alt"></i> Déconnexion</a>
+    </div>
+  </nav>
+</header>
+<nav class="topbar2" role="navigation">
+  <nav>
+      <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+      <a href="classement_skieurs.html"><i class="fas fa-chart-line"></i> Classements Skieurs</a>
+      <a href="classement_joueur.html"><i class="fas fa-users"></i> Classements Joueurs</a>
+      <a href="Mon_equipe.html"><i class="fas fa-user"></i> Mon Équipe</a>
+      <a href="rules.html" class="active"><i class="fas fa-book"></i> Règles</a>
+      <a href="about.html"><i class="fas fa-info-circle"></i> À propos</a>
+  </nav>
+</nav>
+
+<body>
+  <main>
+    <h1>Règles</h1>
+
+    <h2>1. Composition de l'équipe</h2>
+    <h3>1.1. Budget</h3>
+    <p>Chaque joueur dispose de 80 étoiles pour constituer son équipe.</p>
+    <h3>1.2. Composition</h3>
+    <p>Une équipe doit inclure <span class="bold">au moins</span> un skieur de chaque discipline (descente, super-G, slalom géant, slalom).</p>
+    <p>Un maximum de <span class="bold">deux skieurs de la même nationalité</span> peut être sélectionné par discipline.</p>
+
+    <h2>2. Attribution des points</h2>
+    <h3>2.1. Points après la course</h3>
+    <p>Les points sont attribués selon le système de points FIS (1er = 100, 2e = 80, etc.).</p>
+    <h3>2.2. Bonus de course</h3>
+    <ul class="my_text2">
+      <li>Victoire : +20 points</li>
+      <li>Deuxième place : +15 points</li>
+      <li>Troisième place : +10 points</li>
+      <li>Top 7 : +5 points</li>
+    </ul>
+
+    <h3>2.3. Bonus de régularité (séries de performances consécutives)</h3>
+    <p>Ces bonus s'appliquent aux séries consécutives de performances, mais ne sont <span class="bold">pas cumulatifs</span> au sein d'une même série.</p>
+    <p>Par exemple, une série de victoires n'accordera que +20 points (pas +20 +15 +10 +5 points supplémentaires).</p>
+    <ul class="my_text2">
+      <li>Série de victoires : +40 points</li>
+      <li>Série de podiums : +30 points</li>
+      <li>Série top 10 (4e–10e place) : +20 points</li>
+      <li>Série top 15 (11e–15e place) : +10 points</li>
+      <li>Série top 30 (16e–30e place) : +5 points</li>
+    </ul>
+    <p>Ces bonus s'ajoutent au score individuel (ex. une victoire donne 100 + 20 + 40 = 160 points).</p>
+
+    <h2>3. Bonus spécifiques</h2>
+    <h3>3.1. Courses en deux manches (slalom et slalom géant)</h3>
+    <p>+3 points par position gagnée en deuxième manche.</p>
+    <h4>Remontées spectaculaires :</h4>
+    <ul class="my_text2">
+      <li>30e au podium : +70 points</li>
+      <li>30e au top 10 : +30 points</li>
+      <li>30e à la 1ère place : +100 points</li>
+      <li>Toute remontée au podium (depuis n'importe quelle position) : +5 points</li>
+    </ul>
+
+    <h3>3.2. Toutes les courses (y compris en deux manches)</h3>
+    <p>Dossard rouge (leader de discipline) : +15 points</p>
+    <p>Meilleur temps intermédiaire : +2 points par intermédiaire</p>
+    <p>Meilleur temps de manche : +5 points</p>
+
+    <h3>3.3. Classement du meilleur jeune skieur</h3>
+    <p>Tout skieur de moins de 25 ans au début de la saison (déterminé par la première course à Sölden) est éligible.</p>
+    <p>Classement de course :</p>
+    <ul class="my_text2">
+      <li>Meilleur jeune skieur : +5 points</li>
+      <li>Deuxième meilleur jeune skieur : +3 points</li>
+      <li>Troisième meilleur jeune skieur : +1 point</li>
+      <li>Leader du classement général des jeunes : +10 points par week-end</li>
+    </ul>
+
+    <h2>4. Restrictions et précisions</h2>
+    <p>Les bonus de classement et de régularité sont cumulatifs.</p>
+    <p>Les bonus de régularité ne se combinent pas entre catégories (ex. une série de podiums ne peut se combiner avec une série de victoires).</p>
+    <p>Les performances doivent être validées selon les classements officiels FIS pour être comptées.</p>
+    <p>Les cas de force majeure (ex. annulation ou modification des courses) peuvent entraîner des ajustements du système de points.</p>
+
+    <h2>5. Classements et victoires</h2>
+    <p>Les points sont totalisés après chaque course (avant 8h00 le lendemain).</p>
+    <p>Des classements hebdomadaires, mensuels et saisonniers seront publiés.</p>
+    <p>Le joueur ayant le plus de points en fin de saison sera couronné Champion Fantasy Ski Alpin.</p>
+    <p>Un petit trophée sera remis au vainqueur par les organisateurs.</p>
+  </main>
+
+  <footer>
+    &copy; 2026 Ski Alpin Fantasy. Tous droits réservés.
+  </footer>
+
+  <script type="module" src="auth.js"></script>
+</body>
+</html>

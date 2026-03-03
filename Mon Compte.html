@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mon Compte - Ski Alpin Fantasy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    /* === NAV STYLES === */
+    :root {
+      --main-red: #c62828;
+      --dark-bg: #1a1a1a;
+      --light-bg: #f8f8f8;
+      --hover-gray: #ddd;
+      --white: #ffffff;
+      --shadow-color: rgba(0, 0, 0, 0.18);
+      --font-primary: 'Montserrat', sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: var(--font-primary);
+      background: #f8f8f8;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    /* ---------- TOP BAR 1 ---------- */
+    .topbar1 {
+      background: #fff;
+      border-bottom: 1px solid #e0e0e0;
+      position: sticky;
+      top: 0;
+      z-index: 150;
+      padding: 0.75rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: var(--main-red);
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      cursor: default;
+      user-select: none;
+    }
+    .logo i { font-size: 1.6rem; }
+    .auth-links { display: flex; gap: 0.8rem; align-items: center; }
+    .auth-links a {
+      font-weight: 700;
+      color: #333;
+      text-decoration: none;
+      padding: 7px 14px;
+      border: 1.5px solid #ccc;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      cursor: pointer;
+      transition: border-color 0.2s, color 0.2s;
+      font-family: var(--font-primary);
+      white-space: nowrap;
+    }
+    .auth-links a:hover { border-color: var(--main-red); color: var(--main-red); }
+    /* ---------- TOP BAR 2 ---------- */
+    .topbar2 {
+      background-color: var(--dark-bg);
+      border-bottom: 3px solid var(--main-red);
+      position: sticky;
+      top: 56px;
+      z-index: 140;
+      display: flex;
+      justify-content: center;
+      user-select: none;
+      overflow-x: auto;
+    }
+    .topbar2 > nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      padding: 0;
+    }
+    .topbar2 > nav > a {
+      color: #bbb;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      padding: 13px 14px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+      border-bottom: 3px solid transparent;
+      position: relative;
+      top: 3px;
+      transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    }
+    .topbar2 > nav > a i { font-size: 0.85rem; }
+    .topbar2 > nav > a:hover,
+    .topbar2 > nav > a:focus {
+      color: #fff;
+      border-bottom-color: var(--main-red);
+      outline: none;
+    }
+    .topbar2 > nav > a.active {
+      color: #fff;
+      border-bottom-color: var(--main-red);
+    }
+
+    footer {
+      margin-top: auto;
+      background-color: var(--dark-bg);
+      color: #bbb;
+      text-align: center;
+      padding: 22px 0;
+      font-size: 0.9rem;
+    }
+    /* ================= */
+
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: var(--white);
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: var(--main-red);
+      border-bottom: 2px solid var(--main-red);
+      padding-bottom: 0.5rem;
+    }
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    input, select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    button {
+      background-color: var(--main-red);
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #c40810;
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .stat-card {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header class="topbar1" role="banner">
+  <div class="logo"><i class="fas fa-mountain"></i> Ski Alpin Fantasy 2026</div>
+  <nav id="nav-auth">
+    <div class="auth-links">
+      <a href="#" id="loginBtn"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+      <a href="#" id="logoutBtn" style="display: none;"><i class="fas fa-sign-out-alt"></i> Déconnexion</a>
+    </div>
+  </nav>
+</header>
+<nav class="topbar2" role="navigation">
+  <nav>
+      <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+      <a href="classement_skieurs.html"><i class="fas fa-chart-line"></i> Classements Skieurs</a>
+      <a href="classement_joueur.html"><i class="fas fa-users"></i> Classements Joueurs</a>
+      <a href="Mon_equipe.html" class="active"><i class="fas fa-user"></i> Mon Équipe</a>
+      <a href="rules.html"><i class="fas fa-book"></i> Règles</a>
+      <a href="about.html"><i class="fas fa-info-circle"></i> À propos</a>
+  </nav>
+</nav>
+
+  <div class="container">
+    <h1><i class="fas fa-user-cog"></i> Mon Compte</h1>
+    
+    <div class="form-group">
+      <label for="username">Nom d'utilisateur</label>
+      <input type="text" id="username" value="JohnDoe">
+      <button onclick="updateUsername()">Mettre à jour</button>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" value="john@example.com">
+      <button onclick="updateEmail()">Mettre à jour</button>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Nouveau mot de passe</label>
+      <input type="password" id="newPassword" placeholder="••••••••">
+      <label for="confirmPassword">Confirmer le mot de passe</label>
+      <input type="password" id="confirmPassword" placeholder="••••••••">
+      <button onclick="updatePassword()">Changer le mot de passe</button>
+    </div>
+
+    <div class="form-group">
+      <label for="avatar">Photo de profil</label>
+      <input type="file" id="avatar" accept="image/*">
+      <button onclick="uploadAvatar()">Télécharger</button>
+    </div>
+
+    <h2><i class="fas fa-chart-line"></i> Mes Statistiques</h2>
+    <div class="stats">
+      <div class="stat-card">
+        <h3>Classement</h3>
+        <p>Chargement...</p>
+      </div>
+      <div class="stat-card">
+        <h3>Points</h3>
+        <p>Chargement...</p>
+      </div>
+      <div class="stat-card">
+        <h3>Depuis</h3>
+<p><span id="creation-date">...</span></p>
+      </div>
+    </div>
+
+    <div style="margin-top: 2rem;">
+      <button style="background-color: #dc3545;" onclick="deleteAccount()">
+        <i class="fas fa-trash-alt"></i> Supprimer mon compte
+      </button>
+    </div>
+  </div>
+
+      <script type="module">
+  import { auth, db } from "./firebase.js";
+  import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
+  import { doc, getDoc, collection, getDocs } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js";
+
+  // Cible les éléments HTML
+  const usernameInput = document.getElementById("username");
+  const emailInput = document.getElementById("email");
+  const pointsDisplay = document.querySelector(".stat-card:nth-child(2) p");
+  const rankingDisplay = document.querySelector(".stat-card:nth-child(1) p");
+
+  onAuthStateChanged(auth, async (user) => {
+    if (user) {
+      const creationDate = new Date(user.metadata.creationTime);
+const month = creationDate.toLocaleString('fr-FR', { month: 'long' });
+const year = creationDate.getFullYear();
+document.getElementById("creation-date").textContent = `${month} ${year}`;
+      // Récupère les infos depuis Firestore
+      const userDoc = await getDoc(doc(db, "users", user.uid));
+      const userData = userDoc.data();
+
+      usernameInput.value = userData.username;
+      emailInput.value = userData.email;
+      pointsDisplay.textContent = userData.points;
+
+      // Calcul du classement
+      const usersSnapshot = await getDocs(collection(db, "users"));
+      const usersArray = [];
+
+      usersSnapshot.forEach(doc => {
+        const data = doc.data();
+        usersArray.push({ username: data.username, points: data.points });
+      });
+
+      // Tri des utilisateurs par points décroissants
+      usersArray.sort((a, b) => b.points - a.points);
+
+      // Trouve la position de l'utilisateur actuel
+      const rank = usersArray.findIndex(u => u.username === userData.username) + 1;
+      rankingDisplay.textContent = `#${rank}`;
+    } else {
+      alert("Veuillez vous connecter pour voir vos données.");
+      window.location.href = "index.html"; // Redirection
+    }
+  });
+  </script>
+</body>
+</html>

@@ -1,0 +1,287 @@
+[
+    {
+        "position": 1,
+        "nom": "Marco Odermatt",
+        "points": 580
+    },
+    {
+        "position": 2,
+        "nom": "Henrik Kristoffersen",
+        "points": 454
+    },
+    {
+        "position": 3,
+        "nom": "Loïc Meillard",
+        "points": 434
+    },
+    {
+        "position": 4,
+        "nom": "Alexander Steen Olsen",
+        "points": 346
+    },
+    {
+        "position": 5,
+        "nom": "Lucas Braathen",
+        "points": 341
+    },
+    {
+        "position": 6,
+        "nom": "Thomas Tumler",
+        "points": 298
+    },
+    {
+        "position": 7,
+        "nom": "Stefan Brennsteiner",
+        "points": 284
+    },
+    {
+        "position": 8,
+        "nom": "Zan Kranjec",
+        "points": 277
+    },
+    {
+        "position": 9,
+        "nom": "Filip Zubcic",
+        "points": 262
+    },
+    {
+        "position": 10,
+        "nom": "Luca De Aliprandini",
+        "points": 237
+    },
+    {
+        "position": 11,
+        "nom": "River Radamus",
+        "points": 212
+    },
+    {
+        "position": 11,
+        "nom": "Timon Haugan",
+        "points": 212
+    },
+    {
+        "position": 13,
+        "nom": "Patrick Feurstein",
+        "points": 205
+    },
+    {
+        "position": 14,
+        "nom": "Atle Lie McGrath",
+        "points": 194
+    },
+    {
+        "position": 15,
+        "nom": "Leo Anguenot",
+        "points": 165
+    },
+    {
+        "position": 16,
+        "nom": "Thibaut Favrot",
+        "points": 162
+    },
+    {
+        "position": 17,
+        "nom": "Marco Schwarz",
+        "points": 161
+    },
+    {
+        "position": 18,
+        "nom": "Joan Verdu",
+        "points": 153
+    },
+    {
+        "position": 19,
+        "nom": "Sam Maes",
+        "points": 121
+    },
+    {
+        "position": 20,
+        "nom": "Luca Aerni",
+        "points": 120
+    },
+    {
+        "position": 21,
+        "nom": "Anton Grammel",
+        "points": 107
+    },
+    {
+        "position": 22,
+        "nom": "Alex Vinatzer",
+        "points": 98
+    },
+    {
+        "position": 23,
+        "nom": "Raphael Haaser",
+        "points": 94
+    },
+    {
+        "position": 24,
+        "nom": "Gino Caviezel",
+        "points": 89
+    },
+    {
+        "position": 25,
+        "nom": "Alexander Schmid",
+        "points": 53
+    },
+    {
+        "position": 26,
+        "nom": "Alexis Pinturault",
+        "points": 48
+    },
+    {
+        "position": 27,
+        "nom": "Rasmus Windingstad",
+        "points": 47
+    },
+    {
+        "position": 28,
+        "nom": "Filippo Della Vite",
+        "points": 45
+    },
+    {
+        "position": 29,
+        "nom": "Tormis Laine",
+        "points": 44
+    },
+    {
+        "position": 30,
+        "nom": "Fabian Gratz",
+        "points": 43
+    },
+    {
+        "position": 31,
+        "nom": "Jonas Stockinger",
+        "points": 37
+    },
+    {
+        "position": 32,
+        "nom": "Giovanni Borsotti",
+        "points": 35
+    },
+    {
+        "position": 33,
+        "nom": "Manuel Feller",
+        "points": 34
+    },
+    {
+        "position": 34,
+        "nom": "Lukas Feurstein",
+        "points": 32
+    },
+    {
+        "position": 34,
+        "nom": "Alban Elezi Cannaferina",
+        "points": 32
+    },
+    {
+        "position": 36,
+        "nom": "Tommy Ford",
+        "points": 23
+    },
+    {
+        "position": 37,
+        "nom": "William Hansson",
+        "points": 22
+    },
+    {
+        "position": 38,
+        "nom": "Flavio Vitale",
+        "points": 20
+    },
+    {
+        "position": 39,
+        "nom": "Stefan Luitz",
+        "points": 19
+    },
+    {
+        "position": 40,
+        "nom": "Noel Zwischenbrugger",
+        "points": 18
+    },
+    {
+        "position": 41,
+        "nom": "Patrick Kenney",
+        "points": 17
+    },
+    {
+        "position": 42,
+        "nom": "Fadri Janutin",
+        "points": 16
+    },
+    {
+        "position": 43,
+        "nom": "Justin Murisier",
+        "points": 14
+    },
+    {
+        "position": 43,
+        "nom": "Rasmus Bakkevig",
+        "points": 14
+    },
+    {
+        "position": 45,
+        "nom": "Andreas Zampa",
+        "points": 13
+    },
+    {
+        "position": 46,
+        "nom": "Loevan Parand",
+        "points": 12
+    },
+    {
+        "position": 47,
+        "nom": "Erik Read",
+        "points": 11
+    },
+    {
+        "position": 48,
+        "nom": "Diego Orecchioni",
+        "points": 10
+    },
+    {
+        "position": 49,
+        "nom": "Linus Strasser",
+        "points": 9
+    },
+    {
+        "position": 50,
+        "nom": "Marcel Hirscher",
+        "points": 8
+    },
+    {
+        "position": 51,
+        "nom": "Hannes Zingerle",
+        "points": 7
+    },
+    {
+        "position": 51,
+        "nom": "Bridger Gile",
+        "points": 7
+    },
+    {
+        "position": 53,
+        "nom": "Victor Muffat-Jeandet",
+        "points": 5
+    },
+    {
+        "position": 54,
+        "nom": "Livio Simonet",
+        "points": 4
+    },
+    {
+        "position": 55,
+        "nom": "Cyprien Sarrazin",
+        "points": 3
+    },
+    {
+        "position": 55,
+        "nom": "Jesper Wahlqvist",
+        "points": 3
+    },
+    {
+        "position": 57,
+        "nom": "Mattias Roenngren",
+        "points": 2
+    }
+]
