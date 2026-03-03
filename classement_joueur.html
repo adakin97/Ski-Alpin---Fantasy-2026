@@ -10,115 +10,10 @@
 
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="common.css">
 
   <style>
-    :root {
-      --main-red: #c62828; 
-      --dark-bg: #1a1a1a;
-      --light-bg: #f8f8f8;
-      --hover-gray: #ddd;
-      --white: #ffffff;
-      --shadow-color: rgba(0, 0, 0, 0.18);
-      --font-primary: 'Montserrat', sans-serif;
-    }
-
-    body {
-      margin: 0;
-      font-family: var(--font-primary);
-      background: linear-gradient(to bottom right, #ffffff, #f0f0f0);
-      color: #333;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-
-    /* ---------- TOP BAR ---------- */
-    /* ---------- TOP BAR 1 ---------- */
-    .topbar1 {
-      background: #fff;
-      border-bottom: 1px solid #e0e0e0;
-      position: sticky;
-      top: 0;
-      z-index: 150;
-      padding: 0.75rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .logo {
-      font-size: 1.5rem;
-      font-weight: 900;
-      color: var(--main-red);
-      letter-spacing: 1px;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      cursor: default;
-      user-select: none;
-    }
-    .logo i { font-size: 1.6rem; }
-    .auth-links { display: flex; gap: 0.8rem; align-items: center; }
-    .auth-links a {
-      font-weight: 700;
-      color: #333;
-      text-decoration: none;
-      padding: 7px 14px;
-      border: 1.5px solid #ccc;
-      font-size: 0.85rem;
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-      cursor: pointer;
-      transition: border-color 0.2s, color 0.2s;
-      font-family: var(--font-primary);
-      white-space: nowrap;
-    }
-    .auth-links a:hover { border-color: var(--main-red); color: var(--main-red); }
-    /* ---------- TOP BAR 2 ---------- */
-    .topbar2 {
-      background-color: var(--dark-bg);
-      border-bottom: 3px solid var(--main-red);
-      position: sticky;
-      top: 56px;
-      z-index: 140;
-      display: flex;
-      justify-content: center;
-      user-select: none;
-      overflow-x: auto;
-    }
-    .topbar2 > nav {
-      display: flex;
-      justify-content: center;
-      flex-wrap: nowrap;
-      padding: 0;
-    }
-    .topbar2 > nav > a {
-      color: #bbb;
-      font-weight: 700;
-      font-size: 0.95rem;
-      text-decoration: none;
-      padding: 13px 14px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      white-space: nowrap;
-      border-bottom: 3px solid transparent;
-      position: relative;
-      top: 3px;
-      transition: color 0.2s ease, border-bottom-color 0.2s ease;
-    }
-    .topbar2 > nav > a i { font-size: 0.85rem; }
-    .topbar2 > nav > a:hover,
-    .topbar2 > nav > a:focus {
-      color: #fff;
-      border-bottom-color: var(--main-red);
-      outline: none;
-    }
-    .topbar2 > nav > a.active {
-      color: #fff;
-      border-bottom-color: var(--main-red);
-    }
-
+    body { background: linear-gradient(to bottom right, #ffffff, #f0f0f0); }
 
     /* ---------- CONTENU CLASSEMENT ---------- */
     .container {
@@ -162,15 +57,6 @@
     tr.top-1 td { background: gold !important; color: #000; font-weight: 700; }
     tr.top-2 td { background: silver !important; color: #000; font-weight: 700; }
     tr.top-3 td { background: #cd7f32 !important; color: #000; font-weight: 700; }
-
-    footer {
-      margin-top: auto;
-      background-color: var(--dark-bg);
-      color: #bbb;
-      text-align: center;
-      padding: 22px 0;
-      font-size: 0.9rem;
-    }
 
     @media (max-width: 600px) {
       table, thead, tbody, th, td, tr {
