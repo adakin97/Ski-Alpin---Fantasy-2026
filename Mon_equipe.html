@@ -20,38 +20,52 @@
     }
     body { background: linear-gradient(to bottom right, #ffffff, #f0f0f0); }
 
-    /* SECTION CONTENU */
-    .section {
-      max-width: 720px;
-      margin: auto;
-      padding: 60px 20px 80px;
-      background-color: var(--white);
-      border-radius: 16px;
-      box-shadow: 0 7px 30px var(--shadow-color);
-      text-align: center;
+    .hero {
+      text-align: left;
+      padding: 60px 4rem 50px;
+      background:
+        linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)),
+        url('Image/background_title.jpeg') center/cover no-repeat;
+      color: #fff;
+      border-left: 5px solid var(--main-red);
       user-select: none;
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
     }
-
-    .section h2 {
-      font-size: 2.9rem;
+    .hero h1 {
+      font-size: 3.5rem;
       font-weight: 900;
-      color: var(--main-red);
-      margin-bottom: 0;
-      letter-spacing: 1.3px;
+      margin: 0 0 0.4rem;
+      text-shadow: 3px 3px 15px #000000dd;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      color: #f0f0f0dd;
+      margin: 0;
+      font-weight: 500;
     }
 
-    .section p {
-      font-weight: 500;
-      font-size: 1.3rem;
-      color: #555;
-      line-height: 1.7;
-      letter-spacing: 0.3px;
-      max-width: 520px;
-      margin: 0 auto;
+    .rules-strip {
+      display: flex;
+      gap: 0;
+      border: 1px solid #e2e2e2;
+      border-top: 3px solid var(--main-red);
+      background: #fff;
+      margin: 32px 4rem 0;
     }
+    .rule-item {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 20px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: #444;
+      border-right: 1px solid #e2e2e2;
+    }
+    .rule-item:last-child { border-right: none; }
+    .rule-item i { color: var(--main-red); font-size: 1rem; flex-shrink: 0; }
 
   
 .details {
@@ -189,6 +203,13 @@ h6{
   transform: translateY(-4px);
 }
 
+.box.captain {
+  background-color: #FFD700;
+  color: #222;
+  border-color: #b8860b;
+  box-shadow: 0 0 20px #FFD700, 0 0 8px #b8860b;
+}
+
 .box:hover:not(.selected) {
   background-color: #d32f2f; /* rouge moins agressif */
   color: white;
@@ -241,7 +262,9 @@ h6{
   transition: border-top-color 0.2s ease;
   cursor: pointer;
   margin: 0;
+  position: relative;
 }
+
 
 /* Effet hover sur ordi */
 .skier-card:hover {
@@ -396,53 +419,58 @@ h6{
     align-items: center;
 }
 
+#team-dashboard {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0;
+  margin: 24px 4rem 0;
+  border: 1px solid #e2e2e2;
+}
+
 .dashboard-item {
-    background: var(--white);
-    border-radius: 12px;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-    transition: transform 0.2s ease;
-  }
+  background: #fff;
+  padding: 18px 20px;
+  text-align: left;
+  border-right: 1px solid #e2e2e2;
+  transition: border-top-color 0.2s ease;
+  border-top: 3px solid transparent;
+}
+.dashboard-item:last-child { border-right: none; }
+.dashboard-item:hover { border-top-color: var(--main-red); }
 
-  .dashboard-item:hover {
-    transform: translateY(-4px);
-  }
+.dashboard-item i { color: var(--main-red); font-size: 1.1rem; margin-bottom: 8px; display: block; }
 
-  .dashboard-item .label {
-    font-size: 0.95rem;
-    color: #666;
-    margin-top: 0.5rem;
-    margin-bottom: 0.2rem;
-  }
+.dashboard-item .label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 4px;
+}
 
-  .dashboard-item .value {
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: #222;
-  }
+.dashboard-item .value {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #1a1a1a;
+}
 
 #save-button {
-    font-size: 18px;
-    padding: 15px 30px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    margin-top: 20px;
-    display: block;
-    width: 80%; /* Largeur ajustable */
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  background: var(--main-red);
+  color: #fff;
+  border: none;
+  padding: 14px 48px;
+  font-size: 0.9rem;
+  font-weight: 800;
+  font-family: var(--font-primary, 'Montserrat', sans-serif);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  display: block;
+  margin: 28px auto 0;
 }
-
-#save-button:hover {
-    background-color: #218838;
-    transform: scale(1.05);
-}
+#save-button:hover { background: #a31f1f; }
 button.remove-button {
   background-color: #ff5252;
   color: white;
@@ -517,64 +545,49 @@ button.remove-button:hover {
       <a href="about.html" tabindex="0"><i class="fas fa-info-circle" aria-hidden="true"></i> À propos</a>
     </nav>
   </nav>
- <h1>Mon équipe</h1>
-<p>
-  Compose ton équipe en sélectionnant <strong>8 skieurs</strong> pour marquer un maximum de points !
-  <br>Pour chaque case ci-dessous, clique pour voir les skieurs disponibles et utilise les filtres pour t'aider à choisir.</br>
-  <br>Le <span style="color:blue;"><strong>prix</strong></span> de chaque skieur est affiché en bleu, et tu peux consulter son profil FIS via un lien direct.</br>
-  <br>Quelques règles importantes à respecter :</br>
-  <ul class="my_text2">
-    <li>Tu dois avoir <strong>au moins un skieur par discipline</strong> (par exemple, Odermatt compte pour le géant, la descente et le Super-G).</li>
-    <li>Ton équipe ne peut pas dépasser <strong>120 étoiles</strong>.</li>
-    <li>Tu peux choisir <strong>maximum 2 skieurs de la même nationalité</strong>.</li>
-  </ul>
-</p>
-<div id="team-dashboard" style="
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 20px;
-  margin: 2rem auto;
-  padding: 20px;
-  max-width: 1000px;
-  background-color: var(--light-bg);
-  border-radius: 16px;
-  box-shadow: 0 4px 12px var(--shadow-color);
-  font-family: var(--font-primary);
-">
+<section class="hero">
+  <h1>Mon Équipe</h1>
+  <p>Sélectionne 8 skieurs, désigne ton capitaine et marque un maximum de points !</p>
+</section>
 
+<div class="rules-strip">
+  <div class="rule-item"><i class="fas fa-skiing"></i> 1 skieur minimum par discipline</div>
+  <div class="rule-item"><i class="fas fa-star"></i> Budget maximum de <strong>&nbsp;120★</strong></div>
+  <div class="rule-item"><i class="fas fa-flag"></i> Maximum <strong>2 skieurs</strong> par nationalité</div>
+</div>
+
+<div id="team-dashboard">
   <div class="dashboard-item">
-    <i class="fas fa-crown" style="color: gold; font-size: 1.4rem;"></i>
+    <i class="fas fa-crown"></i>
     <div class="label">Capitaine</div>
     <div class="value" id="team-captain">Aucun</div>
   </div>
-
   <div class="dashboard-item">
-    <i class="fas fa-coins" style="color: var(--main-red); font-size: 1.4rem;"></i>
+    <i class="fas fa-star"></i>
     <div class="label">Budget restant</div>
     <div class="value" id="remaining-budget">120 ★</div>
   </div>
-
   <div class="dashboard-item">
-    <i class="fas fa-exchange-alt" style="color: #28a745; font-size: 1.4rem;"></i>
+    <i class="fas fa-exchange-alt"></i>
     <div class="label">Transferts restants</div>
     <div class="value" id="transfers-left">8</div>
   </div>
-
   <div class="dashboard-item">
-    <i class="fas fa-flag-checkered" style="color: #ffc107; font-size: 1.4rem;"></i>
+    <i class="fas fa-flag-checkered"></i>
     <div class="label">Points dernière course</div>
     <div class="value" id="last-race-points">0 pts</div>
   </div>
-
   <div class="dashboard-item">
-    <i class="fas fa-chart-line" style="color: #17a2b8; font-size: 1.4rem;"></i>
+    <i class="fas fa-chart-line"></i>
     <div class="label">Total cumulé</div>
     <div class="value" id="total-points">0 pts</div>
   </div>
 </div>
 
 
-                <div class="container">            
+                <div id="captain-confirmation" style="display:none;">👑 Capitaine défini !</div>
+
+                <div class="container">
                     <!-- Boxes pour les skieurs sélectionnés -->
                     <div id="boxes-container">
                         <!-- Cases dynamiques générées via JS -->
@@ -660,33 +673,6 @@ button.remove-button:hover {
     &copy; 2026 Ski Alpin Fantasy. Tous droits réservés.
   </footer>
 
-<!-- MODALE CONNEXION -->
-  <div id="loginModal" class="modal">
-    <div class="modal-content">
-      <span class="close" data-close="loginModal">&times;</span>
-      <h2>Connexion</h2>
-      <form id="loginForm">
-        <label>Pseudo : <input type="text" name="username" required></label>
-        <label>Mot de passe : <input type="password" name="password" required></label>
-        <button type="submit">Se connecter</button>
-      </form>
-    </div>
-  </div>
-
-  <!-- MODALE INSCRIPTION -->
-  <div id="signupModal" class="modal">
-    <div class="modal-content">
-      <span class="close" data-close="signupModal">&times;</span>
-      <h2>Inscription</h2>
-      <form id="signupForm">
-        <label>Pseudo : <input type="text" name="username" required></label>
-        <label>Email : <input type="email" name="email" required></label>
-        <label>Mot de passe : <input type="password" name="password" required></label>
-        <label>Confirmez : <input type="password" name="confirmPassword" required></label>
-        <button type="submit">Créer un compte</button>
-      </form>
-    </div>
-  </div>
 
 
 
@@ -719,8 +705,8 @@ button.remove-button:hover {
   <script type="module">
 // Firebase Auth + Firestore
 import { auth, db } from "./firebase.js";
-import { onAuthStateChanged, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
-import { doc, setDoc, getDoc, updateDoc, collection, query, where, getDocs, serverTimestamp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js";
+import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
+import { doc, setDoc, getDoc, collection, query, where, getDocs, serverTimestamp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js";
 
 // ================================
 // Script complet - Fantasy Ski App
@@ -976,62 +962,12 @@ document.addEventListener("DOMContentLoaded", async function() {
   await loadLastRacePoints();  // <-- ajout ici
 });
 
-// -------- Auth (Firebase) --------
-function openModal(id) {
-  document.getElementById(id).style.display = "block";
-}
-
-function closeModal(id) {
-  document.getElementById(id).style.display = "none";
-}
-
-async function updateNavAuthUI(user) {
-  const nav = document.getElementById("nav-auth");
-  if (user) {
-    const userDoc = await getDoc(doc(db, "users", user.uid));
-    const username = userDoc.exists() ? userDoc.data().username : user.email;
-    nav.innerHTML = `
-      <div class="user-menu">
-        <button id="user-menu-button">${username} <i class="fas fa-caret-down"></i></button>
-        <ul id="user-dropdown">
-          <li><a href="Mon Compte.html">Mon Compte</a></li>
-          <li><a href="Paramètres.html">Paramètres</a></li>
-          <li><button id="logoutBtn">Déconnexion</button></li>
-        </ul>
-      </div>
-    `;
-    document.getElementById("user-menu-button").addEventListener("click", () => {
-      const dropdown = document.getElementById("user-dropdown");
-      dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
-    });
-    document.getElementById("logoutBtn").addEventListener("click", async () => {
-      resetSelection();
-      await signOut(auth);
-    });
-  } else {
-    nav.innerHTML = `
-      <div class="auth-links">
-        <a href="#" id="openLogin"><i class="fas fa-sign-in-alt"></i> Connexion</a>
-        <a href="#" id="openSignup"><i class="fas fa-user-plus"></i> Inscription</a>
-      </div>
-    `;
-    document.getElementById("openLogin").addEventListener("click", (e) => {
-      e.preventDefault();
-      openModal("loginModal");
-    });
-    document.getElementById("openSignup").addEventListener("click", (e) => {
-      e.preventDefault();
-      openModal("signupModal");
-    });
-    resetSelection();
-  }
-}
-
-// Firebase Auth state listener
+// Firebase Auth state listener — team loading only (nav handled by auth.js)
 onAuthStateChanged(auth, async (user) => {
-  await updateNavAuthUI(user);
   if (user) {
     await loadSavedTeam(user);
+  } else {
+    resetSelection();
   }
 });
 
@@ -1060,55 +996,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("modal-discipline").addEventListener("change", filterModalGrid);
   document.getElementById("modal-sort").addEventListener("change", filterModalGrid);
 
-  window.addEventListener("click", (e) => {
-    if (e.target.classList.contains("modal")) {
-      closeModal(e.target.id);
-    }
-  });
-
-  document.querySelectorAll(".close").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      closeModal(btn.dataset.close);
-    });
-  });
-
-  // Signup form - Firebase
-  document.getElementById("signupForm").addEventListener("submit", async (e) => {
-    e.preventDefault();
-    const username = e.target.username.value.trim();
-    const email = e.target.email.value.trim();
-    const password = e.target.password.value;
-    const confirmPassword = e.target.confirmPassword.value;
-    if (password !== confirmPassword) {
-      alert("Les mots de passe ne correspondent pas !");
-      return;
-    }
-    try {
-      const cred = await createUserWithEmailAndPassword(auth, email, password);
-      await setDoc(doc(db, "users", cred.user.uid), { username, email, points: 0, team: [] });
-      closeModal("signupModal");
-      alert("Compte créé avec succès !");
-    } catch (err) {
-      alert(err.message);
-    }
-  });
-
-  // Login form - Firebase
-  document.getElementById("loginForm").addEventListener("submit", async (e) => {
-    e.preventDefault();
-    const username = e.target.username.value.trim();
-    const password = e.target.password.value;
-    const q = query(collection(db, "users"), where("username", "==", username));
-    const snapshot = await getDocs(q);
-    if (snapshot.empty) { alert("Utilisateur inconnu"); return; }
-    const email = snapshot.docs[0].data().email;
-    try {
-      await signInWithEmailAndPassword(auth, email, password);
-      closeModal("loginModal");
-    } catch (err) {
-      alert("Mot de passe incorrect");
-    }
-  });
 });
 
 // -------- Chargement des skieurs --------
@@ -1267,6 +1154,8 @@ function updateSelectedBoxes() {
         teamCaptain.lastName === skier.lastName;
 
       box.classList.add("selected");
+      if (isCaptain) box.classList.add("captain");
+      else box.classList.remove("captain");
      box.innerHTML = `
   <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
     <img src="${flagPath}" alt="Flag" style="width: 32px; height: 22px; object-fit: cover; margin-bottom: 4px;">
@@ -1277,13 +1166,14 @@ function updateSelectedBoxes() {
       <span style="color: #007bff;">💰 ${skier.Price}★</span>
     </div>
     <button class="captain-btn" onclick="event.stopPropagation(); setCaptain(${index});">
-      ${teamCaptain && teamCaptain.firstName === skier.firstName && teamCaptain.lastName === skier.lastName ? "👑 Capitaine" : "🏅 Définir capitaine"}
+      ${isCaptain ? "👑 Capitaine" : "🏅 Définir capitaine"}
     </button>
   </div>
 `;
       box.onclick = () => deselectSkier(index);
     } else {
       box.classList.remove("selected");
+      box.classList.remove("captain");
       box.innerHTML = `<img src="person.png" alt="person icon"><p>Sélectionner un skieur</p>`;
       box.onclick = () => openSkierList(box);
     }
@@ -1316,6 +1206,7 @@ function setCaptain(index) {
 
 function showCaptainConfirmation() {
   const el = document.getElementById("captain-confirmation");
+  if (!el) return;
   el.style.display = "block";
   setTimeout(() => (el.style.display = "none"), 2000);
 }
@@ -1534,6 +1425,11 @@ function showDisciplineError(missing) {
   }, 5000);
 }
 
+function hideDisciplineError() {
+  const container = document.getElementById("discipline-error");
+  if (container) container.style.display = "none";
+}
+
 async function saveTeam() {
   const user = auth.currentUser;
   if (!user) {
@@ -1555,10 +1451,10 @@ async function saveTeam() {
   }
 
   try {
-    await updateDoc(doc(db, "users", user.uid), {
+    await setDoc(doc(db, "users", user.uid), {
       team: selectedSkiers,
       teamSavedAt: serverTimestamp()
-    });
+    }, { merge: true });
     showSaveConfirmation();
   } catch (err) {
     console.error("Erreur sauvegarde :", err);
@@ -1670,4 +1566,5 @@ window.nextPage = nextPage;
 window.setCaptain = setCaptain;
 
 </script>
+<script type="module" src="auth.js"></script>
 </html>

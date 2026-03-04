@@ -4,43 +4,45 @@ fetch('courses.json')
     const tableBody = document.querySelector('#courses-table tbody');
     const events = data["Calendar Event"];
 
-    events.forEach(course => {
-      // Ligne principale pour chaque course
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const upcomingEvents = events.filter(course => getEndDate(course.Date) >= today);
+
+    if (upcomingEvents.length === 0) {
+      tableBody.innerHTML = '<tr><td colspan="4" style="text-align:center;padding:20px;color:#888;">Saison terminée</td></tr>';
+      return;
+    }
+
+    const countryCode = {
+      'Austria': 'aut', 'Switzerland': 'sui', 'USA': 'usa',
+      'France': 'fra', 'Italy': 'ita', 'Finland': 'fin',
+      'Norway': 'nor', 'Germany': 'ger', 'Slovenia': 'slo'
+    };
+
+    upcomingEvents.forEach((course, i) => {
       const row = document.createElement('tr');
-      const dates = expandDateRange(course.Date, course.Event.split(','));
+      if (i === 0) row.classList.add('next-race');
+
+      const code = countryCode[course.Country] || course.Country.toLowerCase().slice(0, 3);
+      const flagHtml = `<img class="flag-img" src="flags/${code}.png" alt="${course.Country}" onerror="this.style.display='none'">`;
+
+      const nextLabel = i === 0 ? '<span class="next-label">Prochaine</span>' : '';
+      const eventLabel = course.Column6 ? `<span class="event-label">${course.Column6}</span>` : '';
+
+      const badgesHtml = course.Event.split(',').map(d => {
+        const disc = d.trim();
+        return `<span class="race-badge badge-${disc}">${disc}</span>`;
+      }).join('');
 
       row.innerHTML = `
-        <td>${course.Date}</td>
-        <td>${course.Country}</td>
-        <td>${course.Place}</td>
-        <td>${course.Event}</td>
+        <td>${course.Date}${nextLabel}</td>
+        <td>${flagHtml}${course.Country}</td>
+        <td>${course.Place}${eventLabel}</td>
+        <td>${badgesHtml}</td>
       `;
 
       tableBody.appendChild(row);
-
-      // Ajouter les détails pour les plages de dates
-      if (dates.length > 1) {
-        const detailsRow = document.createElement('tr');
-        const detailsCell = document.createElement('td');
-
-        detailsCell.colSpan = 4; // Fusionne les colonnes
-        detailsCell.innerHTML = `
-          <div class="details">
-            ${dates.map(d => `<div>${d.date} - ${d.event}</div>`).join('')}
-          </div>
-        `;
-
-        detailsRow.appendChild(detailsCell);
-        detailsRow.classList.add('details-row');
-        detailsRow.style.display = 'none'; // Cacher par défaut
-        tableBody.appendChild(detailsRow);
-
-        // Ajout de la fonctionnalité d'affichage/masquage
-        row.addEventListener('click', () => {
-          const isVisible = detailsRow.style.display === 'table-row';
-          detailsRow.style.display = isVisible ? 'none' : 'table-row';
-        });
-      }
     });
   })
   .catch(error => console.error('Error loading data:', error));
@@ -69,6 +71,12 @@ function expandDateRange(dateRange, events) {
   }
 
   return result;
+}
+
+// Extrait la date de fin d'une plage comme "07-08.03.26" → parseDate("08.03.26")
+function getEndDate(dateStr) {
+  const parts = dateStr.split('-');
+  return parseDate(parts[parts.length - 1]);
 }
 
 // Utilitaire : Convertit une date "DD.MM.YY" en objet Date

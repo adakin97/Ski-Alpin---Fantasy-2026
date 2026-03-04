@@ -8,59 +8,178 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="common.css">
   <style>
-    .container {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 2rem;
-      background: var(--white);
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    /* HERO */
+    .hero {
+      padding: 60px 4rem 50px;
+      background:
+        linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)),
+        url('Image/background_title.jpeg') center/cover no-repeat;
+      color: #fff;
+      border-left: 5px solid var(--main-red);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
     }
-    h1 {
-      color: var(--main-red);
-      border-bottom: 2px solid var(--main-red);
-      padding-bottom: 0.5rem;
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      margin: 0 0 0.4rem;
+      text-shadow: 2px 2px 10px #000000cc;
     }
-    .form-group {
-      margin-bottom: 1.5rem;
+    .hero p {
+      font-size: 1.05rem;
+      color: #f0f0f0dd;
+      margin: 0;
+      font-weight: 500;
     }
-    label {
-      display: block;
-      margin-bottom: 0.5rem;
-      font-weight: 600;
-    }
-    input, select {
+
+    /* PAGE LAYOUT */
+    .page-content {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
       width: 100%;
-      padding: 10px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-      font-size: 16px;
     }
-    button {
-      background-color: var(--main-red);
-      color: white;
-      border: none;
-      padding: 12px 20px;
-      border-radius: 5px;
-      cursor: pointer;
-      font-weight: 600;
-      transition: background-color 0.3s;
-    }
-    button:hover {
-      background-color: #c40810;
-    }
-    .stats {
+
+    /* STATS */
+    .stats-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 1rem;
-      margin-top: 2rem;
+      gap: 16px;
+      margin-bottom: 32px;
     }
     .stat-card {
-      background: white;
-      padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      background: #fff;
+      border: 1px solid #e2e2e2;
+      border-top: 3px solid var(--main-red);
+      padding: 20px 24px;
       text-align: center;
+    }
+    .stat-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #888;
+      margin-bottom: 8px;
+    }
+    .stat-value {
+      font-size: 2rem;
+      font-weight: 900;
+      color: #1a1a1a;
+    }
+    .stat-value.small { font-size: 1.2rem; }
+
+    /* CARD SECTIONS */
+    .card-section {
+      background: #fff;
+      border: 1px solid #e2e2e2;
+      border-top: 3px solid var(--main-red);
+      padding: 28px 32px;
+      margin-bottom: 24px;
+    }
+    .card-section.danger { border-top-color: #c62828; }
+
+    .section-title {
+      font-size: 0.85rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #1a1a1a;
+      margin: 0 0 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e8e8e8;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-title.danger-title { color: #c62828; border-bottom-color: #fce8e8; }
+
+    /* FORM */
+    .form-row {
+      display: flex;
+      align-items: flex-end;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .form-row:last-child { margin-bottom: 0; }
+    .form-field { flex: 1; }
+    .form-field label {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #555;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .form-field input {
+      width: 100%;
+      padding: 11px 14px;
+      border: 1.5px solid #e0e0e0;
+      font-size: 0.95rem;
+      font-family: var(--font-primary);
+      background: #fafafa;
+      outline: none;
+      box-sizing: border-box;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .form-field input:focus {
+      border-color: var(--main-red);
+      box-shadow: 0 0 0 3px rgba(198,40,40,0.1);
+      background: #fff;
+    }
+
+    /* BUTTONS */
+    .btn-primary {
+      background: var(--main-red);
+      color: #fff;
+      border: none;
+      padding: 11px 22px;
+      font-weight: 800;
+      font-size: 0.78rem;
+      font-family: var(--font-primary);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+    .btn-primary:hover { background: #a31f1f; }
+
+    .btn-danger {
+      background: #c62828;
+      color: #fff;
+      border: none;
+      padding: 11px 22px;
+      font-weight: 800;
+      font-size: 0.78rem;
+      font-family: var(--font-primary);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      cursor: pointer;
+      transition: background 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-danger:hover { background: #8d1a1a; }
+
+    .danger-text {
+      color: #888;
+      font-size: 0.88rem;
+      margin: 0 0 16px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .hero { padding: 40px 1.5rem 36px; }
+      .hero h1 { font-size: 2.2rem; }
+      .page-content { padding: 24px 16px 40px; }
+      .card-section { padding: 20px 16px; }
+      .form-row { flex-direction: column; align-items: stretch; }
+      .stats-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -70,120 +189,134 @@
   <div class="logo"><i class="fas fa-mountain"></i> Ski Alpin Fantasy 2026</div>
   <nav id="nav-auth">
     <div class="auth-links">
-      <a href="#" id="loginBtn"><i class="fas fa-sign-in-alt"></i> Connexion</a>
-      <a href="#" id="logoutBtn" style="display: none;"><i class="fas fa-sign-out-alt"></i> Déconnexion</a>
+      <a href="#" id="openLogin"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+      <a href="#" id="openSignup"><i class="fas fa-user-plus"></i> Inscription</a>
     </div>
   </nav>
 </header>
+
 <nav class="topbar2" role="navigation">
   <nav>
-      <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
-      <a href="classement_skieurs.html"><i class="fas fa-chart-line"></i> Classements Skieurs</a>
-      <a href="classement_joueur.html"><i class="fas fa-users"></i> Classements Joueurs</a>
-      <a href="Mon_equipe.html" class="active"><i class="fas fa-user"></i> Mon Équipe</a>
-      <a href="rules.html"><i class="fas fa-book"></i> Règles</a>
-      <a href="about.html"><i class="fas fa-info-circle"></i> À propos</a>
+    <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+    <a href="classement_skieurs.html"><i class="fas fa-chart-line"></i> Classements Skieurs</a>
+    <a href="classement_joueur.html"><i class="fas fa-users"></i> Classements Joueurs</a>
+    <a href="Mon_equipe.html"><i class="fas fa-user"></i> Mon Équipe</a>
+    <a href="rules.html"><i class="fas fa-book"></i> Règles</a>
+    <a href="about.html"><i class="fas fa-info-circle"></i> À propos</a>
   </nav>
 </nav>
 
-  <div class="container">
-    <h1><i class="fas fa-user-cog"></i> Mon Compte</h1>
-    
-    <div class="form-group">
-      <label for="username">Nom d'utilisateur</label>
-      <input type="text" id="username" value="JohnDoe">
-      <button onclick="updateUsername()">Mettre à jour</button>
-    </div>
+<section class="hero">
+  <h1><i class="fas fa-user-cog"></i> Mon Compte</h1>
+  <p>Gérez vos informations personnelles et suivez vos statistiques.</p>
+</section>
 
-    <div class="form-group">
-      <label for="email">Email</label>
-      <input type="email" id="email" value="john@example.com">
-      <button onclick="updateEmail()">Mettre à jour</button>
-    </div>
+<div class="page-content">
 
-    <div class="form-group">
-      <label for="password">Nouveau mot de passe</label>
-      <input type="password" id="newPassword" placeholder="••••••••">
-      <label for="confirmPassword">Confirmer le mot de passe</label>
-      <input type="password" id="confirmPassword" placeholder="••••••••">
-      <button onclick="updatePassword()">Changer le mot de passe</button>
+  <!-- Stats -->
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-label">Classement</div>
+      <div class="stat-value" id="stat-rank">—</div>
     </div>
-
-    <div class="form-group">
-      <label for="avatar">Photo de profil</label>
-      <input type="file" id="avatar" accept="image/*">
-      <button onclick="uploadAvatar()">Télécharger</button>
+    <div class="stat-card">
+      <div class="stat-label">Points</div>
+      <div class="stat-value" id="stat-points">—</div>
     </div>
-
-    <h2><i class="fas fa-chart-line"></i> Mes Statistiques</h2>
-    <div class="stats">
-      <div class="stat-card">
-        <h3>Classement</h3>
-        <p>Chargement...</p>
-      </div>
-      <div class="stat-card">
-        <h3>Points</h3>
-        <p>Chargement...</p>
-      </div>
-      <div class="stat-card">
-        <h3>Depuis</h3>
-<p><span id="creation-date">...</span></p>
-      </div>
-    </div>
-
-    <div style="margin-top: 2rem;">
-      <button style="background-color: #dc3545;" onclick="deleteAccount()">
-        <i class="fas fa-trash-alt"></i> Supprimer mon compte
-      </button>
+    <div class="stat-card">
+      <div class="stat-label">Membre depuis</div>
+      <div class="stat-value small" id="stat-since">—</div>
     </div>
   </div>
 
-      <script type="module">
+  <!-- Informations du compte -->
+  <div class="card-section">
+    <div class="section-title"><i class="fas fa-user"></i> Informations du compte</div>
+    <div class="form-row">
+      <div class="form-field">
+        <label for="username">Nom d'utilisateur</label>
+        <input type="text" id="username" placeholder="Votre pseudo">
+      </div>
+      <button class="btn-primary" onclick="updateUsername()">Mettre à jour</button>
+    </div>
+    <div class="form-row">
+      <div class="form-field">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="votre@email.com">
+      </div>
+      <button class="btn-primary" onclick="updateEmail()">Mettre à jour</button>
+    </div>
+  </div>
+
+  <!-- Sécurité -->
+  <div class="card-section">
+    <div class="section-title"><i class="fas fa-lock"></i> Sécurité</div>
+    <div class="form-row">
+      <div class="form-field">
+        <label for="newPassword">Nouveau mot de passe</label>
+        <input type="password" id="newPassword" placeholder="Minimum 6 caractères">
+      </div>
+      <div class="form-field">
+        <label for="confirmPassword">Confirmer le mot de passe</label>
+        <input type="password" id="confirmPassword" placeholder="••••••••">
+      </div>
+      <button class="btn-primary" onclick="updatePassword()">Changer</button>
+    </div>
+  </div>
+
+  <!-- Zone de danger -->
+  <div class="card-section danger">
+    <div class="section-title danger-title"><i class="fas fa-exclamation-triangle"></i> Zone de danger</div>
+    <p class="danger-text">La suppression de votre compte est irréversible. Toutes vos données et votre équipe seront définitivement perdues.</p>
+    <button class="btn-danger" onclick="deleteAccount()">
+      <i class="fas fa-trash-alt"></i> Supprimer mon compte
+    </button>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2026 Ski Alpin Fantasy. Tous droits réservés.
+</footer>
+
+<script type="module">
   import { auth, db } from "./firebase.js";
   import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
   import { doc, getDoc, collection, getDocs } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js";
 
-  // Cible les éléments HTML
   const usernameInput = document.getElementById("username");
   const emailInput = document.getElementById("email");
-  const pointsDisplay = document.querySelector(".stat-card:nth-child(2) p");
-  const rankingDisplay = document.querySelector(".stat-card:nth-child(1) p");
 
   onAuthStateChanged(auth, async (user) => {
     if (user) {
       const creationDate = new Date(user.metadata.creationTime);
-const month = creationDate.toLocaleString('fr-FR', { month: 'long' });
-const year = creationDate.getFullYear();
-document.getElementById("creation-date").textContent = `${month} ${year}`;
-      // Récupère les infos depuis Firestore
+      const month = creationDate.toLocaleString('fr-FR', { month: 'long' });
+      const year = creationDate.getFullYear();
+      document.getElementById("stat-since").textContent = `${month} ${year}`;
+
       const userDoc = await getDoc(doc(db, "users", user.uid));
       const userData = userDoc.data();
 
       usernameInput.value = userData.username;
       emailInput.value = userData.email;
-      pointsDisplay.textContent = userData.points;
+      document.getElementById("stat-points").textContent = userData.points;
 
-      // Calcul du classement
       const usersSnapshot = await getDocs(collection(db, "users"));
       const usersArray = [];
-
       usersSnapshot.forEach(doc => {
         const data = doc.data();
         usersArray.push({ username: data.username, points: data.points });
       });
 
-      // Tri des utilisateurs par points décroissants
       usersArray.sort((a, b) => b.points - a.points);
-
-      // Trouve la position de l'utilisateur actuel
       const rank = usersArray.findIndex(u => u.username === userData.username) + 1;
-      rankingDisplay.textContent = `#${rank}`;
+      document.getElementById("stat-rank").textContent = `#${rank}`;
     } else {
       alert("Veuillez vous connecter pour voir vos données.");
-      window.location.href = "index.html"; // Redirection
+      window.location.href = "index.html";
     }
   });
-  </script>
-  <script type="module" src="auth.js"></script>
+</script>
+<script type="module" src="auth.js"></script>
 </body>
 </html>

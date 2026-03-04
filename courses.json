@@ -1,77 +1,24 @@
 {
 "Calendar Event":[
- {
-  "Country": "Italy",
-  "Place": "Madonna Di Campiglio",
-  "Date": "08.01.2025",
-  "Event": "SL"
- },
- {
-  "Country": "Switzerland",
-  "Place": "Adelboden",
-  "Date": "11-12.01.25",
-  "Event": "GS,SL"
- },
- {
-  "Country": "Switzerland",
-  "Place": "Wengen",
-  "Date": "17-19.01.25",
-  "Event": "SG,DH,SL"
- },
- {
-  "Country": "Austria",
-  "Place": "Kitzbuhel",
-  "Date": "24-26.01.25",
-  "Event": "SG,DH,SL"
- },
- {
-  "Country": "Austria",
-  "Place": "Schladming",
-  "Date": "28-29.01.25",
-  "Event": "GS,SL"
- },
- {
-  "Country": "Germany",
-  "Place": "Garmisch",
-  "Date": "02.02.2025",
-  "Event": "DH"
- },
- {
-  "Country": "Austria",
-  "Place": "CM Saalbach",
-  "Date": "04-16.02.25",
-  "Event": "DH,GS,SG,SL,TE,TC",
-  "Column6": "2025 FIS Alpine Wolrd Ski Championships"
- },
- {
-  "Country": "Switzerland",
-  "Place": "Crans-Montana",
-  "Date": "22-23.02.26",
-  "Event": "SG,DH"
- },
- {
-  "Country": "Slovenia",
-  "Place": "Kranjka Gora",
-  "Date": "01-02.03.25",
-  "Event": "SL,GS"
- },
- {
-  "Country": "Norway",
-  "Place": "Kvitfjell",
-  "Date": "08-09.03.25",
-  "Event": "SG,DH"
- },
- {
-  "Country": "Norway",
-  "Place": "Hafjell",
-  "Date": "15-16.03.25",
-  "Event": "GS,SL"
- },
- {
-  "Country": "USA",
-  "Place": "Sun Valley",
-  "Date": "22-27.03.25",
-  "Event": "DH,SG,GS,SL",
-  "Column6": "Finals WC"
- }
+ {"Country": "Austria",     "Place": "Sölden",               "Date": "25-26.10.25", "Event": "GS"},
+ {"Country": "Finland",     "Place": "Levi",                  "Date": "16.11.25",    "Event": "SL"},
+ {"Country": "Austria",     "Place": "Gurgl",                 "Date": "22.11.25",    "Event": "SL"},
+ {"Country": "USA",         "Place": "Copper Mountain",       "Date": "27-28.11.25", "Event": "SG,GS"},
+ {"Country": "USA",         "Place": "Beaver Creek",          "Date": "04-07.12.25", "Event": "DH,SG,GS"},
+ {"Country": "France",      "Place": "Val d'Isère",           "Date": "13-14.12.25", "Event": "GS,SL"},
+ {"Country": "Italy",       "Place": "Val Gardena",           "Date": "18-20.12.25", "Event": "DH,SG,DH"},
+ {"Country": "Italy",       "Place": "Alta Badia",            "Date": "21-22.12.25", "Event": "GS,SL"},
+ {"Country": "Italy",       "Place": "Livigno",               "Date": "27.12.25",    "Event": "SG"},
+ {"Country": "Italy",       "Place": "Madonna di Campiglio",  "Date": "07.01.26",    "Event": "SL"},
+ {"Country": "Switzerland", "Place": "Adelboden",             "Date": "10-11.01.26", "Event": "GS,SL"},
+ {"Country": "Switzerland", "Place": "Wengen",                "Date": "16-18.01.26", "Event": "SG,DH,SL"},
+ {"Country": "Austria",     "Place": "Kitzbühel",             "Date": "23-25.01.26", "Event": "SG,DH,SL"},
+ {"Country": "Austria",     "Place": "Schladming",            "Date": "27-28.01.26", "Event": "GS,SL"},
+ {"Country": "Switzerland", "Place": "Crans-Montana",         "Date": "01.02.26",    "Event": "DH"},
+ {"Country": "Italy",       "Place": "Bormio",                "Date": "07-16.02.26", "Event": "DH,TC,SG,GS,SL", "Column6": "Jeux Olympiques 2026"},
+ {"Country": "Germany",     "Place": "Garmisch",              "Date": "28.02.26",    "Event": "DH"},
+ {"Country": "Slovenia",    "Place": "Kranjska Gora",         "Date": "07-08.03.26", "Event": "GS,SL"},
+ {"Country": "France",      "Place": "Courchevel",            "Date": "13-15.03.26", "Event": "SG,DH,SG"},
+ {"Country": "Norway",      "Place": "Kvitfjell",             "Date": "21-22.03.26", "Event": "DH,SG", "Column6": "Finales WC"},
+ {"Country": "Norway",      "Place": "Hafjell",               "Date": "24-25.03.26", "Event": "GS,SL", "Column6": "Finales WC"}
 ]}

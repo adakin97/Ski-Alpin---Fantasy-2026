@@ -4,146 +4,189 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Paramètres - Ski Alpin Fantasy</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="common.css">
   <style>
-    :root {
-      --gray: #6c757d;
+    /* HERO */
+    .hero {
+      padding: 60px 4rem 50px;
+      background:
+        linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)),
+        url('Image/background_title.jpeg') center/cover no-repeat;
+      color: #fff;
+      border-left: 5px solid var(--main-red);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      margin: 0 0 0.4rem;
+      text-shadow: 2px 2px 10px #000000cc;
+    }
+    .hero p {
+      font-size: 1.05rem;
+      color: #f0f0f0dd;
+      margin: 0;
+      font-weight: 500;
     }
 
-    .container {
-      max-width: 1000px;
-      margin: 2rem auto;
-      padding: 2rem;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    /* PAGE LAYOUT */
+    .page-content {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
+      width: 100%;
     }
-    
-    h1 {
-      color: var(--main-red);
-      margin-bottom: 2rem;
-      padding-bottom: 0.5rem;
-      border-bottom: 2px solid var(--main-red);
+
+    /* CARD SECTIONS */
+    .card-section {
+      background: #fff;
+      border: 1px solid #e2e2e2;
+      border-top: 3px solid var(--main-red);
+      padding: 28px 32px;
+      margin-bottom: 24px;
+    }
+    .section-title {
+      font-size: 0.85rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #1a1a1a;
+      margin: 0 0 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e8e8e8;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
     }
-    
-    .settings-group {
-      margin-bottom: 2rem;
-    }
-    
-    .settings-group h2 {
-      color: var(--main-red);
-      margin-bottom: 1rem;
-      font-size: 1.3rem;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    
+
+    /* SETTING ITEMS */
     .setting-item {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem 0;
-      border-bottom: 1px solid #eee;
+      padding: 14px 0;
+      border-bottom: 1px solid #f0f0f0;
     }
-    
-    .setting-info {
-      flex: 1;
-    }
-    
+    .setting-item:last-child { border-bottom: none; padding-bottom: 0; }
+    .setting-item:first-of-type { padding-top: 0; }
+    .setting-info { flex: 1; padding-right: 24px; }
     .setting-title {
-      font-weight: 600;
-      margin-bottom: 0.3rem;
+      font-weight: 700;
+      font-size: 0.92rem;
+      color: #1a1a1a;
+      margin-bottom: 3px;
     }
-    
     .setting-desc {
-      color: var(--gray);
-      font-size: 0.9rem;
+      color: #888;
+      font-size: 0.82rem;
+      line-height: 1.4;
     }
-    
-    /* Toggle switch */
+
+    /* TOGGLE SWITCH */
     .switch {
       position: relative;
       display: inline-block;
       width: 50px;
-      height: 24px;
+      height: 26px;
+      flex-shrink: 0;
     }
-    
-    .switch input {
-      opacity: 0;
-      width: 0;
-      height: 0;
-    }
-    
+    .switch input { opacity: 0; width: 0; height: 0; }
     .slider {
       position: absolute;
       cursor: pointer;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: #ccc;
-      transition: .4s;
-      border-radius: 24px;
+      inset: 0;
+      background: #ddd;
+      transition: .3s;
+      border-radius: 26px;
     }
-    
     .slider:before {
       position: absolute;
       content: "";
-      height: 16px;
-      width: 16px;
+      height: 18px;
+      width: 18px;
       left: 4px;
       bottom: 4px;
-      background-color: white;
-      transition: .4s;
+      background: white;
+      transition: .3s;
       border-radius: 50%;
     }
-    
-    input:checked + .slider {
-      background-color: var(--main-red);
-    }
-    
-    input:checked + .slider:before {
-      transform: translateX(26px);
-    }
-    
-    /* Select dropdown */
-    select {
-      padding: 8px 12px;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      background-color: white;
-      font-family: inherit;
-    }
-    
-    /* Button */
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: var(--main-red);
-      color: white;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
+    input:checked + .slider { background: var(--main-red); }
+    input:checked + .slider:before { transform: translateX(24px); }
+
+    /* SELECT */
+    .settings-select {
+      padding: 9px 32px 9px 12px;
+      border: 1.5px solid #e0e0e0;
+      font-size: 0.88rem;
+      font-family: var(--font-primary);
       font-weight: 600;
-      transition: background-color 0.3s;
+      background: #fafafa;
+      outline: none;
+      cursor: pointer;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg fill='%23555' height='18' viewBox='0 0 24 24' width='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 8px center;
+      transition: border-color 0.2s;
+      flex-shrink: 0;
     }
-    
-    .btn:hover {
-      background-color: #c40810;
+    .settings-select:focus { border-color: var(--main-red); }
+
+    /* BUTTONS */
+    .btn-primary {
+      background: var(--main-red);
+      color: #fff;
+      border: none;
+      padding: 11px 24px;
+      font-weight: 800;
+      font-size: 0.78rem;
+      font-family: var(--font-primary);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      cursor: pointer;
+      transition: background 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
     }
-    
-    .btn-danger {
-      background-color: #dc3545;
+    .btn-primary:hover { background: #a31f1f; }
+
+    .btn-secondary {
+      background: none;
+      color: #555;
+      border: 1.5px solid #ccc;
+      padding: 11px 24px;
+      font-weight: 700;
+      font-size: 0.78rem;
+      font-family: var(--font-primary);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      cursor: pointer;
+      transition: border-color 0.2s, color 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
     }
-    
-    .btn-danger:hover {
-      background-color: #bb2d3b;
+    .btn-secondary:hover { border-color: #888; color: #333; }
+
+    .actions-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 768px) {
+      .hero { padding: 40px 1.5rem 36px; }
+      .hero h1 { font-size: 2.2rem; }
+      .page-content { padding: 24px 16px 40px; }
+      .card-section { padding: 20px 16px; }
+      .setting-item { flex-direction: column; align-items: flex-start; gap: 10px; }
+      .setting-info { padding-right: 0; }
     }
   </style>
 </head>
@@ -153,219 +196,212 @@
   <div class="logo"><i class="fas fa-mountain"></i> Ski Alpin Fantasy 2026</div>
   <nav id="nav-auth">
     <div class="auth-links">
-      <a href="#" id="loginBtn"><i class="fas fa-sign-in-alt"></i> Connexion</a>
-      <a href="#" id="logoutBtn" style="display: none;"><i class="fas fa-sign-out-alt"></i> Déconnexion</a>
+      <a href="#" id="openLogin"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+      <a href="#" id="openSignup"><i class="fas fa-user-plus"></i> Inscription</a>
     </div>
   </nav>
 </header>
+
 <nav class="topbar2" role="navigation">
   <nav>
-      <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
-      <a href="classement_skieurs.html"><i class="fas fa-chart-line"></i> Classements Skieurs</a>
-      <a href="classement_joueur.html"><i class="fas fa-users"></i> Classements Joueurs</a>
-      <a href="Mon_equipe.html" class="active"><i class="fas fa-user"></i> Mon Équipe</a>
-      <a href="rules.html"><i class="fas fa-book"></i> Règles</a>
-      <a href="about.html"><i class="fas fa-info-circle"></i> À propos</a>
+    <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+    <a href="classement_skieurs.html"><i class="fas fa-chart-line"></i> Classements Skieurs</a>
+    <a href="classement_joueur.html"><i class="fas fa-users"></i> Classements Joueurs</a>
+    <a href="Mon_equipe.html"><i class="fas fa-user"></i> Mon Équipe</a>
+    <a href="rules.html"><i class="fas fa-book"></i> Règles</a>
+    <a href="about.html"><i class="fas fa-info-circle"></i> À propos</a>
   </nav>
 </nav>
 
-  <div class="container">
-    <h1><i class="fas fa-cog"></i> Paramètres</h1>
-    
-    <div class="settings-group">
-      <h2><i class="fas fa-bell"></i> Notifications</h2>
-      
-      <div class="setting-item">
-        <div class="setting-info">
-          <div class="setting-title">Notifications par email</div>
-          <div class="setting-desc">Recevoir des emails pour les mises à jour importantes</div>
-        </div>
-        <label class="switch">
-          <input type="checkbox" id="email-notifications" checked>
-          <span class="slider"></span>
-        </label>
+<section class="hero">
+  <h1><i class="fas fa-cog"></i> Paramètres</h1>
+  <p>Personnalisez votre expérience Ski Alpin Fantasy.</p>
+</section>
+
+<div class="page-content">
+
+  <!-- Notifications -->
+  <div class="card-section">
+    <div class="section-title"><i class="fas fa-bell"></i> Notifications</div>
+
+    <div class="setting-item">
+      <div class="setting-info">
+        <div class="setting-title">Notifications par email</div>
+        <div class="setting-desc">Recevoir des emails pour les mises à jour importantes</div>
       </div>
-      
-      <div class="setting-item">
-        <div class="setting-info">
-          <div class="setting-title">Notifications push</div>
-          <div class="setting-desc">Recevoir des notifications sur votre appareil</div>
-        </div>
-        <label class="switch">
-          <input type="checkbox" id="push-notifications">
-          <span class="slider"></span>
-        </label>
-      </div>
-      
-      <div class="setting-item">
-        <div class="setting-info">
-          <div class="setting-title">Alertes de course</div>
-          <div class="setting-desc">Être alerté avant le début des courses</div>
-        </div>
-        <label class="switch">
-          <input type="checkbox" id="race-alerts" checked>
-          <span class="slider"></span>
-        </label>
-      </div>
+      <label class="switch">
+        <input type="checkbox" id="email-notifications" checked>
+        <span class="slider"></span>
+      </label>
     </div>
-    
-    <div class="settings-group">
-      <h2><i class="fas fa-palette"></i> Apparence</h2>
-      
-      <div class="setting-item">
-        <div class="setting-info">
-          <div class="setting-title">Thème</div>
-          <div class="setting-desc">Choisissez l'apparence de l'application</div>
-        </div>
-        <select id="theme">
-          <option value="light">Clair</option>
-          <option value="dark">Sombre</option>
-          <option value="system">Système</option>
-        </select>
+
+    <div class="setting-item">
+      <div class="setting-info">
+        <div class="setting-title">Notifications push</div>
+        <div class="setting-desc">Recevoir des notifications sur votre appareil</div>
       </div>
-      
-      <div class="setting-item">
-        <div class="setting-info">
-          <div class="setting-title">Densité d'affichage</div>
-          <div class="setting-desc">Espacement des éléments</div>
-        </div>
-        <select id="density">
-          <option value="compact">Compact</option>
-          <option value="normal" selected>Normal</option>
-          <option value="spacious">Spacieux</option>
-        </select>
-      </div>
+      <label class="switch">
+        <input type="checkbox" id="push-notifications">
+        <span class="slider"></span>
+      </label>
     </div>
-    
-    <div class="settings-group">
-      <h2><i class="fas fa-globe"></i> Langue et région</h2>
-      
-      <div class="setting-item">
-        <div class="setting-info">
-          <div class="setting-title">Langue</div>
-          <div class="setting-desc">Langue d'affichage de l'application</div>
-        </div>
-        <select id="language">
-          <option value="fr" selected>Français</option>
-          <option value="en">English</option>
-          <option value="de">Deutsch</option>
-          <option value="it">Italiano</option>
-        </select>
+
+    <div class="setting-item">
+      <div class="setting-info">
+        <div class="setting-title">Alertes de course</div>
+        <div class="setting-desc">Être alerté avant le début des courses</div>
       </div>
-      
-      <div class="setting-item">
-        <div class="setting-info">
-          <div class="setting-title">Fuseau horaire</div>
-          <div class="setting-desc">Heure d'affichage des courses</div>
-        </div>
-        <select id="timezone">
-          <option value="auto" selected>Détection automatique</option>
-          <option value="europe/paris">Europe/Paris (UTC+1)</option>
-          <option value="utc">UTC</option>
-        </select>
-      </div>
-    </div>
-    
-    <div class="settings-group">
-      <h2><i class="fas fa-shield-alt"></i> Confidentialité</h2>
-      
-      <div class="setting-item">
-        <div class="setting-info">
-          <div class="setting-title">Profil public</div>
-          <div class="setting-desc">Rendre votre profil visible par d'autres utilisateurs</div>
-        </div>
-        <label class="switch">
-          <input type="checkbox" id="public-profile" checked>
-          <span class="slider"></span>
-        </label>
-      </div>
-      
-      <div class="setting-item">
-        <div class="setting-info">
-          <div class="setting-title">Partage de données</div>
-          <div class="setting-desc">Autoriser le partage de données anonymes pour améliorer le service</div>
-        </div>
-        <label class="switch">
-          <input type="checkbox" id="data-sharing">
-          <span class="slider"></span>
-        </label>
-      </div>
-    </div>
-    
-    <div style="margin-top: 3rem;">
-      <button class="btn" id="save-settings">
-        <i class="fas fa-save"></i> Enregistrer les modifications
-      </button>
-      <button class="btn btn-danger" id="reset-settings" style="margin-left: 1rem;">
-        <i class="fas fa-undo"></i> Réinitialiser
-      </button>
+      <label class="switch">
+        <input type="checkbox" id="race-alerts" checked>
+        <span class="slider"></span>
+      </label>
     </div>
   </div>
 
-  <script>
-    // Load settings from localStorage
-    function loadSettings() {
-      const settings = JSON.parse(localStorage.getItem('userSettings')) || {};
-      
-      // Notification settings
-      document.getElementById('email-notifications').checked = settings.emailNotifications !== false;
-      document.getElementById('push-notifications').checked = settings.pushNotifications || false;
-      document.getElementById('race-alerts').checked = settings.raceAlerts !== false;
-      
-      // Appearance settings
-      if (settings.theme) document.getElementById('theme').value = settings.theme;
-      if (settings.density) document.getElementById('density').value = settings.density;
-      
-      // Language settings
-      if (settings.language) document.getElementById('language').value = settings.language;
-      if (settings.timezone) document.getElementById('timezone').value = settings.timezone;
-      
-      // Privacy settings
-      document.getElementById('public-profile').checked = settings.publicProfile !== false;
-      document.getElementById('data-sharing').checked = settings.dataSharing || false;
+  <!-- Apparence -->
+  <div class="card-section">
+    <div class="section-title"><i class="fas fa-palette"></i> Apparence</div>
+
+    <div class="setting-item">
+      <div class="setting-info">
+        <div class="setting-title">Thème</div>
+        <div class="setting-desc">Choisissez l'apparence de l'application</div>
+      </div>
+      <select id="theme" class="settings-select">
+        <option value="light">Clair</option>
+        <option value="dark">Sombre</option>
+        <option value="system">Système</option>
+      </select>
+    </div>
+
+    <div class="setting-item">
+      <div class="setting-info">
+        <div class="setting-title">Densité d'affichage</div>
+        <div class="setting-desc">Espacement des éléments</div>
+      </div>
+      <select id="density" class="settings-select">
+        <option value="compact">Compact</option>
+        <option value="normal" selected>Normal</option>
+        <option value="spacious">Spacieux</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Langue et région -->
+  <div class="card-section">
+    <div class="section-title"><i class="fas fa-globe"></i> Langue et région</div>
+
+    <div class="setting-item">
+      <div class="setting-info">
+        <div class="setting-title">Langue</div>
+        <div class="setting-desc">Langue d'affichage de l'application</div>
+      </div>
+      <select id="language" class="settings-select">
+        <option value="fr" selected>Français</option>
+        <option value="en">English</option>
+        <option value="de">Deutsch</option>
+        <option value="it">Italiano</option>
+      </select>
+    </div>
+
+    <div class="setting-item">
+      <div class="setting-info">
+        <div class="setting-title">Fuseau horaire</div>
+        <div class="setting-desc">Heure d'affichage des courses</div>
+      </div>
+      <select id="timezone" class="settings-select">
+        <option value="auto" selected>Détection automatique</option>
+        <option value="europe/paris">Europe/Paris (UTC+1)</option>
+        <option value="utc">UTC</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Confidentialité -->
+  <div class="card-section">
+    <div class="section-title"><i class="fas fa-shield-alt"></i> Confidentialité</div>
+
+    <div class="setting-item">
+      <div class="setting-info">
+        <div class="setting-title">Profil public</div>
+        <div class="setting-desc">Rendre votre profil visible par d'autres utilisateurs</div>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="public-profile" checked>
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="setting-item">
+      <div class="setting-info">
+        <div class="setting-title">Partage de données</div>
+        <div class="setting-desc">Autoriser le partage de données anonymes pour améliorer le service</div>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="data-sharing">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </div>
+
+  <!-- Actions -->
+  <div class="actions-row">
+    <button class="btn-primary" id="save-settings">
+      <i class="fas fa-save"></i> Enregistrer
+    </button>
+    <button class="btn-secondary" id="reset-settings">
+      <i class="fas fa-undo"></i> Réinitialiser
+    </button>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2026 Ski Alpin Fantasy. Tous droits réservés.
+</footer>
+
+<script>
+  function loadSettings() {
+    const settings = JSON.parse(localStorage.getItem('userSettings')) || {};
+    document.getElementById('email-notifications').checked = settings.emailNotifications !== false;
+    document.getElementById('push-notifications').checked = settings.pushNotifications || false;
+    document.getElementById('race-alerts').checked = settings.raceAlerts !== false;
+    if (settings.theme) document.getElementById('theme').value = settings.theme;
+    if (settings.density) document.getElementById('density').value = settings.density;
+    if (settings.language) document.getElementById('language').value = settings.language;
+    if (settings.timezone) document.getElementById('timezone').value = settings.timezone;
+    document.getElementById('public-profile').checked = settings.publicProfile !== false;
+    document.getElementById('data-sharing').checked = settings.dataSharing || false;
+  }
+
+  function saveSettings() {
+    const settings = {
+      emailNotifications: document.getElementById('email-notifications').checked,
+      pushNotifications: document.getElementById('push-notifications').checked,
+      raceAlerts: document.getElementById('race-alerts').checked,
+      theme: document.getElementById('theme').value,
+      density: document.getElementById('density').value,
+      language: document.getElementById('language').value,
+      timezone: document.getElementById('timezone').value,
+      publicProfile: document.getElementById('public-profile').checked,
+      dataSharing: document.getElementById('data-sharing').checked
+    };
+    localStorage.setItem('userSettings', JSON.stringify(settings));
+    alert('Paramètres enregistrés avec succès !');
+  }
+
+  function resetSettings() {
+    if (confirm('Êtes-vous sûr de vouloir réinitialiser tous les paramètres ?')) {
+      localStorage.removeItem('userSettings');
+      loadSettings();
+      alert('Paramètres réinitialisés.');
     }
-    
-    // Save settings to localStorage
-    function saveSettings() {
-      const settings = {
-        // Notification settings
-        emailNotifications: document.getElementById('email-notifications').checked,
-        pushNotifications: document.getElementById('push-notifications').checked,
-        raceAlerts: document.getElementById('race-alerts').checked,
-        
-        // Appearance settings
-        theme: document.getElementById('theme').value,
-        density: document.getElementById('density').value,
-        
-        // Language settings
-        language: document.getElementById('language').value,
-        timezone: document.getElementById('timezone').value,
-        
-        // Privacy settings
-        publicProfile: document.getElementById('public-profile').checked,
-        dataSharing: document.getElementById('data-sharing').checked
-      };
-      
-      localStorage.setItem('userSettings', JSON.stringify(settings));
-      alert('Paramètres enregistrés avec succès!');
-    }
-    
-    // Reset to default settings
-    function resetSettings() {
-      if (confirm('Êtes-vous sûr de vouloir réinitialiser tous les paramètres?')) {
-        localStorage.removeItem('userSettings');
-        loadSettings(); // This will load defaults since settings are now empty
-        alert('Paramètres réinitialisés.');
-      }
-    }
-    
-    // Event listeners
-    document.getElementById('save-settings').addEventListener('click', saveSettings);
-    document.getElementById('reset-settings').addEventListener('click', resetSettings);
-    
-    // Load settings when page loads
-    document.addEventListener('DOMContentLoaded', loadSettings);
-  </script>
-  <script type="module" src="auth.js"></script>
+  }
+
+  document.getElementById('save-settings').addEventListener('click', saveSettings);
+  document.getElementById('reset-settings').addEventListener('click', resetSettings);
+  document.addEventListener('DOMContentLoaded', loadSettings);
+</script>
+<script type="module" src="auth.js"></script>
 </body>
 </html>

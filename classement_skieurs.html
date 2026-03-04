@@ -3,270 +3,183 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ski Alpin Fantasy 2026</title>
-
-  <!-- Police Montserrat -->
+  <title>Classements Skieurs - Ski Alpin Fantasy</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet" />
-
-  <!-- Font Awesome pour icônes -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
-
   <link rel="stylesheet" href="common.css">
-
   <style>
-    body { background: linear-gradient(to bottom right, #ffffff, #f0f0f0); }
-
-    /* SECTION HERO */
+    /* HERO */
     .hero {
-      text-align: center;
-      padding: 110px 20px 50px;
+      padding: 60px 4rem 50px;
       background:
-        linear-gradient(rgba(229, 9, 20, 0.85), rgba(0, 0, 0, 0.85)),
+        linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)),
         url('Image/background_title.jpeg') center/cover no-repeat;
-      color: var(--white);
-      user-select: none;
-      box-shadow: inset 0 0 80px #000000cc;
-      letter-spacing: 1.1px;
-      min-height: 380px;
+      color: #fff;
+      border-left: 5px solid var(--main-red);
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
     }
-
     .hero h1 {
-      font-size: 4.5rem;
+      font-size: 3rem;
       font-weight: 900;
-      margin-bottom: 0.5rem;
-      text-shadow: 3px 3px 15px #000000dd;
+      margin: 0 0 0.4rem;
+      text-shadow: 2px 2px 10px #000000cc;
     }
-
     .hero p {
-      font-size: 1.7rem;
-      font-weight: 500;
-      max-width: 680px;
-      line-height: 1.5;
+      font-size: 1.05rem;
       color: #f0f0f0dd;
-      text-shadow: 1.5px 1.5px 6px #000000cc;
-      margin-bottom: 1.3rem;
-    }
-
-    /* SECTION CONTENU */
-    .section {
-      max-width: 720px;
-      margin: auto;
-      padding: 60px 20px 80px;
-      background-color: var(--white);
-      border-radius: 16px;
-      box-shadow: 0 7px 30px var(--shadow-color);
-      text-align: center;
-      user-select: none;
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-    }
-
-    .section h2 {
-      font-size: 2.9rem;
-      font-weight: 900;
-      color: var(--main-red);
-      margin-bottom: 0;
-      letter-spacing: 1.3px;
-    }
-
-    .section p {
+      margin: 0;
       font-weight: 500;
-      font-size: 1.3rem;
-      color: #555;
-      line-height: 1.7;
-      letter-spacing: 0.3px;
-      max-width: 520px;
-      margin: 0 auto;
     }
 
-main {
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 1rem;
-  background: #fdfdfd;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
+    /* PAGE LAYOUT */
+    .page-content {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
+      width: 100%;
+    }
 
-main h1 {
-  text-align: center;
-  margin-bottom: 1.5rem;
-  color: #333;
-}
-
-/* Dropdown moderne */
-#rankingSelect {
-  display: block;
-  width: 100%;
-  max-width: 300px;
-  margin: 0 auto 1.5rem auto;
-  padding: 0.6rem 1rem;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  font-size: 1rem;
-  background-color: #fff;
-  appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg fill='gray' height='18' viewBox='0 0 24 24' width='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 1rem center;
-  background-size: rem;
-}
-
-/* Tableau de classement */
-#classement-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 0 auto;
-  font-size: 1rem;
-  background-color: #fff;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
-
-#classement-table thead {
-  background-color: #005a87;
-  color: white;
-}
-
-#classement-table th,
-#classement-table td {
-  padding: 0.75rem 1rem;
-  text-align: center;
-  border-bottom: 1px solid #eee;
-}
-
-#classement-table tbody tr:hover {
-  background-color: #f1f9ff;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-  #rankingSelect {
-    max-width: 100%;
-  }
-  #classement-table th,
-  #classement-table td {
-    padding: 0.5rem;
-    font-size: 0.9rem;
-  }
-}
-
-    /* ENCADRÉ JAUNE SITE EN CONSTRUCTION DANS LA SECTION */
-    .construction-alert {
-      background-color: var(--yellow-alert-bg);
-      border-left: 8px solid var(--yellow-alert-border);
-      color: #4a4a00;
-      font-weight: 700;
-      font-size: 1.15rem;
-      padding: 16px 22px;
-      border-radius: 10px;
-      box-shadow: 0 3px 12px rgba(242, 214, 0, 0.35);
-      user-select: none;
-      text-align: center;
+    /* TOOLBAR */
+    .toolbar {
       display: flex;
       align-items: center;
-      gap: 14px;
-      max-width: 680px;
-      margin: 0 auto;
+      gap: 12px;
+      margin-bottom: 20px;
     }
-    .construction-alert i {
-      font-size: 1.7rem;
+    .toolbar label {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #555;
+      white-space: nowrap;
     }
-
-        .voir-plus {
-      padding: 8px 16px;
-      background-color: #007bff;
-      color: white;
-      border: none;
-      border-radius: 5px;
+    #rankingSelect {
+      padding: 10px 36px 10px 14px;
+      border: 1.5px solid #e0e0e0;
+      font-size: 0.88rem;
+      font-family: var(--font-primary);
+      font-weight: 700;
+      background: #fff;
+      outline: none;
       cursor: pointer;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg fill='%23555' height='18' viewBox='0 0 24 24' width='18' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 10px center;
+      transition: border-color 0.2s;
+    }
+    #rankingSelect:focus { border-color: var(--main-red); }
+
+    /* TABLE */
+    .table-wrap {
+      border: 1px solid #e2e2e2;
+      background: #fff;
+      overflow-x: auto;
+    }
+    #classement-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 360px;
+    }
+    #classement-table thead th {
+      background: #1a1a1a;
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 13px 20px;
+      text-align: left;
+    }
+    #classement-table td {
+      padding: 12px 20px;
+      font-size: 0.92rem;
+      border-bottom: 1px solid #f0f0f0;
+      color: #333;
+    }
+    #classement-table tbody tr:last-child td { border-bottom: none; }
+    #classement-table tbody tr:hover td { background: #fff5f5; }
+
+    .rank-num {
+      font-weight: 800;
+      color: #1a1a1a;
     }
 
-    .voir-plus:hover {
-      background-color: #0056b3;
+    /* VOIR PLUS */
+    .voir-plus-wrap {
+      text-align: right;
+      margin-top: 16px;
     }
-
-    /* FOOTER */
-    footer {
-      margin-top: auto;
-      background-color: var(--dark-bg);
-      color: #bbb;
-      text-align: center;
-      padding: 22px 0;
-      font-size: 0.9rem;
-      user-select: none;
+    #voirPlusBtn {
+      background: var(--main-red);
+      color: #fff;
+      border: none;
+      padding: 10px 24px;
+      font-weight: 800;
+      font-size: 0.78rem;
+      font-family: var(--font-primary);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      cursor: pointer;
+      transition: background 0.2s;
+      display: none;
     }
+    #voirPlusBtn:hover { background: #a31f1f; }
 
-    /* RESPONSIVE */
     @media (max-width: 768px) {
-      .hero h1 {
-        font-size: 3.1rem;
-      }
-      .hero p {
-        font-size: 1.3rem;
-      }
-      .construction-alert {
-        font-size: 1rem;
-        padding: 12px 16px;
-        gap: 10px;
-      }
-      .section h2 {
-        font-size: 2.3rem;
-      }
-      .section p {
-        font-size: 1.1rem;
-      }
+      .hero { padding: 40px 1.5rem 36px; }
+      .hero h1 { font-size: 2.2rem; }
+      .page-content { padding: 24px 16px 40px; }
+      .toolbar { flex-direction: column; align-items: flex-start; }
+      #rankingSelect { width: 100%; }
     }
   </style>
 </head>
-
 <body>
-<header class="topbar1" role="banner" aria-label="Barre de navigation principale">
-  <div class="logo" aria-label="Logo Ski Alpin Fantasy">
-    <i class="fas fa-mountain"></i> Ski Alpin Fantasy 2026
-  </div>
+
+<header class="topbar1" role="banner">
+  <div class="logo"><i class="fas fa-mountain"></i> Ski Alpin Fantasy 2026</div>
   <nav id="nav-auth">
     <div class="auth-links">
-      <a href="index.html" id="loginBtn"><i class="fas fa-sign-in-alt"></i> Connexion</a>
-      <a href="#" id="logoutBtn" style="display: none;"><i class="fas fa-sign-out-alt"></i> Déconnexion</a>
+      <a href="#" id="openLogin"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+      <a href="#" id="openSignup"><i class="fas fa-user-plus"></i> Inscription</a>
     </div>
   </nav>
 </header>
 
-  <!-- Top bar 2 -->
-  <nav class="topbar2">
-    <nav>
-      <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
-      <a href="classement_skieurs.html" class="active"><i class="fas fa-chart-line"></i> Classements Skieurs</a>
-      <a href="classement_joueur.html"><i class="fas fa-users"></i> Classements Joueurs</a>
-      <a href="Mon_equipe.html"><i class="fas fa-user"></i> Mon Équipe</a>
-      <a href="rules.html"><i class="fas fa-book"></i> Règles</a>
-      <a href="about.html"><i class="fas fa-info-circle"></i> À propos</a>
-    </nav>
+<nav class="topbar2" role="navigation">
+  <nav>
+    <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+    <a href="classement_skieurs.html" class="active"><i class="fas fa-chart-line"></i> Classements Skieurs</a>
+    <a href="classement_joueur.html"><i class="fas fa-users"></i> Classements Joueurs</a>
+    <a href="Mon_equipe.html"><i class="fas fa-user"></i> Mon Équipe</a>
+    <a href="rules.html"><i class="fas fa-book"></i> Règles</a>
+    <a href="about.html"><i class="fas fa-info-circle"></i> À propos</a>
   </nav>
+</nav>
 
-  <!-- Section principale -->
-  <main>
-    <h1>Classement FIS</h1>
+<section class="hero">
+  <h1><i class="fas fa-chart-line"></i> Classements Skieurs</h1>
+  <p>Classements FIS officiels — saison 2025/26.</p>
+</section>
 
-    <!-- Menu de sélection -->
-    <div>
-      <label for="rankingSelect"></label>
-      <select id="rankingSelect">
-        <option value="general" selected>Classement Général</option>
-        <option value="slalom">Slalom (SL)</option>
-        <option value="giant-slalom">Giant Slalom (GS)</option>
-        <option value="super-g">Super G (SG)</option>
-        <option value="downhill">Downhill (DH)</option>
-      </select>
-    </div>
+<div class="page-content">
+  <div class="toolbar">
+    <label for="rankingSelect">Discipline</label>
+    <select id="rankingSelect">
+      <option value="general" selected>Classement Général</option>
+      <option value="slalom">Slalom (SL)</option>
+      <option value="giant-slalom">Giant Slalom (GS)</option>
+      <option value="super-g">Super G (SG)</option>
+      <option value="downhill">Downhill (DH)</option>
+    </select>
+  </div>
 
+  <div class="table-wrap">
     <table id="classement-table">
       <thead>
         <tr>
@@ -275,23 +188,20 @@ main h1 {
           <th>Points</th>
         </tr>
       </thead>
-      <tbody id="rankingBody">
-        <!-- Les données seront insérées dynamiquement ici -->
-      </tbody>
+      <tbody id="rankingBody"></tbody>
     </table>
-    <div style="text-align: right; margin-top: 10px;">
-  <button id="voirPlusBtn" style="padding: 8px 16px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; display: none;">
-    Voir plus
-  </button>
+  </div>
+
+  <div class="voir-plus-wrap">
+    <button id="voirPlusBtn">Voir plus</button>
+  </div>
 </div>
-  </main>
 
-  <!-- Footer -->
-  <footer>
-    &copy; 2026 Ski Alpin Fantasy. Tous droits réservés.
-  </footer>
+<footer>
+  &copy; 2026 Ski Alpin Fantasy. Tous droits réservés.
+</footer>
 
-  <script type="module">
+<script type="module">
   import "./auth.js";
 
   const rankingMap = {
@@ -309,76 +219,54 @@ main h1 {
   let indexActuel = 0;
   const lignesParPage = 15;
 
-  // Fonction pour charger et afficher un classement
-async function chargerClassement(discipline) {
-  const fichier = rankingMap[discipline];
-  if (!fichier) {
-    rankingBody.innerHTML = "<tr><td colspan='3'>Classement indisponible</td></tr>";
-    return;
-  }
-
-  try {
-    const response = await fetch(fichier);
-    if (!response.ok) throw new Error("Impossible de charger les données");
-
-    const data = await response.json();
-    rankingBody.innerHTML = "";
-
-    if (data.length === 0) {
-      rankingBody.innerHTML = "<tr><td colspan='3'>Aucune donnée disponible</td></tr>";
+  async function chargerClassement(discipline) {
+    const fichier = rankingMap[discipline];
+    if (!fichier) {
+      rankingBody.innerHTML = "<tr><td colspan='3'>Classement indisponible</td></tr>";
       return;
     }
-
-    classementActuel = data;
-    indexActuel = 0;
-    afficherSkieurs();
-
-    voirPlusBtn.style.display = data.length > lignesParPage ? "inline-block" : "none";
-
+    try {
+      const response = await fetch(fichier);
+      if (!response.ok) throw new Error("Impossible de charger les données");
+      const data = await response.json();
+      rankingBody.innerHTML = "";
+      if (data.length === 0) {
+        rankingBody.innerHTML = "<tr><td colspan='3'>Aucune donnée disponible</td></tr>";
+        return;
+      }
+      classementActuel = data;
+      indexActuel = 0;
+      afficherSkieurs();
+      voirPlusBtn.style.display = data.length > lignesParPage ? "inline-block" : "none";
     } catch (error) {
       console.error("Erreur chargement JSON :", error);
       rankingBody.innerHTML = `<tr><td colspan="3">Erreur de chargement des données</td></tr>`;
     }
   }
 
-voirPlusBtn.addEventListener("click", afficherSkieurs);
+  voirPlusBtn.addEventListener("click", afficherSkieurs);
 
-// Fonction pour afficher les skieurs progressivement
-function afficherSkieurs() {
-  for (let i = indexActuel; i < indexActuel + lignesParPage && i < classementActuel.length; i++) {
-    const skieur = classementActuel[i];
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td>${skieur.position}</td>
-      <td>${skieur.nom}</td>
-      <td>${skieur.points}</td>
-    `;
-    rankingBody.appendChild(tr);
+  function afficherSkieurs() {
+    for (let i = indexActuel; i < indexActuel + lignesParPage && i < classementActuel.length; i++) {
+      const skieur = classementActuel[i];
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td><span class="rank-num">${skieur.position}</span></td>
+        <td>${skieur.nom}</td>
+        <td>${skieur.points}</td>
+      `;
+      rankingBody.appendChild(tr);
+    }
+    indexActuel += lignesParPage;
+    voirPlusBtn.style.display = indexActuel >= classementActuel.length ? "none" : "inline-block";
   }
 
-  indexActuel += lignesParPage;
-
-  // Si on a tout affiché, cacher le bouton
-  if (indexActuel >= classementActuel.length) {
-    voirPlusBtn.style.display = "none";
-  } else {
-    voirPlusBtn.style.display = "inline-block";
-  }
-}
-
-  // Charger le classement initial
   chargerClassement(rankingSelect.value);
 
-  // Event unique pour changer classement et afficher sections
   rankingSelect.addEventListener("change", () => {
-    const valeur = rankingSelect.value;
-    chargerClassement(valeur);
-
-    // Si tu ajoutes plusieurs sections par discipline, gérer l'affichage ici :
-    // const sections = document.querySelectorAll("main section");
-    // sections.forEach(s => s.style.display = s.id === valeur ? "block" : "none");
+    chargerClassement(rankingSelect.value);
   });
-  </script>
+</script>
 
 </body>
 </html>
