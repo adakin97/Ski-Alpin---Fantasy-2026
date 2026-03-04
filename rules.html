@@ -8,156 +8,326 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="common.css">
   <style>
-    main {
+    /* HERO */
+    .hero {
+      padding: 60px 4rem 50px;
+      background:
+        linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)),
+        url('Image/background_title.jpeg') center/cover no-repeat;
+      color: #fff;
+      border-left: 5px solid var(--main-red);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      margin: 0 0 0.4rem;
+      text-shadow: 2px 2px 10px #000000cc;
+    }
+    .hero p {
+      font-size: 1.05rem;
+      color: #f0f0f0dd;
+      margin: 0;
+      font-weight: 500;
+    }
+
+    /* PAGE LAYOUT */
+    .page-content {
       max-width: 860px;
-      margin: 2.5rem auto;
-      padding: 2rem 2.5rem 3rem;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
+      width: 100%;
+    }
+
+    /* CARD SECTIONS */
+    .card-section {
       background: #fff;
+      border: 1px solid #e2e2e2;
       border-top: 3px solid var(--main-red);
-      flex: 1;
+      padding: 28px 32px;
+      margin-bottom: 24px;
     }
-    main h1 {
-      font-size: 2rem;
-      font-weight: 900;
+    .section-title {
+      font-size: 0.85rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
       color: #1a1a1a;
+      margin: 0 0 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e8e8e8;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .section-num {
+      background: var(--main-red);
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 800;
+      padding: 2px 8px;
+      letter-spacing: 0.04em;
+    }
+
+    /* SUBSECTIONS */
+    .subsection {
+      margin-bottom: 20px;
+    }
+    .subsection:last-child { margin-bottom: 0; }
+    .subsection-title {
+      font-size: 0.78rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #1a1a1a;
+      margin: 0 0 10px;
+    }
+    .subsection-subtitle {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #888;
       text-transform: uppercase;
       letter-spacing: 0.04em;
-      border-bottom: 3px solid var(--main-red);
-      padding-bottom: 0.6rem;
-      margin-bottom: 2rem;
+      margin: 14px 0 8px;
     }
-    main h2 {
-      font-size: 1.2rem;
-      font-weight: 900;
-      color: #1a1a1a;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-      border-bottom: 1px solid #e2e2e2;
-      padding-bottom: 0.3rem;
-      margin: 2rem 0 0.7rem;
-    }
-    main h3 {
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--main-red);
-      margin: 1.2rem 0 0.3rem;
-    }
-    main h4 {
-      font-size: 0.95rem;
-      font-weight: 700;
-      color: #555;
-      margin: 0.8rem 0 0.3rem;
-    }
-    main p, main ul li {
-      font-size: 0.95rem;
+
+    /* TEXT */
+    .rule-text {
+      font-size: 0.92rem;
       line-height: 1.75;
       color: #555;
-      margin: 0.3rem 0;
+      margin: 0 0 8px;
     }
-    main ul {
-      padding-left: 1.5rem;
-      margin: 0.5rem 0 1rem;
-    }
+    .rule-text:last-child { margin-bottom: 0; }
     .bold { font-weight: 700; color: #333; }
+
+    /* POINTS GRID */
+    .points-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .points-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 9px 14px;
+      background: #f8f8f8;
+      border-left: 3px solid #e2e2e2;
+      font-size: 0.85rem;
+    }
+    .points-item .label { color: #555; font-weight: 600; }
+    .points-item .pts {
+      font-weight: 800;
+      color: var(--main-red);
+      white-space: nowrap;
+      margin-left: 12px;
+    }
+
+    /* RULE LIST */
+    .rule-list {
+      list-style: none;
+      padding: 0;
+      margin: 8px 0 0;
+    }
+    .rule-list li {
+      font-size: 0.92rem;
+      line-height: 1.7;
+      color: #555;
+      padding: 4px 0 4px 18px;
+      position: relative;
+      border-bottom: 1px solid #f5f5f5;
+    }
+    .rule-list li:last-child { border-bottom: none; }
+    .rule-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 13px;
+      width: 6px;
+      height: 6px;
+      background: var(--main-red);
+    }
+
+    /* DIVIDER */
+    .subsection + .subsection {
+      padding-top: 20px;
+      border-top: 1px solid #f0f0f0;
+    }
+
+    @media (max-width: 768px) {
+      .hero { padding: 40px 1.5rem 36px; }
+      .hero h1 { font-size: 2.2rem; }
+      .page-content { padding: 24px 16px 40px; }
+      .card-section { padding: 20px 16px; }
+      .points-grid { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
-
 <body>
+
 <header class="topbar1" role="banner">
   <div class="logo"><i class="fas fa-mountain"></i> Ski Alpin Fantasy 2026</div>
   <nav id="nav-auth">
     <div class="auth-links">
-      <a href="#" id="loginBtn"><i class="fas fa-sign-in-alt"></i> Connexion</a>
-      <a href="#" id="logoutBtn" style="display: none;"><i class="fas fa-sign-out-alt"></i> Déconnexion</a>
+      <a href="#" id="openLogin"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+      <a href="#" id="openSignup"><i class="fas fa-user-plus"></i> Inscription</a>
     </div>
   </nav>
 </header>
+
 <nav class="topbar2" role="navigation">
   <nav>
-      <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
-      <a href="classement_skieurs.html"><i class="fas fa-chart-line"></i> Classements Skieurs</a>
-      <a href="classement_joueur.html"><i class="fas fa-users"></i> Classements Joueurs</a>
-      <a href="Mon_equipe.html"><i class="fas fa-user"></i> Mon Équipe</a>
-      <a href="rules.html" class="active"><i class="fas fa-book"></i> Règles</a>
-      <a href="about.html"><i class="fas fa-info-circle"></i> À propos</a>
+    <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+    <a href="classement_skieurs.html"><i class="fas fa-chart-line"></i> Classements Skieurs</a>
+    <a href="classement_joueur.html"><i class="fas fa-users"></i> Classements Joueurs</a>
+    <a href="Mon_equipe.html"><i class="fas fa-user"></i> Mon Équipe</a>
+    <a href="rules.html" class="active"><i class="fas fa-book"></i> Règles</a>
+    <a href="about.html"><i class="fas fa-info-circle"></i> À propos</a>
   </nav>
 </nav>
-  <main>
-    <h1>Règles</h1>
 
-    <h2>1. Composition de l'équipe</h2>
-    <h3>1.1. Budget</h3>
-    <p>Chaque joueur dispose de 80 étoiles pour constituer son équipe.</p>
-    <h3>1.2. Composition</h3>
-    <p>Une équipe doit inclure <span class="bold">au moins</span> un skieur de chaque discipline (descente, super-G, slalom géant, slalom).</p>
-    <p>Un maximum de <span class="bold">deux skieurs de la même nationalité</span> peut être sélectionné par discipline.</p>
+<section class="hero">
+  <h1><i class="fas fa-book"></i> Règles du jeu</h1>
+  <p>Tout ce que vous devez savoir pour jouer à Ski Alpin Fantasy 2026.</p>
+</section>
 
-    <h2>2. Attribution des points</h2>
-    <h3>2.1. Points après la course</h3>
-    <p>Les points sont attribués selon le système de points FIS (1er = 100, 2e = 80, etc.).</p>
-    <h3>2.2. Bonus de course</h3>
-    <ul class="my_text2">
-      <li>Victoire : +20 points</li>
-      <li>Deuxième place : +15 points</li>
-      <li>Troisième place : +10 points</li>
-      <li>Top 7 : +5 points</li>
+<div class="page-content">
+
+  <!-- 1. Composition de l'équipe -->
+  <div class="card-section">
+    <div class="section-title">
+      <span class="section-num">1</span>
+      Composition de l'équipe
+    </div>
+
+    <div class="subsection">
+      <div class="subsection-title">Budget</div>
+      <p class="rule-text">Chaque joueur dispose de <span class="bold">80 étoiles</span> pour constituer son équipe.</p>
+    </div>
+
+    <div class="subsection">
+      <div class="subsection-title">Composition</div>
+      <p class="rule-text">Une équipe doit inclure <span class="bold">au moins un skieur de chaque discipline</span> (descente, super-G, slalom géant, slalom).</p>
+      <p class="rule-text">Un maximum de <span class="bold">deux skieurs de la même nationalité</span> peut être sélectionné par discipline.</p>
+    </div>
+  </div>
+
+  <!-- 2. Attribution des points -->
+  <div class="card-section">
+    <div class="section-title">
+      <span class="section-num">2</span>
+      Attribution des points
+    </div>
+
+    <div class="subsection">
+      <div class="subsection-title">Points après la course</div>
+      <p class="rule-text">Les points sont attribués selon le système de points FIS (1er = 100, 2e = 80, etc.).</p>
+    </div>
+
+    <div class="subsection">
+      <div class="subsection-title">Bonus de course</div>
+      <div class="points-grid">
+        <div class="points-item"><span class="label">Victoire</span><span class="pts">+20 pts</span></div>
+        <div class="points-item"><span class="label">Deuxième place</span><span class="pts">+15 pts</span></div>
+        <div class="points-item"><span class="label">Troisième place</span><span class="pts">+10 pts</span></div>
+        <div class="points-item"><span class="label">Top 7</span><span class="pts">+5 pts</span></div>
+      </div>
+    </div>
+
+    <div class="subsection">
+      <div class="subsection-title">Bonus de régularité</div>
+      <p class="rule-text">Ces bonus s'appliquent aux séries consécutives de performances, mais ne sont <span class="bold">pas cumulatifs</span> au sein d'une même série.</p>
+      <p class="rule-text">Par exemple, une série de victoires n'accordera que +20 points (pas +20 +15 +10 +5 points supplémentaires).</p>
+      <div class="points-grid" style="margin-top: 12px;">
+        <div class="points-item"><span class="label">Série de victoires</span><span class="pts">+40 pts</span></div>
+        <div class="points-item"><span class="label">Série de podiums</span><span class="pts">+30 pts</span></div>
+        <div class="points-item"><span class="label">Série top 10 (4e–10e)</span><span class="pts">+20 pts</span></div>
+        <div class="points-item"><span class="label">Série top 15 (11e–15e)</span><span class="pts">+10 pts</span></div>
+        <div class="points-item"><span class="label">Série top 30 (16e–30e)</span><span class="pts">+5 pts</span></div>
+      </div>
+      <p class="rule-text" style="margin-top: 12px;">Ces bonus s'ajoutent au score individuel — ex. une victoire donne <span class="bold">100 + 20 + 40 = 160 points</span>.</p>
+    </div>
+  </div>
+
+  <!-- 3. Bonus spécifiques -->
+  <div class="card-section">
+    <div class="section-title">
+      <span class="section-num">3</span>
+      Bonus spécifiques
+    </div>
+
+    <div class="subsection">
+      <div class="subsection-title">Courses en deux manches (SL &amp; GS)</div>
+      <p class="rule-text">+3 points par position gagnée en deuxième manche.</p>
+      <div class="subsection-subtitle">Remontées spectaculaires</div>
+      <div class="points-grid">
+        <div class="points-item"><span class="label">30e → podium</span><span class="pts">+70 pts</span></div>
+        <div class="points-item"><span class="label">30e → top 10</span><span class="pts">+30 pts</span></div>
+        <div class="points-item"><span class="label">30e → 1ère place</span><span class="pts">+100 pts</span></div>
+        <div class="points-item"><span class="label">Toute remontée au podium</span><span class="pts">+5 pts</span></div>
+      </div>
+    </div>
+
+    <div class="subsection">
+      <div class="subsection-title">Toutes les courses</div>
+      <div class="points-grid">
+        <div class="points-item"><span class="label">Dossard rouge (leader discipline)</span><span class="pts">+15 pts</span></div>
+        <div class="points-item"><span class="label">Meilleur temps intermédiaire</span><span class="pts">+2 pts / inter.</span></div>
+        <div class="points-item"><span class="label">Meilleur temps de manche</span><span class="pts">+5 pts</span></div>
+      </div>
+    </div>
+
+    <div class="subsection">
+      <div class="subsection-title">Classement meilleur jeune skieur</div>
+      <p class="rule-text">Tout skieur de <span class="bold">moins de 25 ans</span> au début de la saison (déterminé par la première course à Sölden) est éligible.</p>
+      <div class="points-grid" style="margin-top: 10px;">
+        <div class="points-item"><span class="label">Meilleur jeune</span><span class="pts">+5 pts</span></div>
+        <div class="points-item"><span class="label">2e meilleur jeune</span><span class="pts">+3 pts</span></div>
+        <div class="points-item"><span class="label">3e meilleur jeune</span><span class="pts">+1 pt</span></div>
+        <div class="points-item"><span class="label">Leader général jeunes</span><span class="pts">+10 pts / weekend</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Restrictions -->
+  <div class="card-section">
+    <div class="section-title">
+      <span class="section-num">4</span>
+      Restrictions et précisions
+    </div>
+    <ul class="rule-list">
+      <li>Les bonus de classement et de régularité sont cumulatifs.</li>
+      <li>Les bonus de régularité ne se combinent pas entre catégories (ex. une série de podiums ne peut se combiner avec une série de victoires).</li>
+      <li>Les performances doivent être validées selon les classements officiels FIS pour être comptées.</li>
+      <li>Les cas de force majeure (ex. annulation ou modification des courses) peuvent entraîner des ajustements du système de points.</li>
     </ul>
+  </div>
 
-    <h3>2.3. Bonus de régularité (séries de performances consécutives)</h3>
-    <p>Ces bonus s'appliquent aux séries consécutives de performances, mais ne sont <span class="bold">pas cumulatifs</span> au sein d'une même série.</p>
-    <p>Par exemple, une série de victoires n'accordera que +20 points (pas +20 +15 +10 +5 points supplémentaires).</p>
-    <ul class="my_text2">
-      <li>Série de victoires : +40 points</li>
-      <li>Série de podiums : +30 points</li>
-      <li>Série top 10 (4e–10e place) : +20 points</li>
-      <li>Série top 15 (11e–15e place) : +10 points</li>
-      <li>Série top 30 (16e–30e place) : +5 points</li>
+  <!-- 5. Classements et victoires -->
+  <div class="card-section">
+    <div class="section-title">
+      <span class="section-num">5</span>
+      Classements et victoires
+    </div>
+    <ul class="rule-list">
+      <li>Les points sont totalisés après chaque course (avant 8h00 le lendemain).</li>
+      <li>Des classements hebdomadaires, mensuels et saisonniers seront publiés.</li>
+      <li>Le joueur ayant le plus de points en fin de saison sera couronné <span class="bold">Champion Fantasy Ski Alpin</span>.</li>
+      <li>Un petit trophée sera remis au vainqueur par les organisateurs.</li>
     </ul>
-    <p>Ces bonus s'ajoutent au score individuel (ex. une victoire donne 100 + 20 + 40 = 160 points).</p>
+  </div>
 
-    <h2>3. Bonus spécifiques</h2>
-    <h3>3.1. Courses en deux manches (slalom et slalom géant)</h3>
-    <p>+3 points par position gagnée en deuxième manche.</p>
-    <h4>Remontées spectaculaires :</h4>
-    <ul class="my_text2">
-      <li>30e au podium : +70 points</li>
-      <li>30e au top 10 : +30 points</li>
-      <li>30e à la 1ère place : +100 points</li>
-      <li>Toute remontée au podium (depuis n'importe quelle position) : +5 points</li>
-    </ul>
+</div>
 
-    <h3>3.2. Toutes les courses (y compris en deux manches)</h3>
-    <p>Dossard rouge (leader de discipline) : +15 points</p>
-    <p>Meilleur temps intermédiaire : +2 points par intermédiaire</p>
-    <p>Meilleur temps de manche : +5 points</p>
+<footer>
+  &copy; 2026 Ski Alpin Fantasy. Tous droits réservés.
+</footer>
 
-    <h3>3.3. Classement du meilleur jeune skieur</h3>
-    <p>Tout skieur de moins de 25 ans au début de la saison (déterminé par la première course à Sölden) est éligible.</p>
-    <p>Classement de course :</p>
-    <ul class="my_text2">
-      <li>Meilleur jeune skieur : +5 points</li>
-      <li>Deuxième meilleur jeune skieur : +3 points</li>
-      <li>Troisième meilleur jeune skieur : +1 point</li>
-      <li>Leader du classement général des jeunes : +10 points par week-end</li>
-    </ul>
-
-    <h2>4. Restrictions et précisions</h2>
-    <p>Les bonus de classement et de régularité sont cumulatifs.</p>
-    <p>Les bonus de régularité ne se combinent pas entre catégories (ex. une série de podiums ne peut se combiner avec une série de victoires).</p>
-    <p>Les performances doivent être validées selon les classements officiels FIS pour être comptées.</p>
-    <p>Les cas de force majeure (ex. annulation ou modification des courses) peuvent entraîner des ajustements du système de points.</p>
-
-    <h2>5. Classements et victoires</h2>
-    <p>Les points sont totalisés après chaque course (avant 8h00 le lendemain).</p>
-    <p>Des classements hebdomadaires, mensuels et saisonniers seront publiés.</p>
-    <p>Le joueur ayant le plus de points en fin de saison sera couronné Champion Fantasy Ski Alpin.</p>
-    <p>Un petit trophée sera remis au vainqueur par les organisateurs.</p>
-  </main>
-
-  <footer>
-    &copy; 2026 Ski Alpin Fantasy. Tous droits réservés.
-  </footer>
-
-  <script type="module" src="auth.js"></script>
+<script type="module" src="auth.js"></script>
 </body>
 </html>
