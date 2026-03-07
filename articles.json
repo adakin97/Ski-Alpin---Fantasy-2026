@@ -1,8 +1,13 @@
 [
     {
-        "title": "Marco Odermatt: \"C'est une victoire importante et c'est un peu une revanche après les deux dernières descentes\"",
-        "link": "https://www.rts.ch/sport/ski/2026/article/marco-odermatt-remporte-la-descente-de-garmisch-apres-deux-4e-places-29166645.html",
-        "image": "https://img.rts.ch/articles/2026/image/z6qy24-29166646.image?w=1200&h=630"
+        "title": "Un superbe triplé suisse et le très beau week-end de Corinne Suter",
+        "link": "https://www.rts.ch/sport/ski/2026/article/triple-suisse-historique-en-descente-a-garmisch-partenkirchen-29167707.html",
+        "image": "https://img.rts.ch/articles/2026/image/497d7q-29167723.image?w=1200&h=630"
+    },
+    {
+        "title": "L'actualité du ski alpin",
+        "link": "https://www.skipass.com/forums/sports/ski/alpin/sujet-131845-19550.html",
+        "image": "https://skipass.fr/p/users/151005/profile-8fa3-1.jpg"
     },
     {
         "title": "Ski alpin: Crans-Montana annule la descente dames suite à des chutes",
@@ -10,23 +15,18 @@
         "image": "https://image.20min.ch/2026/01/30/7b5ca925-7ffb-49d3-b399-dd85f52b9c0a.jpg?auto=format%2Ccompress%2Cenhance&fit=crop&w=1200&h=675&rect=0%2C35%2C2329%2C1310&crop=faces&s=72e8cee103ff49a0404b18adaef94a50"
     },
     {
-        "title": "La RTS heureuse des audiences",
-        "link": "https://www.blick.ch/fr/sport/jeux-olympiques/la-rts-heureuse-des-audiences-la-descente-masculine-a-fait-un-carton-a-la-television-romande-pendant-les-jeux-id21726708.html",
-        "image": "https://img.blick.ch/fr/incoming/21726707-v1-20260225101030396.jpg?imwidth=2000&ratio=16_9&x=0&y=0&width=1400&height=788"
-    },
-    {
         "title": "«Je considère la saison de ski comme une série Netflix»",
         "link": "https://www.blick.ch/fr/sport/ski/john-nicolet-voix-sur-la-rts-je-considere-la-saison-de-ski-comme-une-serie-netflix-id21353097.html",
         "image": "https://img.blick.ch/fr/incoming/21353093-v1-20251023165803117.jpg?imwidth=2000&ratio=16_9&x=0&y=0&width=8133&height=4579"
     },
     {
-        "title": "DIRECT. JO 2026: dernière chance de médaille en ski alpin pour la Suisse",
-        "link": "https://www.24heures.ch/direct-jo-2026-derniere-chance-de-medaille-en-ski-alpin-pour-la-suisse-921523221885/6",
-        "image": "https://cdn.unitycms.io/images/5fLkIODT4S18h8uUFRMEdq.jpg?op=ocroped&val=1200,600,1000,750,104,0&sum=tUj_fEe2DrM"
+        "title": "Odermatt, Monney, Rogentin: le ski suisse s’offre un triplé à Garmisch-Partenkirchen",
+        "link": "https://www.letemps.ch/sport/odermatt-monney-rogentin-le-ski-suisse-s-offre-un-triple-a-garmisch-partenkirchen",
+        "image": "https://letemps-17455.kxcdn.com/photos/5bd1f177-6673-41ed-83b1-e860021f4147/medium"
     },
     {
-        "title": "Le ski-alpinisme fait son entrée «historique» aux Jeux olympiques",
-        "link": "https://www.ledevoir.com/sports/957087/ski-alpinisme-fait-entree-historique-jeux-olympiques",
-        "image": "https://media1.ledevoir.com/image/957087.jpg?crop=3%3A2%2Csmart&width=1600&ts=1771423014"
+        "title": "La RTS heureuse des audiences",
+        "link": "https://www.blick.ch/fr/sport/jeux-olympiques/la-rts-heureuse-des-audiences-la-descente-masculine-a-fait-un-carton-a-la-television-romande-pendant-les-jeux-id21726708.html",
+        "image": "https://img.blick.ch/fr/incoming/21726707-v1-20260225101030396.jpg?imwidth=2000&ratio=16_9&x=0&y=0&width=1400&height=788"
     }
 ]
