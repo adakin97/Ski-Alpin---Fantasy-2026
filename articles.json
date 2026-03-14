@@ -1,8 +1,18 @@
 [
     {
+        "title": "Niels Hintermann met un terme à sa carrière. \"Je ne veux plus risquer ma vie\"",
+        "link": "https://www.rts.ch/sport/ski/2026/article/niels-hintermann-double-vainqueur-en-coupe-du-monde-met-fin-a-sa-carriere-29181710.html",
+        "image": "https://img.rts.ch/articles/2026/image/w3tesj-29181717.image?w=1200&h=630"
+    },
+    {
         "title": "\"Je suis tellement contente\", s'exclame Camille Rast",
         "link": "https://www.rts.ch/sport/ski/2025/article/camille-rast-championne-du-monde-de-slalom-j-ai-explose-tous-mes-objectifs-28792392.html",
         "image": "https://img.rts.ch/articles/2025/image/3nvnj4-28792404.image?w=1200&h=630"
+    },
+    {
+        "title": "Ski alpin: Crans-Montana annule la descente dames suite à des chutes",
+        "link": "https://www.20min.ch/fr/story/ski-alpin-la-descente-dames-de-crans-montana-annulee-apres-trois-chutes-103496428",
+        "image": "https://image.20min.ch/2026/01/30/7b5ca925-7ffb-49d3-b399-dd85f52b9c0a.jpg?auto=format%2Ccompress%2Cenhance&fit=crop&w=1200&h=675&rect=0%2C35%2C2329%2C1310&crop=faces&s=72e8cee103ff49a0404b18adaef94a50"
     },
     {
         "title": "Ski alpin - Coupe du monde Ilka Stuhec débutera à Val di Fassa, Romane Miradoli lancera les Françaises... La liste de départ de la descente",
@@ -15,18 +25,8 @@
         "image": "https://img.blick.ch/fr/incoming/21726707-v1-20260225101030396.jpg?imwidth=2000&ratio=16_9&x=0&y=0&width=1400&height=788"
     },
     {
-        "title": "Ski alpin: Vincent Kriechmayr gagne la descente de Wengen",
-        "link": "https://www.watson.ch/fr/suisse/sport/833582922-ski-alpin-vincent-kriechmayr-gagne-la-descente-de-wengen",
-        "image": "https://www.watson.ch/fr/imgdb/a863/Z1200,627/1957423716154987"
-    },
-    {
-        "title": "Ski alpin: Crans-Montana annule la descente dames suite à des chutes",
-        "link": "https://www.20min.ch/fr/story/ski-alpin-la-descente-dames-de-crans-montana-annulee-apres-trois-chutes-103496428",
-        "image": "https://image.20min.ch/2026/01/30/7b5ca925-7ffb-49d3-b399-dd85f52b9c0a.jpg?auto=format%2Ccompress%2Cenhance&fit=crop&w=1200&h=675&rect=0%2C35%2C2329%2C1310&crop=faces&s=72e8cee103ff49a0404b18adaef94a50"
-    },
-    {
-        "title": "«Je considère la saison de ski comme une série Netflix»",
-        "link": "https://www.blick.ch/fr/sport/ski/john-nicolet-voix-sur-la-rts-je-considere-la-saison-de-ski-comme-une-serie-netflix-id21353097.html",
-        "image": "https://img.blick.ch/fr/incoming/21353093-v1-20251023165803117.jpg?imwidth=2000&ratio=16_9&x=0&y=0&width=8133&height=4579"
+        "title": "L'actualité du ski alpin",
+        "link": "https://www.skipass.com/forums/sports/ski/alpin/sujet-131845-19550.html",
+        "image": "https://skipass.fr/p/users/151005/profile-660e-1.jpg"
     }
 ]
