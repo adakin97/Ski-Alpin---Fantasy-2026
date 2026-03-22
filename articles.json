@@ -1,18 +1,13 @@
 [
     {
-        "title": "Une audience record pour les Jeux olympiques d’hiver sur la RTS",
-        "link": "https://www.rts.ch/entreprise/espace-pro/communiques-de-presse/2026/communique-de-presse/une-audience-record-pour-les-jeux-olympiques-d-hiver-sur-la-rts-29163159.html",
-        "image": "https://img.rts.ch/entreprise/espace-pro/communiques-de-presse/2026/image/ab7adf-29163166.image?w=1200&h=630"
+        "title": "Lillehammer LIVE : suivez la descente dames des finales",
+        "link": "https://www.bluewin.ch/fr/sport/sport-d-hiver/suivez-la-descente-messieurs-des-finales-en-direct-3145696.html",
+        "image": ""
     },
     {
         "title": "La RTS heureuse des audiences",
         "link": "https://www.blick.ch/fr/sport/jeux-olympiques/la-rts-heureuse-des-audiences-la-descente-masculine-a-fait-un-carton-a-la-television-romande-pendant-les-jeux-id21726708.html",
         "image": "https://img.blick.ch/fr/incoming/21726707-v1-20260225101030396.jpg?imwidth=2000&ratio=16_9&x=0&y=0&width=1400&height=788"
-    },
-    {
-        "title": "Le ski-alpinisme fait son entrée «historique» aux Jeux olympiques",
-        "link": "https://www.ledevoir.com/sports/957087/ski-alpinisme-fait-entree-historique-jeux-olympiques",
-        "image": ""
     },
     {
         "title": "«Je considère la saison de ski comme une série Netflix»",
@@ -28,5 +23,10 @@
         "title": "L'actualité du ski alpin",
         "link": "https://www.skipass.com/forums/sports/ski/alpin/sujet-131845-19550.html",
         "image": "https://skipass.fr/p/users/151005/profile-660e-1.jpg"
+    },
+    {
+        "title": "AboSki alpinLe savant art du départ, où les courses se perdent et se gagnent",
+        "link": "https://www.tdg.ch/sports/ski-alpin",
+        "image": "https://www.tdg.ch/assets/images/defaultsharing/default_sharing_tdg.png"
     }
 ]
