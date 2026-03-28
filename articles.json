@@ -5,11 +5,6 @@
         "image": "https://img.rts.ch/articles/2026/image/8l7a4b-29194310.image?w=1200&h=630"
     },
     {
-        "title": "Lillehammer LIVE : suivez le slalom messieurs des finales",
-        "link": "https://www.bluewin.ch/fr/sport/sport-d-hiver/cest-la-der-suivez-le-slalom-messieurs-des-finales-en-direct-3156642.html",
-        "image": ""
-    },
-    {
         "title": "La voix du ski alpin féminin de la RTS s'apprête à changer",
         "link": "https://www.msn.com/fr-ch/actualite/other/la-voix-du-ski-alpin-f%C3%A9minin-de-la-rts-s-appr%C3%AAte-%C3%A0-changer/ar-AA1Zox34",
         "image": ""
@@ -20,13 +15,18 @@
         "image": ""
     },
     {
-        "title": "Ski alpin: Loïc Meillard deuxième du slalom de Val-d’Isère",
-        "link": "https://www.24heures.ch/ski-alpin-loic-meillard-deuxieme-du-slalom-de-val-disere-598880832765",
-        "image": "https://cdn.unitycms.io/images/8oBPI5g5Kmy8b2xPW-aTI1.jpg?op=ocroped&val=1200,600,1000,750,51,0&sum=JYkpa4hHB_Q"
+        "title": "Voici ce que la RTS a prévu pour les Jeux olympiques",
+        "link": "https://www.watson.ch/fr/sport/ski-alpin/276836776-voici-ce-que-la-rts-a-prevu-pour-les-jeux-olympiques-2026",
+        "image": "https://www.watson.ch/fr/imgdb/6607/Z1200,627/5029113583688855"
     },
     {
-        "title": "Ski alpin: Marco Odermatt triomphe au géant de Beaver Creek - lematin.ch",
-        "link": "https://www.lematin.ch/story/ski-alpin-marco-odermatt-fait-la-course-en-tete-beaver-creek-103465909",
-        "image": "https://media.lematin.ch/4/image/2025/12/07/d4017319-ba20-441d-9cf3-646c74fcde2b.jpg?auto=format%2Ccompress%2Cenhance&fit=crop&w=1200&h=675&rect=0%2C0%2C3000%2C2095&crop=faces&s=66c41293cce954988c92d505cf9fc991"
+        "title": "Åre LIVE : suivez le slalom dames",
+        "link": "https://www.bluewin.ch/fr/sport/sport-d-hiver/suivez-le-slalom-dames-en-direct-3139009.html",
+        "image": ""
+    },
+    {
+        "title": "Le ski-alpinisme fait son entrée «historique» aux Jeux olympiques",
+        "link": "https://www.ledevoir.com/sports/957087/ski-alpinisme-fait-entree-historique-jeux-olympiques",
+        "image": "https://media1.ledevoir.com/image/957087.jpg?crop=3%3A2%2Csmart&width=1600&ts=1771423014"
     }
 ]
