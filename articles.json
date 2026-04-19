@@ -1,10 +1,5 @@
 [
     {
-        "title": "Loïc Meillard: \"Ça fait bien longtemps que je suis comblé\"",
-        "link": "https://www.rts.ch/sport/ski/2026/article/loic-meillard-ca-fait-bien-longtemps-que-je-suis-comble-29210596.html",
-        "image": "https://img.rts.ch/medias/2026/image/dxw9oh-29210153.image?w=1200&h=630"
-    },
-    {
         "title": "Marc Rochat: \"Le ski a été mon tout. J’y ai dédié mon être et aujourd’hui je tourne la page\"",
         "link": "https://www.rts.ch/sport/ski/2026/article/marc-rochat-le-ski-a-ete-mon-tout-aujourd-hui-je-tourne-la-page-29212132.html",
         "image": "https://img.rts.ch/articles/2026/image/dksh4-29212137.image?w=1200&h=630"
@@ -20,13 +15,18 @@
         "image": "https://media.20min.ch/7/image/2025/12/12/15d75778-0e12-4386-ac01-9dc2557b3805.jpg?auto=format%2Ccompress%2Cenhance&fit=crop&w=1200&h=675&rect=0%2C0%2C4000%2C2667&crop=faces&s=3216e19a2fa1be9ab17e0dd1201d38d9"
     },
     {
-        "title": "Ski: Sue Piller est l'avenir du ski suisse féminin",
-        "link": "https://www.watson.ch/fr/sport/ski-alpin/746842511-ski-sue-piller-est-l-avenir-du-ski-suisse-feminin",
-        "image": "https://www.watson.ch/fr/imgdb/5416/Z1200,627/3206398856861687"
+        "title": "Ski alpin: voici le programme des Jeux olympiques 2026",
+        "link": "https://www.watson.ch/fr/sport/ski-alpin/759248640-ski-alpin-voici-le-programme-des-jeux-olympiques-2026",
+        "image": "https://www.watson.ch/fr/imgdb/8957/Z1200,627/7214657061721837"
     },
     {
-        "title": "DIRECT. JO 2026: dernière chance de médaille en ski alpin pour la Suisse",
-        "link": "https://www.24heures.ch/direct-jo-2026-derniere-chance-de-medaille-en-ski-alpin-pour-la-suisse-921523221885/3",
-        "image": "https://cdn.unitycms.io/images/5fLkIODT4S18h8uUFRMEdq.jpg?op=ocroped&val=1200,600,1000,750,104,0&sum=tUj_fEe2DrM"
+        "title": "Ski alpin: Cyprien Sarrazin a pu remettre ses skis à Courchevel",
+        "link": "https://www.20min.ch/fr/story/ski-alpin-cyprien-sarrazin-a-pu-remettre-ses-skis-a-courchevel-103468608",
+        "image": "https://media.20min.ch/7/image/2025/12/12/db171930-3ed8-462f-b494-99f34bc45313.png?auto=format%2Ccompress%2Cenhance&fit=crop&w=1200&h=675&rect=0%2C0%2C459%2C355&crop=faces&s=8625cf1bd6d60572f2745d7eb26e3408"
+    },
+    {
+        "title": "Ski alpin: Chutes en série: la descente dames de Crans-Montana a été annulée - lematin.ch",
+        "link": "https://www.lematin.ch/story/ski-alpin-chutes-en-serie-la-descente-dames-de-crans-montana-a-ete-annulee-103496536",
+        "image": "https://image.lematin.ch/2026/01/30/81ab7e4a-933c-4518-82a9-4c2418175393.jpg?auto=format%2Ccompress%2Cenhance&fit=crop&w=1200&h=675&rect=0%2C0%2C988%2C679&fp-x=0.6771255060728745&fp-y=0.32989690721649484&crop=focalpoint&s=9af1cc6f53e81b953cb43d51cda2ba8c"
     }
 ]
