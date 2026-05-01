@@ -5,11 +5,6 @@
         "image": "https://img.rts.ch/articles/2025/image/xux5kd-29066790.image?w=1200&h=630"
     },
     {
-        "title": "Federica Brignone a rechaussé les skis, mais elle reste dans le flou",
-        "link": "https://www.rts.ch/sport/ski/2025/article/federica-brignone-de-retour-sur-les-skis-apres-sa-grave-blessure-29070760.html",
-        "image": "https://img.rts.ch/articles/2025/image/tx85m5-29070762.image?w=1200&h=630"
-    },
-    {
         "title": "Ski alpin: À St-Moritz, l'Américaine Lindsey Vonn était intouchable",
         "link": "https://www.20min.ch/fr/story/ski-alpin-a-st-moritz-l-americaine-lindsey-vonn-etait-intouchable-103468727",
         "image": "https://media.20min.ch/7/image/2025/12/12/15d75778-0e12-4386-ac01-9dc2557b3805.jpg?auto=format%2Ccompress%2Cenhance&fit=crop&w=1200&h=675&rect=0%2C0%2C4000%2C2667&crop=faces&s=3216e19a2fa1be9ab17e0dd1201d38d9"
@@ -20,13 +15,18 @@
         "image": "https://www.watson.ch/fr/imgdb/b22f/Z1200,675/3206398856861687"
     },
     {
-        "title": "Michelle Gisin va subir une opération après une chute à Saint-Moritz",
-        "link": "https://www.20min.ch/fr/story/ski-alpin-michelle-gisin-va-se-faire-operer-apres-sa-lourde-chute-103468023",
-        "image": "https://media.20min.ch/7/image/2025/12/11/43c331a0-f05e-4363-893f-d2ed81d40175.jpg?auto=format%2Ccompress%2Cenhance&fit=crop&w=1200&h=675&rect=0%2C0%2C3999%2C2666&crop=faces&s=ed4f092d15eb03fc1ffd2b25d10a3a9c"
-    },
-    {
         "title": "Ski alpin: voici le programme des Jeux olympiques 2026",
         "link": "https://www.watson.ch/fr/sport/ski-alpin/759248640-ski-alpin-voici-le-programme-des-jeux-olympiques-2026",
         "image": "https://www.watson.ch/fr/imgdb/6f6e/Z1200,675/7214657061721837"
+    },
+    {
+        "title": "Federica Brignone de retour sur les skis à deux mois des JO",
+        "link": "https://www.blick.ch/fr/sport/ski/ski-alpin-brignone-de-retour-sur-les-skis-a-deux-mois-des-jo-id21459446.html",
+        "image": "https://img.blick.ch/fr/incoming/21459447-v1-20251126153750038.jpg?imwidth=2000&ratio=16_9&x=0&y=0&width=6000&height=3378"
+    },
+    {
+        "title": "Michelle Gisin va subir une opération après une chute à Saint-Moritz",
+        "link": "https://www.20min.ch/fr/story/ski-alpin-michelle-gisin-va-se-faire-operer-apres-sa-lourde-chute-103468023",
+        "image": "https://media.20min.ch/7/image/2025/12/11/43c331a0-f05e-4363-893f-d2ed81d40175.jpg?auto=format%2Ccompress%2Cenhance&fit=crop&w=1200&h=675&rect=0%2C0%2C3999%2C2666&crop=faces&s=ed4f092d15eb03fc1ffd2b25d10a3a9c"
     }
 ]
