@@ -5,19 +5,14 @@
         "image": "https://media.20min.ch/7/image/2025/12/12/15d75778-0e12-4386-ac01-9dc2557b3805.jpg?auto=format%2Ccompress%2Cenhance&fit=crop&w=1200&h=675&rect=0%2C0%2C4000%2C2667&crop=faces&s=3216e19a2fa1be9ab17e0dd1201d38d9"
     },
     {
-        "title": "Il y a vingt ans, Corinne Rey-Bellet était assassinée",
-        "link": "https://www.watson.ch/fr/suisse/ski-alpin/975287448-il-y-a-vingt-ans-corinne-rey-bellet-etait-assassinee",
-        "image": "https://www.watson.ch/fr/imgdb/35ee/Z1200,675/3732232624833997"
+        "title": "Ski: Sue Piller est l'avenir du ski suisse féminin",
+        "link": "https://www.watson.ch/fr/sport/ski-alpin/746842511-ski-sue-piller-est-l-avenir-du-ski-suisse-feminin",
+        "image": "https://www.watson.ch/fr/imgdb/b22f/Z1200,675/3206398856861687"
     },
     {
         "title": "Ski alpin: voici le programme des Jeux olympiques 2026",
         "link": "https://www.watson.ch/fr/sport/ski-alpin/759248640-ski-alpin-voici-le-programme-des-jeux-olympiques-2026",
         "image": "https://www.watson.ch/fr/imgdb/6f6e/Z1200,675/7214657061721837"
-    },
-    {
-        "title": "C'est (déjà) la fin du ski alpin masculin",
-        "link": "https://www.blick.ch/fr/sport/jeux-olympiques/jo-2026-cest-deja-la-fin-du-ski-alpin-masculin-id21696228.html",
-        "image": "https://img.blick.ch/fr/incoming/21696225-v1-afp-96pw8bc.jpg?imwidth=2000&ratio=16_9&x=0&y=253&width=4881&height=2748"
     },
     {
         "title": "Federica Brignone de retour sur les skis à deux mois des JO",
@@ -28,5 +23,10 @@
         "title": "Ski alpin: Chutes en série: la descente dames de Crans-Montana a été annulée - lematin.ch",
         "link": "https://www.lematin.ch/story/ski-alpin-chutes-en-serie-la-descente-dames-de-crans-montana-a-ete-annulee-103496536",
         "image": "https://media.lematin.ch/4/image/2026/01/30/81ab7e4a-933c-4518-82a9-4c2418175393.jpg?auto=format%2Ccompress%2Cenhance&fit=crop&w=1200&h=675&rect=0%2C0%2C988%2C679&fp-x=0.6771255060728745&fp-y=0.32989690721649484&crop=focalpoint&s=9af1cc6f53e81b953cb43d51cda2ba8c"
+    },
+    {
+        "title": "C'est (déjà) la fin du ski alpin masculin",
+        "link": "https://www.blick.ch/fr/sport/jeux-olympiques/jo-2026-cest-deja-la-fin-du-ski-alpin-masculin-id21696228.html",
+        "image": "https://img.blick.ch/fr/incoming/21696225-v1-afp-96pw8bc.jpg?imwidth=2000&ratio=16_9&x=0&y=253&width=4881&height=2748"
     }
 ]
