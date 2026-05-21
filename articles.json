@@ -15,11 +15,6 @@
         "image": "https://img.blick.ch/fr/incoming/21726707-v1-20260225101030396.jpg?imwidth=2000&ratio=16_9&x=0&y=0&width=1400&height=788"
     },
     {
-        "title": "Oui, la Suisse va battre son record de médailles aux Jeux olympiques de Milan-Cortina 2026",
-        "link": "https://www.letemps.ch/sport/ski-snowboard/oui-la-suisse-va-battre-son-record-de-medailles-aux-jeux-olympiques-de-milan-cortina-2026",
-        "image": "https://letemps-17455.kxcdn.com/photos/1bcb9a28-f33e-49c4-aa82-bca5b8243d86/medium"
-    },
-    {
         "title": "Ski alpin: Pas de Coupe du monde à Bormio en 2025/2026",
         "link": "https://www.watson.ch/fr/sport/ski-alpin/812905224-ski-alpin-pas-de-coupe-du-monde-a-bormio-en-2025-2026",
         "image": "https://www.watson.ch/fr/imgdb/9e62/Z1200,675/254133892222288"
@@ -28,5 +23,10 @@
         "title": "Ski alpin: voici le programme des Jeux olympiques 2026",
         "link": "https://www.watson.ch/fr/sport/ski-alpin/759248640-ski-alpin-voici-le-programme-des-jeux-olympiques-2026",
         "image": "https://www.watson.ch/fr/imgdb/6f6e/Z1200,675/7214657061721837"
+    },
+    {
+        "title": "Oui, la Suisse va battre son record de médailles aux Jeux olympiques de Milan-Cortina 2026",
+        "link": "https://www.letemps.ch/sport/ski-snowboard/oui-la-suisse-va-battre-son-record-de-medailles-aux-jeux-olympiques-de-milan-cortina-2026",
+        "image": "https://letemps-17455.kxcdn.com/photos/1bcb9a28-f33e-49c4-aa82-bca5b8243d86/medium"
     }
 ]
