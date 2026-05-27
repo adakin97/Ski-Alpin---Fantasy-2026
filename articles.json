@@ -1,10 +1,5 @@
 [
     {
-        "title": "Une première pour Rassat, Nef 5e",
-        "link": "https://www.rts.ch/sport/ski/2025/article/surprise-en-autriche-rassat-gagne-son-1er-slalom-nef-5e-a-gurgl-29066882.html",
-        "image": "https://img.rts.ch/articles/2025/image/75008s-29066891.image?w=1200&h=630"
-    },
-    {
         "title": "Loic Meillard : \"J'ai une chance énorme de pouvoir vivre de ma passion\"",
         "link": "https://www.ski-nordique.net/loic-meillard-jai-une-chance-enorme-de-pouvoir-vivre-de-ma-passion.6746281-72348.html",
         "image": "https://www.ski-nordique.net/getfile.php/5493395.1046.lqqizqmubppnws/1200x630/jo26-al-ms-ab-05-0272+MEILLARD+Loic.jpg"
@@ -28,5 +23,10 @@
         "title": "Ski alpin: voici le programme des Jeux olympiques 2026",
         "link": "https://www.watson.ch/fr/sport/ski-alpin/759248640-ski-alpin-voici-le-programme-des-jeux-olympiques-2026",
         "image": "https://www.watson.ch/fr/imgdb/6f6e/Z1200,675/7214657061721837"
+    },
+    {
+        "title": "Ski alpin: surprise italienne à Wengen, von Allmen sur le podium",
+        "link": "https://www.20min.ch/fr/story/ski-alpin-surprise-italienne-a-wengen-von-allmen-sur-le-podium-103486591",
+        "image": "https://media.20min.ch/7/image/2026/01/16/84eb024b-2b7f-4f0d-bf5f-8d12597d23a5.jpg?auto=format%2Ccompress%2Cenhance&fit=max&w=1200&h=1200&rect=0%2C175%2C3360%2C1890&s=0447018fef7eb5349c0782c5f0628d84"
     }
 ]
