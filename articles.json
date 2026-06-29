@@ -5,16 +5,6 @@
         "image": "https://img.blick.ch/fr/incoming/21353093-v1-20251023165803117.jpg?imwidth=2000&ratio=16_9&x=0&y=0&width=8133&height=4579"
     },
     {
-        "title": "«Avant, on avait des soucis avec les chiens fous, mais ils se sont calmés»",
-        "link": "https://www.bluewin.ch/fr/sport/ski-alpin/avant-on-avait-pas-mal-de-soucis-avec-les-chiens-fous-mais-ils-se-sont-calmes-li.3045298",
-        "image": "https://bluewin-prod-sc-images.imgix.net/2026/01/15/7380aea2-b1f1-41bc-836b-ff1637931012.jpeg?w=1024&auto=format&s=cdd5a5e85bc78cfeff562bd265576d21"
-    },
-    {
-        "title": "Sur un tracé qui divise, Meillard régale et Monney rigole",
-        "link": "https://www.bluewin.ch/fr/sport/ski-alpin/sur-un-trace-qui-divise-loic-meillard-regale-et-alexis-monney-rigole-li.2624598",
-        "image": "https://bluewin-prod-sc-images.imgix.net/2025/03/26/69daae76-e728-4e1b-a1e7-45b32519a4c5.jpeg?w=1024&auto=format&s=455389495a8285416000710152fef73d"
-    },
-    {
         "title": "John Nicolet: le journaliste de la RTS prêt pour Sölden",
         "link": "https://www.24heures.ch/john-nicolet-le-journaliste-de-la-rts-pret-pour-soelden-688016696282",
         "image": "https://cdn.unitycms.io/images/4QZMZUnUKnO85tUD4ijcKv.jpg?op=ocroped&val=1200,600,1000,751,125,0&sum=OAyzT4SG068"
@@ -25,8 +15,18 @@
         "image": "https://img.blick.ch/fr/incoming/21726707-v1-20260225101030396.jpg?imwidth=2000&ratio=16_9&x=0&y=0&width=1400&height=788"
     },
     {
-        "title": "Ski alpin: le commentateur John Nicolet raconte ses souvenirs",
-        "link": "https://www.24heures.ch/ski-alpin-le-commentateur-john-nicolet-raconte-ses-souvenirs-673674957698",
-        "image": "https://cdn.unitycms.io/images/0YWgmeXMq8I8zhbmluksy1.jpg?op=ocroped&val=1200,600,1000,750,71,0&sum=wZZxZ180J70"
+        "title": "«Ce que j’ai réalisé à Crans-Montana, personne ne me le reprendra»",
+        "link": "https://www.bluewin.ch/fr/sport/ski-alpin/ce-que-jai-realise-a-crans-montana-personne-ne-me-le-reprendra-li.2083943",
+        "image": "https://bluewin-prod-sc-images.imgix.net/2024/02/13/91db71b9-8f1b-4394-8f2a-7d2538533d87.jpeg?w=1024&auto=format&s=d01d711b063e56093d12d0855dfeccc0"
+    },
+    {
+        "title": "Sur un tracé qui divise, Meillard régale et Monney rigole",
+        "link": "https://www.bluewin.ch/fr/sport/ski-alpin/sur-un-trace-qui-divise-loic-meillard-regale-et-alexis-monney-rigole-li.2624598",
+        "image": "https://bluewin-prod-sc-images.imgix.net/2025/03/26/69daae76-e728-4e1b-a1e7-45b32519a4c5.jpeg?w=1024&auto=format&s=455389495a8285416000710152fef73d"
+    },
+    {
+        "title": "RTS: Les Suisses se sont passionnés pour les descentes des JO - lematin.ch",
+        "link": "https://www.lematin.ch/story/rts-les-suisses-se-sont-passionnes-pour-les-descentes-des-jo-103513516",
+        "image": "https://media.lematin.ch/4/image/2026/02/25/7bed3230-0265-442f-9d5f-a207ed24c2fd.jpg?auto=format%2Ccompress%2Cenhance&fit=max&w=1200&h=1200&rect=0%2C0%2C1310%2C945&fp-x=0.4816793893129771&fp-y=0.4306878306878307&s=f27986b1e4b1693d283e2ddeaf47677f"
     }
 ]
